@@ -12,8 +12,10 @@ function getQueryObj() {
 
 document.addEventListener('DOMContentLoaded', function() {
     var page = document.getElementById('page')
+
     var query = getQueryObj()
     var mdName = query.page || 'index'
+    document.title = mdName
     page.dataset.markdown = 'markdown/' + mdName + '.md'
 
     Reveal.initialize({
