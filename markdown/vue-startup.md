@@ -158,8 +158,8 @@ utils.getEntries('./src/module/**/*.js')
 ### 项目构建优化
 
 
-- 异步请求（Promise，async/await）
-- 动态路由
+- 异步请求（promise，async/await）
+- 动态路由 (vue-router)
 - SSR（server side rendering）
 
 
