@@ -61,7 +61,7 @@ var app6 = new Vue({
 
 #### virtual dom
 
-<img src="/img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center />
+<img src="./img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center />
 
 来自[对 virtual-dom 的一些理解](https://zhuanlan.zhihu.com/p/25630842)
 
@@ -69,7 +69,7 @@ var app6 = new Vue({
 
 #### vuex的单向数据流
 
-<img src="/img/vuex.png" width ="70%" alt="vuex单向数据流" align=center />
+<img src="./img/vuex.png" width ="70%" alt="vuex单向数据流" align=center />
 
 ----
 
