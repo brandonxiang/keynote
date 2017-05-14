@@ -37,6 +37,14 @@
 
 ----
 
+#### virtual dom
+
+<img src="./img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center />
+
+来自[对 virtual-dom 的一些理解](https://zhuanlan.zhihu.com/p/25630842)
+
+----
+
 #### 双向绑定
 
 ```html
@@ -59,14 +67,6 @@ var app6 = new Vue({
 
 ----
 
-#### virtual dom
-
-<img src="./img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center />
-
-来自[对 virtual-dom 的一些理解](https://zhuanlan.zhihu.com/p/25630842)
-
-----
-
 #### vuex的单向数据流
 
 <img src="./img/vuex.png" width ="70%" alt="vuex单向数据流" align=center />
@@ -76,6 +76,8 @@ var app6 = new Vue({
 #### vue的选型
 
 轻量，易学，适用于移动端，生态
+
+<img src="./img/architech.png" width ="70%" alt="vuex单向数据流" align=center />
 
 ----
 
@@ -88,7 +90,7 @@ var app6 = new Vue({
 - ~~gulp~~
 - browserify
 - rollup
-- **prepack**
+- <font color="red">prepack</font>
 
 ----
 
@@ -155,13 +157,34 @@ utils.getEntries('./src/module/**/*.js')
 
 ----
 
+#### 多页面打包脚手架
+
+[PaicFE/vue-multi](https://github.com/PaicFE/vue-multi)
+
+```
+vue init PaicFE/vue-multi my-project
+```
+
+----
+
 ### 项目构建优化
 
+##### 规范
 
-- 异步请求（promise，async/await）
 - 动态路由 (vue-router)
-- SSR（server side rendering）
 
+
+
+
+----
+
+##### 性能优化
+- code splitting
+- 异步请求（promise，async/await）
+- SSR（server side rendering）
+- 压缩静态文件
+- Cache
+- 预加载／延后加载
 
 ----
 
