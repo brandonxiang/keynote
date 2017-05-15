@@ -113,6 +113,30 @@ var app6 = new Vue({
 
 ----
 
+#### 举个栗子
+
+```html
+<template>
+  <div>{{msg}}</div>
+</template>
+
+<script>
+export default{
+  data(){
+    return {
+      msg:'hello world'
+    }
+  }
+}
+</script>
+
+<style></style>
+```
+
+[另一种写法](https://github.com/vuejs/vue/blob/dev/test/unit/features/component/component-scoped-slot.spec.js)
+
+----
+
 #### plugin
 
 - UglifyJsPlugin
@@ -173,8 +197,9 @@ vue init PaicFE/vue-multi my-project
 
 - 动态路由 (vue-router)
 
+> 
 
-
+> 
 
 ----
 
@@ -191,6 +216,10 @@ vue init PaicFE/vue-multi my-project
 ### 团队GITHUB
 
 [PaicFE](https://github.com/PaicFE)
+
+----
+
+### Q&A
 
 
 
