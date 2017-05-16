@@ -75,7 +75,7 @@ var app6 = new Vue({
 
 #### vue的选型
 
-轻量，易学，适用于移动端，生态
+轻量，易学，适用于移动端，大生态
 
 <img src="./img/architech.png" width ="70%" alt="vuex单向数据流" align=center />
 
@@ -195,15 +195,21 @@ vue init PaicFE/vue-multi my-project
 
 ##### 规范
 
-- 动态路由 (vue-router)
+**动态路由 (vue-router)**
 
-> 
+```
+/productDetail.html?agentNo=1120103025&productNo=BCBCBCB
+&interFace=dmz
+```
 
-> 
+```
+/productdetail/1120103025/BCBCBCBC?interFace=dmz
+```
 
 ----
 
 ##### 性能优化
+
 - code splitting
 - 异步请求（promise，async/await）
 - SSR（server side rendering）
