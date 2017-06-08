@@ -2,7 +2,7 @@
 
 项伟平
 
-2017年5月3日
+2017年6月9日
 
 ----
 
@@ -185,7 +185,7 @@ utils.getEntries('./src/module/**/*.js')
 
 [PaicFE/vue-multi](https://github.com/PaicFE/vue-multi)
 
-```
+```bash
 vue init PaicFE/vue-multi my-project
 ```
 
@@ -193,17 +193,25 @@ vue init PaicFE/vue-multi my-project
 
 ### 项目构建优化
 
-##### 规范
+##### **动态路由 (vue-router)**
 
-**动态路由 (vue-router)**
+旧
 
 ```
 /productDetail.html?agentNo=1120103025&productNo=BCBCBCB
 &interFace=dmz
 ```
 
+新
+
 ```
 /productdetail/1120103025/BCBCBCBC?interFace=dmz
+```
+
+知乎
+
+```
+https://www.zhihu.com/question/32189846/answer/178741713
 ```
 
 ----
@@ -211,10 +219,10 @@ vue init PaicFE/vue-multi my-project
 ##### 性能优化
 
 - code splitting
-- 异步请求（promise，async/await）
-- SSR（server side rendering）
+- 异步请求(promise，async/await)
+- SSR(server side rendering)
 - 压缩静态文件
-- Cache
+- Cache(pwa)
 - 预加载／延后加载
 
 ----
