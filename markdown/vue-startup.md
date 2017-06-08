@@ -22,7 +22,7 @@
 
 #### vue 与 react
 
-<img src="./img/switch_react_vue.jpg" width ="80%" alt="vuex单向数据流" align=center />
+<img src="./img/switch_react_vue.jpg" width ="80%" alt="react vs vue" align=center />
 
 ----
 
