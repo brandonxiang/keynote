@@ -22,6 +22,12 @@
 
 #### vue 与 react
 
+<img src="../img/switch_react_vue.jpg" width ="80%" alt="vuex单向数据流" align=center />
+
+----
+
+#### vue 与 react
+
 - React的es5与es6写法
 - JSX和CSS IN JS的写法
 - this 相关的奇怪行为
