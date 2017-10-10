@@ -30,7 +30,7 @@
 
 > <small>vue-router的路由管理存在双层路由的情况，在懒加载打包的时候可能会出现多余打包</small>
 
-![旧新路由module内项目结构](../img/router.jpg)
+![旧新路由module内项目结构](./img/router.jpg)
 
 ----
 
@@ -38,7 +38,7 @@
 
 > <small>vuex的结构更多是一对一的情况，并且是以名字关联，写法相对死板</small>
 
-![vue与vuex之间的关系](../img/vue-architecture.png)
+![vue与vuex之间的关系](./img/vue-architecture.png)
 
 ----
 
