@@ -1,4 +1,4 @@
-## Vue开发规范
+## [Vue开发规范](http://brandonxiang.gitee.io/vue-specification/)
 
 项伟平
 
@@ -34,6 +34,10 @@
 
 ----
 
+<img alt="双层路由" src="./img/double-router.png" width="60%">
+
+----
+
 #### vuex结构的问题
 
 > <small>vuex的结构更多是一对一的情况，并且是以名字关联，写法相对死板</small>
@@ -44,7 +48,7 @@
 
 ### 整体介绍
 
-- 多个页面
+- 多页面
 - DLL分包
 - 按需打包
 - EJS模版
@@ -53,9 +57,11 @@
 
 ----
 
-### 多个页面
+### 多页面
 
 > <small>多页面的打包主要是js入口变成多个以及html入口变成多个，在新框架中国使用的是 [mutualofomaha/multipage-webpack-plugin](https://github.com/mutualofomaha/multipage-webpack-plugin)，它是最近推出的, 这帮助你实现多页面打包的工具，对 [CommonsChunkPlugin](https://github.com/webpack/webpack) 和 [HtmlWebpackPlugin](https://github.com/jantimon/html-webpack-plugin) 的再一次封装，可以方便你完成对manifest，公共包和html-webpack-plugin的配置，免去很多配置上的麻烦</small>
+
+> [PaicFE/vue-multi](https://github.com/PaicFE/vue-multi)
 
 ```javscript
 $ npm install -g vue-cli
@@ -126,7 +132,7 @@ npm run build project1 project2
 
 ----
 
-[强制] 组件props属性需要进行类型强校验（适当default，required）
+<font color="red">[强制] 组件props属性需要进行类型强校验（适当default，required）</font>
 
 ```javascript
   props: {
@@ -143,7 +149,7 @@ npm run build project1 project2
 
 #### <font color="red">[强制] 公共组件应该排除掉vuex的内容</font>
 
-#### [强制] GET请求尽量写在页面级别的组件内
+#### <font color="red">[强制] GET请求尽量写在页面级别的组件内</font>
 
 ----
 
@@ -156,6 +162,8 @@ npm run build project1 project2
 #### [建议] 复杂的请求可以梳理在api文件中，通过promise串联在一起
 
 ----
+
+#### <font color="red">[强制] 指令中的事件在销毁的时候把事件回收</font>
 
 #### [建议] 如果Webapp经常互相切换页面，使用keep-alive组件
 
@@ -243,7 +251,7 @@ npm run build project1 project2
 <input type="text" disabled>
 <input type="checkbox" value="1" checked>
 ```
-#### [推荐] 尽量使用HTML5语意化标签，如`acticle`，`header`等
+#### [建议] 移动端尽量使用HTML5语意化标签，如`acticle`，`header`等，PC端尽量不用
 
 ----
 
@@ -383,7 +391,7 @@ promise.then(function(value) {
 
 ----
 
-#### [建议] postcss的配置根据项目而定，PC端采用默认的配置
+#### [建议] postcss的autoprefixer配置根据项目而定，PC端采用默认的配置
 
 ```json
 // 默认的配置在package.json中
@@ -404,6 +412,20 @@ promise.then(function(value) {
 
 ----
 
+#### [强制] 减少使用嵌套选择器和组合选择器，嵌套不能超过三层
+
+示例：
+
+```css
+
+/* bad */
+.post, .page, .comment {
+    line-height: 1.5;
+}
+```
+
+----
+
 #### BEM
 
 BEM是**Block，Element，Modifier**的缩写
@@ -412,6 +434,10 @@ BEM是**Block，Element，Modifier**的缩写
 * .block__element{}
 * .block--modifier{}
 * .block__element--modifier{}
+
+----
+
+![BEM](./img/Definitions-BEM-5.jpg)
 
 ----
 
@@ -426,7 +452,33 @@ BEM是**Block，Element，Modifier**的缩写
     background-color: steelblue;
   }
 }
+
+.nav {
+  background-color: steelblue;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    color: white;
+    &--active {
+      @extend .nav__item;
+      border-bottom: 1px solid red;
+    }
+  }
+}
 ```
+
+----
+
+#### 自动化测试
+
+- 浏览器测试(e2e)
+  - Nightware
+- 单元测试
+  - Karma
+  - Mocha
+  - Chai
 
 ----
 
