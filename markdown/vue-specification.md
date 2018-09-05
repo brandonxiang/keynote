@@ -1,4 +1,4 @@
-## [Vue开发规范](http://brandonxiang.gitee.io/vue-specification/)
+## Vue开发规范
 
 项伟平
 
