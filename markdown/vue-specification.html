@@ -53,7 +53,7 @@
 - 按需打包
 - EJS模版
 - 模拟数据
-- 服务端渲染
+- 服务端渲染SSR
 
 ----
 
@@ -164,6 +164,17 @@ npm run build project1 project2
 ----
 
 #### <font color="red">[强制] 指令中的事件在销毁的时候把事件回收</font>
+
+```javascript
+export default {
+  bind(el, { value }) {
+    el.addEventListener('click', () => collectClick(value), false);
+  },
+  unbind(el, { value }) {
+    el.removeEventListener('click', () => collectClick(value), false);
+  },
+};
+```
 
 #### [建议] 如果Webapp经常互相切换页面，使用keep-alive组件
 
@@ -479,6 +490,10 @@ BEM是**Block，Element，Modifier**的缩写
   - Karma
   - Mocha
   - Chai
+
+----
+
+## Q&A
 
 ----
 

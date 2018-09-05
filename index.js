@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var query = getQueryObj()
     var mdName = query.page || 'index'
     document.title = mdName
-    page.dataset.markdown = 'markdown/' + mdName + '.md'
+    page.dataset.markdown = 'markdown/' + mdName + '.html'
 
     Reveal.initialize({
         width: 960,
