@@ -7,7 +7,7 @@
   "main": "js/reveal.js",
   "scripts": {
     "dev": "reveal-md ./md/ --highlight-theme github",
-    "build": "reveal-md ./md/ --static _site"
+    "build": "node build.js"
   },
   "author": {
     "name": "Hakim El Hattab",
