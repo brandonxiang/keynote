@@ -75,6 +75,20 @@ Vue CLI 使用了一套基于插件的架构。如果你查阅一个新创建项
 
 ----
 
+## 2.4 webpack相关
+
+```javascript
+// vue.config.js
+module.exports = {
+  configureWebpack: {
+    plugins: [
+      new MyAwesomeWebpackPlugin()
+    ]
+  }
+}
+```
+----
+
 ## 2.4 vue-ui
 
 ----
