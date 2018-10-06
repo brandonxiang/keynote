@@ -3,6 +3,11 @@ Technology Sharing by PAIC FE TEAM, powered by [reveal.js](https://github.com/ha
 
 ### [Online Keynote](https://paicfe.github.io/keynote/_static)
 
+- [Online Keynote](https://paicfe.github.io/keynote/_static)
+- [Online Keynote](https://paicfe.github.io/keynote/_static)
+- [Online Keynote](https://paicfe.github.io/keynote/_static)
+- [Online Keynote](https://paicfe.github.io/keynote/_static)
+
 ### 开发
 
 全局安装[reveal-md](https://github.com/webpro/reveal-md)
