@@ -20,8 +20,7 @@
 企业号 | 公众号
 ---- | ----
 企业微信小程序 | 微信小程序
+userid | openid
+wx.qy.login()| wx.login()
 
-
-企业微信小程序
-- 账户区别openid和userid
-- API区别
+><font size=5>api不同</font>

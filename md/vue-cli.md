@@ -2,7 +2,7 @@
 
 项伟平
 
-2018年10月13日
+2018年10月18日
 
 ----
 
@@ -131,6 +131,10 @@ module.exports = {
 #### 举例
 
 @vue/cli-plugin-pwa
+
+```shell
+vue add @vue/pwa
+```
 
 ----
 
