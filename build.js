@@ -11,8 +11,8 @@ var pageList = [
 ]
 
 pageList.forEach((page)=> {
-    process.execSync(`reveal-md ./md/${page}.md --static`);
-    process.execSync(`mv ./_static/index.html ./_static/${page}.html`);
+    process.execSync(`reveal-md ./md/${page}.md --static web`);
+    process.execSync(`mv ./web/index.html ./web/${page}.html`);
 })
 
 
