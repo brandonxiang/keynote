@@ -6,13 +6,16 @@
 
 ----
 
-
-
-
 javascript的三种环境
-- Node.js
 - Browser
+- Node.js
 - JS Core
+
+[小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
+
+----
+
+<!-- .slide: data-background-image="./img/weapp.jpg" data-background-size="contain" -->
 
 ----
 
@@ -28,8 +31,8 @@ javascript的三种环境
 
 ## 问题二 小程序和vue的区别
 
+- 数据绑定（小程序单向绑定）
 - 生命周期
-- 数据绑定
 
 ----
 
@@ -58,7 +61,7 @@ javascript的三种环境
 
 ----
 
-<img src="./img/mina-lifecycle.png" alt="小程序生命周期" width="43%">
+<!-- .slide: data-background="white" data-background-image="./img/mina-lifecycle.png" data-background-size="contain" -->
 
 ----
 
@@ -79,21 +82,60 @@ rn和weex是通过
 
 ----
 
-## 授权
+## 原生组件
+
+- camera
+- canvas
+- input
+- live-player
+- live-pusher
+- map
+- textarea
+- video
 
 ----
 
+<!-- .slide: data-background="white" data-background-image="./img/weapp-native.png" data-background-size="contain" -->
+
+----
+
+## 用户功能
+
+----
+
+#### 用户openid
+
+
+----
+
+#### 获取用户信息，手机号
+
 ----
 
 
+
+----
+
+## 云开发
+
+腾讯云开发，serverless架构
+
+----
+
+<!-- .slide: data-background="white" data-background-image="./img/serverless.png" data-background-size="contain" -->
+
+----
+
+<!-- .slide:  data-background-image="./img/faas.png" data-background-size="contain" -->
+
+----
 
 ## 企业微信
 
+小程序账号可以绑定企业微信，但是api有所不同
 
 企业号 | 公众号
 ---- | ----
 企业微信小程序 | 微信小程序
 userid | openid
 wx.qy.login()| wx.login()
-
-><font size=5>api不同</font>
