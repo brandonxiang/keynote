@@ -53,6 +53,29 @@
 
 ----
 
+### Web Components
+
+- Custom Elements 定义新HTML元素的一系列API
+- Shadow DOM 组合对DOM和样式的封装
+- HTML Templates HTML内的DOM模板
+- CSS changes 样式作用域
+- HTML Imports 定义在文档中导入其他HTML文档的方式
+
+----
+
+## Shadow DOM 和Virtual DOM有什么区别？
+
+----
+
+- connectedCallback 
+- 每当元素插入 DOM 时被触发。
+- disconnectedCallback 
+— 每当元素从 DOM 中移除时被触发。
+- attributeChangedCallback 
+— 当元素上的属性被添加、移除、更新或取代时被触发。
+
+----
+
 ## 参考
 
 - [实施微前端的六种方式](https://juejin.im/post/5b45d0ea6fb9a04fa42f9f1a)
