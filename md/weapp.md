@@ -15,12 +15,20 @@ javascript的三种环境
 
 ----
 
+#### 问题一 这句JS在小程序、weex、SSR上运行？
+
+```javascript
+document.getElementById('app').style.height= '100px'
+```
+
+----
+
 <!-- .slide: data-background-image="./img/weapp.jpg" data-background-size="contain" -->
 
 ----
 
 
-## 问题一 小程序和pwa区别
+### 问题二 小程序和pwa区别
 
 ----
 
@@ -29,7 +37,7 @@ javascript的三种环境
 
 ----
 
-## 问题二 小程序和vue的区别
+### 问题三 小程序和vue的区别
 
 - 数据绑定（小程序单向绑定）
 - 生命周期
@@ -69,16 +77,17 @@ javascript的三种环境
 
 - 在 iOS 上，是运行在 JavaScriptCore 
 - 在 Android 上，是通过 X5 JSCore来解析
-- 在 开发工具上，是运行在 nwjs 
+- 在 开发工具上，是运行在 nwjs
 
 ----
 
-## 问题三 小程序和rn或weex区别
+### 问题四 小程序和rn或weex区别
 
 ----
 
-rn和weex是通过
-
+- weex是基于DSL映射，H5会映射到原生组件
+- 小程序存在原生组件和H5组件混用
+- 小程序样式布局方便，但是对原生组件无能为力
 
 ----
 
@@ -101,24 +110,21 @@ rn和weex是通过
 
 ## 用户功能
 
-----
-
-#### 用户openid
-
-
-----
-
-#### 获取用户信息，手机号
+- 获取openid
+- 获取用户信息，手机号
+- 鉴权
 
 ----
 
-
+#### 问题五 小程序有cookie吗？有跨域问题吗？
 
 ----
 
 ## 云开发
 
 腾讯云开发，serverless架构
+
+![云开发](./img/cloud-develop.png)
 
 ----
 
