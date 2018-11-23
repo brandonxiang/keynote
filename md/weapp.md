@@ -2,7 +2,9 @@
 
 项伟平
 
-2018年10月1日
+2018年11月26日
+
+###### [微信小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
 
 ----
 
@@ -10,8 +12,6 @@ javascript的三种环境
 - Browser
 - Node.js
 - JS Core
-
-[小程序官方文档](https://developers.weixin.qq.com/miniprogram/dev/index.html)
 
 ----
 
@@ -44,7 +44,7 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-## vue生命周期
+#### vue生命周期
 
 - beforeCreate
 - created
@@ -57,7 +57,7 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-## 小程序生命周期
+#### 小程序生命周期
 
 - onLoad 页面加载时触发
 - onShow 页面显示/切入前台时触发
@@ -111,8 +111,13 @@ document.getElementById('app').style.height= '100px'
 ## 用户功能
 
 - 获取openid
+- 获取unionid
 - 获取用户信息，手机号
 - 鉴权
+
+----
+
+<!-- .slide: data-background="white" data-background-image="./img/unionid.png" data-background-size="contain" -->
 
 ----
 
