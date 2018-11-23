@@ -76,7 +76,7 @@ module.exports = {
 
 #### 单元测试（Karma）
 
-![vue单元测试](http://upload-images.jianshu.io/upload_images/685800-c87db391f01ce563.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![vue单元测试](./img/karma.png)
 
 ----
 

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>reveal-md</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section ><section data-markdown><script type="text/template">## 微前端与Web Components
+
+项伟平
+
+2018年11月
+</script></section><section data-markdown><script type="text/template">
+
+## 微前端
+
+2016年[thoughtworks](https://www.thoughtworks.com/radar/techniques/micro-frontends)提出微前端的概念。
+</script></section><section data-markdown><script type="text/template">
+<img src="./img/monolith.png" alt="单一前端" width="60%">
+<img src="./img/microfrontend.png" alt="微前端" width="60%">
+</script></section><section data-markdown><script type="text/template">
+## 什么是微服务？
+
+微服务最早由[Martin Fowler](https://martinfowler.com/)与James Lewis于2014年共同提出，微服务架构风格是一种使用一套小服务来开发单个应用的方式途径，每个服务运行在自己的进程中，并使用轻量级机制通信，通常是HTTP API，这些服务基于业务能力构建，并能够通过自动化部署机制来独立部署，这些服务使用不同的编程语言实现，以及不同数据存储技术，并保持最低限度的集中式管理。
+</script></section><section data-markdown><script type="text/template">
+## 单体架构的缺点
+
+1. 复杂性逐渐变高
+2. 技术债务逐渐上升
+3. 部署速度逐渐变慢
+4. 阻碍技术创新
+5. 无法按需伸缩
+</script></section><section data-markdown><script type="text/template">
+## 什么是Web Components？
+</script></section><section data-markdown><script type="text/template">
+## 前端框架
+
+- Angular
+- React
+- Vue
+</script></section><section data-markdown><script type="text/template">
+### Web Components相关前端框架
+
+- [stencil](https://stenciljs.com/)
+- [polymer](https://www.polymer-project.org/)
+</script></section><section data-markdown><script type="text/template">
+### Web Components
+
+- Custom Elements 定义新HTML元素的一系列API
+- Shadow DOM 组合对DOM和样式的封装
+- HTML Templates HTML内的DOM模板
+- CSS changes 样式作用域
+- HTML Imports 定义在文档中导入其他HTML文档的方式
+</script></section><section data-markdown><script type="text/template">
+## Shadow DOM 和Virtual DOM有什么区别？
+</script></section><section data-markdown><script type="text/template">
+- connectedCallback 
+- 每当元素插入 DOM 时被触发。
+- disconnectedCallback 
+— 每当元素从 DOM 中移除时被触发。
+- attributeChangedCallback 
+— 当元素上的属性被添加、移除、更新或取代时被触发。
+</script></section><section data-markdown><script type="text/template">
+## 参考
+
+- [实施微前端的六种方式](https://juejin.im/post/5b45d0ea6fb9a04fa42f9f1a)
+
+
+
+</script></section></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+        </script>
+
+
+        <script>
+          Reveal.initialize(options);
+        </script>
+    </body>
+</html>

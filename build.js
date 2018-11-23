@@ -7,6 +7,8 @@ var pageList = [
   'vue-startup',
   'vue-test',
   'weapp',
+  'pwa',
+  'microfrontend',
   'index',
 ]
 

@@ -1,13 +1,13 @@
 # keynote
 Technology Sharing by PAIC FE TEAM, powered by [reveal.js](https://github.com/hakimel/reveal.js)
 
-### [Online Keynote](https://paicfe.github.io/keynote/web/#/)
-
-- [VUE技术选型与WEBPACK入门](https://paicfe.github.io/keynote/web/vue-startup.html#/)
-- [VUE开发规范](https://paicfe.github.io/keynote/web/vue-specification.html#/)
-- [VUE单元测试](https://paicfe.github.io/keynote/web/vue-test.html#/)
-- [VUE-CLI3.0](https://paicfe.github.io/keynote/web/vue-cli.html#/)
-- [小程序开发实战](https://paicfe.github.io/keynote/web/weapp.html#/)
+- [VUE技术选型与WEBPACK入门](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/vue-startup.html#/)
+- [VUE开发规范](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/vue-specification.html#/)
+- [VUE单元测试](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/vue-test.html#/)
+- [VUE-CLI3.0](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/vue-cli.html#/)
+- [PWA开发实战](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/pwa.html#/)
+- [小程序开发实战](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/weapp.html#/)
+- [微前端与Web Components](http://pss-esales-cms-stg1.paic.com.cn/appStatic/paic-keynote/microfrontend.html#/)
 
 ### 开发
 
