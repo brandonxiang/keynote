@@ -2,7 +2,7 @@
 
 项伟平
 
-2018年11月
+2018年12月
 
 ----
 
@@ -31,6 +31,26 @@
 3. 部署速度逐渐变慢
 4. 阻碍技术创新
 5. 无法按需伸缩
+
+
+----
+
+## 微前端的目标
+
+- 独立部署
+- 独立开发
+- 技术无关
+- 不影响用户体验
+
+----
+
+## 实现微前端的几种方式
+
+- 使用 HTTP 服务器的路由来重定向多个应用
+- 在不同的框架之上设计通讯、加载机制，诸如 Mooa 和 Single-SPA，iFrame
+- 通过组合多个独立应用、组件来构建一个单体应用
+- 使用纯 Web Components 构建应用
+- 结合 Web Components 构建
 
 ----
 
@@ -63,9 +83,7 @@
 
 ----
 
-## Shadow DOM 和Virtual DOM有什么区别？
-
-----
+### Web Components 生命周期
 
 - connectedCallback 
 - 每当元素插入 DOM 时被触发。
@@ -76,9 +94,42 @@
 
 ----
 
+##### Shadow DOM 和Virtual DOM有什么区别？
+
+----
+
+<!-- .slide: data-background="white" data-background-image="./img/microFrontendSample.png" data-background-size="contain" -->
+
+----
+
+##### 子系统分发（图片来自phodal）
+
+<img src="./img/mooa.jpg" width="60%">
+
+----
+
+#### portal项目
+
+- 用户登录机制
+- 菜单权限获取
+- 全局异常处理
+- 路由管理（懒加载）
+- 目录配置
+
+----
+
+#### 子项目
+
+- 单页面内跳转
+- 单页面外跳转
+- 非单页面的跳转
+
+----
+
 ## 参考
 
 - [实施微前端的六种方式](https://juejin.im/post/5b45d0ea6fb9a04fa42f9f1a)
+- [用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
 
 
 

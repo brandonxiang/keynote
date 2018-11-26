@@ -37,6 +37,21 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
+##### 运行机制
+
+- 小程序没有重启的概念，但是有冷启动和热启动
+- 当小程序进入后台，客户端会维持一段时间的运行状态，超过一定时间后（目前是5分钟）会被微信主动销毁
+- 当短时间内（5s）连续收到两次以上收到系统内存告警，会进行小程序的销毁
+
+----
+
+##### 更新机制
+
+- 小程序冷启动时如果发现有新版本，将会异步下载新版本的代码包
+- 同时用客户端本地的包进行启动，即新版本的小程序需要等下一次冷启动才会应用上
+
+----
+
 ### 问题三 小程序和vue的区别
 
 - 数据绑定（小程序单向绑定）
@@ -85,7 +100,8 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-- weex是基于DSL映射，H5会映射到原生组件
+- weex是基于DSL映射
+- 小程序会映射到原生组件或渲染H5组件
 - 小程序存在原生组件和H5组件混用
 - 小程序样式布局方便，但是对原生组件无能为力
 
@@ -101,6 +117,7 @@ document.getElementById('app').style.height= '100px'
 - map
 - textarea
 - video
+- webview
 
 ----
 
@@ -112,12 +129,14 @@ document.getElementById('app').style.height= '100px'
 
 - 获取openid
 - 获取unionid
-- 获取用户信息，手机号
+- [获取用户信息，手机号](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/login.html)
 - 鉴权
 
 ----
 
 <!-- .slide: data-background="white" data-background-image="./img/unionid.png" data-background-size="contain" -->
+
+
 
 ----
 
