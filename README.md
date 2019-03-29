@@ -18,6 +18,8 @@ npm i reveal-md -g
 npm run build
 ```
 
+图片请放在copy-img中
+
 指定的打包页面需要配置在build.js中。
 
 

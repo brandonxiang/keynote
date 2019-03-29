@@ -17,4 +17,6 @@ pageList.forEach((page)=> {
     process.execSync(`mv ./web/index.html ./web/${page}.html`);
 })
 
+process.execSync(`mkdir -p ./web/copy-img`);
+process.execSync(`cp ./md/copy-img/* ./web/copy-img`);
 
