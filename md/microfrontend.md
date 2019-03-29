@@ -2,7 +2,7 @@
 
 项伟平
 
-2018年12月
+2019年4月2日
 
 ----
 
@@ -46,11 +46,12 @@
 
 ## 实现微前端的几种方式
 
+- 通过组合多个独立应用组件来构建一个单体应用
 - 使用 HTTP 服务器的路由来重定向多个应用
 - 在不同的框架之上设计通讯、加载机制，诸如 Mooa 和 Single-SPA，iFrame
-- 通过组合多个独立应用、组件来构建一个单体应用
-- 使用纯 Web Components 构建应用
-- 结合 Web Components 构建
+- 使用 Web Components 构建应用
+
+[参考：（phodal）微前端的那些事儿](https://github.com/phodal/microfrontends)
 
 ----
 
@@ -79,18 +80,7 @@
 - Shadow DOM 组合对DOM和样式的封装
 - HTML Templates HTML内的DOM模板
 - CSS changes 样式作用域
-- HTML Imports 定义在文档中导入其他HTML文档的方式
-
-----
-
-### Web Components 生命周期
-
-- connectedCallback 
-- 每当元素插入 DOM 时被触发。
-- disconnectedCallback 
-— 每当元素从 DOM 中移除时被触发。
-- attributeChangedCallback 
-— 当元素上的属性被添加、移除、更新或取代时被触发。
+- HTML Imports 定义在文档中导入其他HTML文档的方式(已弃用)
 
 ----
 
@@ -98,7 +88,31 @@
 
 ----
 
+### Web Components 生命周期
+
+- connectedCallback 
+   - 每当元素插入 DOM 时被触发。
+- disconnectedCallback 
+   - 每当元素从 DOM 中移除时被触发。
+- attributeChangedCallback
+   - 当元素上的属性被添加、移除、更新或取代时被触发。
+
+----
+
+<!-- .slide: data-background="white" data-background-image="./img/wc.png" data-background-size="contain" -->
+
+----
+
+<!-- .slide: data-background="white" data-background-image="./img/vue-wc.png" data-background-size="contain" -->
+
+----
+
+### 如果考虑兼容性呢？
+
+----
+
 <!-- .slide: data-background="white" data-background-image="./img/microFrontendSample.png" data-background-size="contain" -->
+
 
 ----
 
