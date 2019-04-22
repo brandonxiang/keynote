@@ -32,6 +32,9 @@
 4. 阻碍技术创新
 5. 无法按需伸缩
 
+----
+
+<!-- .slide: data-background="white" data-background-image="./copy-img/wc.png" data-background-size="contain" -->
 
 ----
 

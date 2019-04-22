@@ -32,7 +32,7 @@
 
 <!-- .slide: data-background="white" data-background-image="./img/lerna-multiwebpack.png" data-background-size="contain" -->
 
-----  
+----
 
 ```
 zeb-utils／
@@ -48,14 +48,22 @@ zeb-utils／
 
 #### bili
 
+bili是零配置的Rollup打包框架。
 
+```
+bili index.js --format cjs,esm
+```
 
 ----
 
 #### lerna 命令
 
 
-
+```
+lerna bootstrap # 安装依赖
+lerna publish
+lerna 
+```
 
 ----
 
