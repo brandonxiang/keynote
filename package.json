@@ -22,5 +22,8 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {},
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "reveal-md": "^2.4.1"
+  }
 }
