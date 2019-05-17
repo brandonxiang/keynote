@@ -1,5 +1,5 @@
 # keynote
-Technology Sharing by PAIC FE TEAM, powered by [reveal.js](https://github.com/hakimel/reveal.js)
+Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.js) and [reveal-md](https://github.com/webpro/reveal-md).
 
 - [VUE技术选型与WEBPACK入门](https://brandonxiang.github.io/keynote/web/vue-startup.html#/)
 - [VUE开发规范](https://brandonxiang.github.io/keynote/web/vue-specification.html#/)
@@ -9,7 +9,7 @@ Technology Sharing by PAIC FE TEAM, powered by [reveal.js](https://github.com/ha
 - [小程序开发实战](https://brandonxiang.github.io/keynote/web/weapp.html#/)
 - [微前端与Web Components](https://brandonxiang.github.io/keynote/web/microfrontend.html#/)
 
-### 开发
+## 开发
 
 全局安装[reveal-md](https://github.com/webpro/reveal-md)，图片请放在copy-img中，指定的打包页面需要配置在build.js中。
 
@@ -20,12 +20,13 @@ sudo cnpm i
 npm run dev
 ```
 
-### 打包
+## 打包
 
 ```
 npm run build
 ```
 
+## License
 
-
+[MIT](./LICENSE)
 
