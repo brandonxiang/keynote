@@ -5,8 +5,9 @@
   "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
     "dev:reveal": "reveal-md ./md/ --highlight-theme github",
-    "build:reaveal": "node build.js",
-    "dev": "mdx-deck ./mdx/expo.mdx"
+    "build:reaveal": "node build/reveal-all.js",
+    "dev": "mdx-deck ./mdx/expo.mdx",
+    "build": "node build/mdx-all.js"
   },
   "author": {
     "name": "brandonxiang",
@@ -21,8 +22,10 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
+    "globby": "^9.2.0",
     "mdx-deck": "^2.2.1",
-    "reveal-md": "^2.4.1"
+    "reveal-md": "^2.4.1",
+    "shelljs": "^0.8.3"
   },
   "license": "MIT"
 }
