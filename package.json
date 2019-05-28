@@ -1,29 +1,28 @@
 {
-  "name": "reveal.js",
-  "version": "3.5.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
-  "subdomain": "revealjs",
-  "main": "js/reveal.js",
+  "name": "keynote",
+  "version": "0.0.1",
+  "description": "Tech Sharing keynote",
+  "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
-    "dev": "reveal-md ./md/ --highlight-theme github",
-    "build": "node build.js"
+    "dev:reveal": "reveal-md ./md/ --highlight-theme github",
+    "build:reaveal": "node build.js",
+    "dev": "mdx-deck ./mdx/expo.mdx"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "brandonxiang",
+    "email": "brandon.xiang@gmail.com",
+    "web": "https://github.com/brandonxiang"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "https://github.com/jxnblk/mdx-deck.git"
   },
   "engines": {
     "node": ">=4.0.0"
   },
-  "devDependencies": {},
-  "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "mdx-deck": "^2.2.1",
     "reveal-md": "^2.4.1"
-  }
+  },
+  "license": "MIT"
 }
