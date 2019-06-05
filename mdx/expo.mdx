@@ -16,11 +16,11 @@ export const themes = [future]
 
 ----
 
+<h5>宽度设置width: 360</h5>
 <div
 style={{
     width: '100vw',
-    height: '100vh',
-    backgroundColor: '#4630EB',
+    height: '80vh',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-around',
@@ -93,24 +93,20 @@ const styles = StyleSheet.create({
 
 ----
 
+
+<img src="./img/switchNavigator.png" style={{width: '90vw'}}/>
+
+----
+
+<img src="./img/authLoading.png" style={{width: '70vw'}}/>
+
+----
+
 ## expo
 
 - 集成开发环境
 - expo SDK
 - 部署workflow
-
-----
-
-#### 集成开发环境
-
-
-| expo          | react-native-cli  |
-| ------------- | -------------     | 
-| 没有ios和android文件夹 | 有ios和android文件夹 |
-| 真机调试或模拟器调试 | 只能模拟器调试 |
-| 自带native环境（可eject） |  需要自行配置  |
-| 有发布工作流 | 需要自行打包和热更新的机制 |
-
 
 ----
 
@@ -129,12 +125,21 @@ style={{
 
 ----
 
-#### 部署流程
+#### 集成开发环境
 
-- `expo publish`发布到aws server
-- `expo export`打包到自己服务器或cdn目录
+| expo          | react-native-cli  |
+| ------------- | -------------     | 
+| 没有ios和android文件夹 | 有ios和android文件夹 |
+| 可以expo client调试 | 调试较为麻烦 |
+| 自带native环境（可eject） |  需要自行配置  |
+| 有发布工作流 | 需要自行打包和热更新的机制 |
 
-###### [参考文档](https://docs.expo.io/versions/latest/distribution/hosting-your-app/#hosting-your-static-files)
+----
+
+#### 扫二维码进入调试
+
+- ios利用原生相机扫码进入
+- android的expo提供扫码功能
 
 ----
 
@@ -149,6 +154,17 @@ style={{
 
 ----
 
+#### 部署workflow
+
+- `expo publish`发布到aws server
+- `expo export`打包到自己服务器或cdn目录
+
+###### [expo参考文档](https://docs.expo.io/versions/latest/distribution/hosting-your-app/#hosting-your-static-files)
+###### [updates参考文档](https://docs.expo.io/versions/latest/sdk/updates/#__next)
+
+
+----
+
 #### expo-SDK
 
 - [react-native-svg](https://github.com/react-native-community/react-native-svg)
@@ -157,5 +173,32 @@ style={{
 - AppLoading
 - SplashScreen
 - Assets
+..
+- 在非expo项目，如果需要以上库，native要额外引入
 
----- 
+----
+
+#### 题外话 RN动画
+
+```javascript
+onBlurUsername = () => {
+  Animated.timing(                  // 随时间变化而执行动画
+    this.state.fadeUsername,        // 动画中的变量值
+    {
+      toValue: 0,                   // 透明度最终变为1，即完全不透明
+      duration: 500,                // 让动画持续一段时间
+    }
+  ).start();                        // 开始执行动画
+}
+...
+let colorUsername = this.state.fadeUsername.interpolate({
+  inputRange: [0, 1],
+  outputRange: ['rgba(211,193,229, 0)', 'rgba(211,193,229, 0.2)']
+});
+```
+
+```jsx
+<Animated.View style={{backgroundColor: colorUsername}}>
+```
+
+----
