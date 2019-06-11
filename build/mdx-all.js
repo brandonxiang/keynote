@@ -9,7 +9,7 @@ const buildmdx = async () => {
         const name = path.match(/mdx\/(\w*).mdx/)
 
         if(name[1]) {
-            shell.exec(`mdx-deck build ${path} -d web/${name[1]}`)
+            shell.exec(`mdx-deck build ${path} -d web/${name[1]} --basepath='/keynote/web/${name[1]}'`)
             shell.echo(`${path} has been done`)
         }
 
