@@ -1,4 +1,9 @@
 # keynote
+
+<a href="https://github.com/brandonxiang/keynote/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/brandonxiang/keynote" alt="license">
+</a>
+
 Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.js) and [reveal-md](https://github.com/webpro/reveal-md).
 
 - [VUE技术选型与WEBPACK入门](https://brandonxiang.github.io/keynote/web/vue-startup.html#/)
