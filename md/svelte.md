@@ -23,12 +23,48 @@
 #### svelte的特点
 
 - No virtual DOM
-- Vallina js
 - Template
+- 接近Vallina js
+- 极小Runtime
 
 ----
 
-#### svelte demo
+## 为什么我们需要前端框架？
+
+----
+
+- 组件化
+- 数据流
+- webcomponent还未成熟
+
+----
+
+#### 组件化
+
+```html
+<script>
+    // parent
+	import Nested from './Nested.svelte';
+</script>
+
+<Nested answer={42}/>
+```
+
+```html
+<script>
+    // child
+	export let answer;
+</script>
+
+<p>The answer is {answer}</p>
+```
+<font size="6">
+[栗子一组件化](https://svelte.dev/examples#declaring-props)
+</font>
+
+----
+
+#### 数据绑定
 
 ```html
 <script>
@@ -43,12 +79,37 @@
 ```
 
 <font size="6">
-[demo](https://svelte.dev/repl/embed?example=blog-write-less-code)
+[栗子二双向绑定](https://svelte.dev/repl/embed?example=blog-write-less-code)
 </font>
 
 ----
 
 <!-- .slide: data-background="white" data-background-image="./img/vueReact.png" data-background-size="contain" -->
+
+----
+
+## svelte还有什么优点？
+
+----
+
+### H5动画
+
+- canvas
+- css3
+- svg
+
+----
+
+<font size="6">
+[栗子三SVG动画](https://svelte.dev/examples#clock)
+</font>
+
+----
+
+#### svelte源码
+
+- compiler
+- runtime
 
 ----
 
@@ -78,8 +139,20 @@ const {
 #### svelte 运行时
 
 <font size="6">
-[demo](https://svelte.dev/repl/hello-world?version=3.7.1)
+[栗子四运行时](https://svelte.dev/repl/hello-world?version=3.7.1)
 </font>
 
 ----
+
+#### 技术选型
+
+![](https://user-gold-cdn.xitu.io/2019/8/4/16c5b1ea7164acdc?imageslim)
+
+PC端复杂页面选用React，移动端页面选用Svelte
+<font size="6">(图片来自尤雨溪JSConf)</font>
+
+----
+
+
+
 
