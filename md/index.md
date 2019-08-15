@@ -8,3 +8,4 @@
 - [小程序开发实战](./weapp.html)
 - [微前端与Web Component](./microfrontend.html)
 - [lerna 多框架打包](./lerna.html)
+- [svelte 入门](./svelte.html)
