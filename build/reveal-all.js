@@ -37,7 +37,8 @@ var pageList = [
   'pwa',
   'microfrontend',
   'index',
-  'svelte'
+  'svelte',
+  'lerna'
 ]
 
 pageList.forEach((page)=> {

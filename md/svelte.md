@@ -84,7 +84,7 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/assets/vueReact.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/vueReact.png" data-background-size="contain" -->
 
 ----
 
@@ -155,7 +155,7 @@ PC端复杂页面选用React，移动端页面选用Svelte
 
 #### benchmark
 
-![](https://brandonxiang.github.io/keynote/assets/benchmark.png)
+![](https://brandonxiang.github.io/keynote/img/benchmark.png)
 
 ----
 

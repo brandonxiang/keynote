@@ -30,7 +30,7 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/assets/lerna-multiwebpack.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/lerna-multiwebpack.png" data-background-size="contain" -->
 
 ----
 
