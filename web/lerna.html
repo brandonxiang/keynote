@@ -15,16 +15,58 @@
     <body>
 
         <div class="reveal">
-            <div class="slides"><section  data-markdown><script type="text/template">### 目录
+            <div class="slides"><section ><section data-markdown><script type="text/template">
+## lerna 多框架打包
 
-- [Vue与Webpack入门](./vue-startup.html)
-- [Vue开发规范](./vue-specification.html)
-- [Vue单元测试](./vue-test.html)
-- [Vue-cli3.0](./vue-cli.html)
-- [PWA开发实战](./pwa.html)
-- [小程序开发实战](./weapp.html)
-- [微前端与Web Component](./microfrontend.html)
-- [lerna 多框架打包](./lerna.html)</script></section></div>
+</script></section><section data-markdown><script type="text/template">
+### 前端框架越来越多，复用代码麻烦?
+</script></section><section data-markdown><script type="text/template">
+
+- REPO 风格之争：MONO VS MULTI
+- 什么是monorepo
+
+</script></section><section data-markdown><script type="text/template">
+
+- multirepo的角度来看，每个子项目拥有自己repo
+- 多元化能促使各个团队尽可能的提升自己的效率
+- 但是每个repo需要的独立的git分支机制
+- 冗余代码难以管理
+</script></section><section data-markdown><script type="text/template">
+- monorepo的角度来看，每个子项目拥有统一规范
+- 集体构建，集体单测，集体发布，统一版本
+- 合并多个git的repo，统一的分支机制
+- 在保证解耦的同时，复用代码
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-background="white" data-background-image="./img/lerna-multiwebpack.png" data-background-size="contain" -->
+</script></section><section data-markdown><script type="text/template">
+```
+zeb-utils／
+  - __test__/ 单元测试
+  - dist/ 编译代码包括commonjs，esm
+  - lib/ 项目代码
+  - .eslintrc 
+  - index.js 入口文件
+  - package.json 
+  - readme.md 介绍文件
+```</script></section><section data-markdown><script type="text/template">
+#### bili
+
+bili是零配置的Rollup打包框架。
+
+```
+bili index.js --format cjs,esm
+```
+</script></section><section data-markdown><script type="text/template">
+#### lerna 命令
+
+
+```
+lerna bootstrap # 安装依赖
+lerna publish
+lerna 
+```
+</script></section><section data-markdown><script type="text/template">
+</script></section></section></div>
         </div>
 
         <script src="./lib/js/head.min.js"></script>

@@ -84,11 +84,11 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="./img/vueReact.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/assets/vueReact.png" data-background-size="contain" -->
 
 ----
 
-## svelte还有什么优点？
+## 我们真的需要virtual dom吗？
 
 ----
 
@@ -152,6 +152,14 @@ PC端复杂页面选用React，移动端页面选用Svelte
 <font size="6">(图片来自尤雨溪JSConf)</font>
 
 ----
+
+#### benchmark
+
+![](https://brandonxiang.github.io/keynote/assets/benchmark.png)
+
+----
+
+## Q&A
 
 
 
