@@ -2,7 +2,7 @@
 
 ----
 
-## ES Module Import 是什么？
+### ES Module Import 是什么？
 
 ----
 
@@ -23,33 +23,64 @@ export default function plus (a, b) {
 ```
 
 ----
+<!-- .slide: data-background="white" -->
+### Network Waterfall
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/bundle-free-waterfall-1.png" data-background-size="contain" -->
-
-----
-
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/bundle-free-waterfall-2.png" data-background-size="contain" -->
+<img src="https://brandonxiang.github.io/keynote/img/bundle-free-waterfall-1.png" width="100%">
 
 ----
 
-# snowpack
+<!-- .slide: data-background="white" -->
+### What we expect
+
+<img src="https://brandonxiang.github.io/keynote/img/bundle-free-waterfall-2.png" width="60%">
+
 
 ----
 
+### es module preload
 
 ```html
 <link rel="modulepreload" href="html.js">
 <link rel="modulepreload" href="lib.js">
 <script type="module" src="./app.js"></script>
 ```
+----
 
+### preact在es module import的使用
+
+[htm example](https://github.com/developit/htm#example)
+
+----
+
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/es-module.png" data-background-size="contain" -->
+
+
+----
+
+### 兼容性解决方案
 
 ```html
 <script type="module" src="module.js"></script>
 <script nomodule src="fallback.js"></script>
 ```
 
----- 
+----
+
+
+### Bundle Free（No Bundle）是什么？
+
+
+----
+
+<!-- .slide: data-background="black" data-background-image="https://brandonxiang.github.io/keynote/img/vite-twitter.png" data-background-size="contain" -->
+
+----
+
+- snowpack 方案
+- vite 方案
+
+----
 
 ### 参考资料
 
