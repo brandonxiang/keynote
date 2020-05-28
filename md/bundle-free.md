@@ -95,6 +95,14 @@ export default function plus (a, b) {
 
 ## O(1) file builds.
 
+- Bundling is a process of O(n) complexity
+- Snowpack is an O(1) build system.
+
+
+----
+
+> snowpack和vite主要将bundle-free用在开发模式，生产模式还是以bundle为主（或提供选择）
+
 
 ----
 
@@ -138,6 +146,6 @@ export default function plus (a, b) {
 
 ### 参考资料
 
-
+- [Snowpack 2.0](https://www.snowpack.dev/posts/2020-05-26-snowpack-2-0-release/)
 - [The Third Age of JavaScript](https://www.swyx.io/writing/js-third-age)
 - [Using ES Modules in the Browser Today](https://www.sitepoint.com/using-es-modules/)
