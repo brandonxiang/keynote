@@ -2,6 +2,14 @@
 
 ----
 
+### 目录
+
+- ES Module Import 是什么？
+- Bundle Free 是什么？
+- 对未来web前端的畅想
+
+----
+
 ### ES Module Import 是什么？
 
 ----
@@ -73,15 +81,63 @@ export default function plus (a, b) {
 
 ----
 
-<!-- .slide: data-background="black" data-background-image="https://brandonxiang.github.io/keynote/img/vite-twitter.png" data-background-size="contain" -->
+<!-- .slide: data-background="black" data-background-image="https://brandonxiang.github.io/keynote/img/vite-twitter.jpeg" data-background-size="contain" -->
 
 ----
 
-- snowpack 方案
-- vite 方案
+## Bundle Free 解决方案
+
+- [snowpack](https://github.com/pikapkg/snowpack) 方案
+- [vite](https://github.com/vitejs/vite) 方案
+
+
+----
+
+## O(1) file builds.
+
+
+----
+
+![](https://brandonxiang.github.io/keynote/img/snowpack-unbundled-example-3.png)
+
+----
+
+## 优点
+
+- SPA开发效率高，每个页面独立
+- 与浏览器http2的并发请求契合
+- 与浏览器的ESM Import契合
+- 与deno的ESM Import契合
+- 依赖清晰
+
+----
+
+## 缺点
+
+- 兼容性不好，生产还是采用打包模式
+- 依赖需要都满足esm（antd不满足）
+- 开发与生产的不一致性
+
+
+----
+
+## 对未来web前端的畅想
+
+----
+
+![Third Age of JavaScript](https://brandonxiang.github.io/keynote/img/javascript_third.png)
+
+
+----
+
+- 第一阶段：Jquery时代（直接依赖）
+- 第二阶段：前端工程化（打包依赖）
+- 第三阶段：Bundle Free？（混合依赖）
 
 ----
 
 ### 参考资料
 
+
+- [The Third Age of JavaScript](https://www.swyx.io/writing/js-third-age)
 - [Using ES Modules in the Browser Today](https://www.sitepoint.com/using-es-modules/)
