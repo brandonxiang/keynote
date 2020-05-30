@@ -13,17 +13,139 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template">### 目录
+      <div class="slides"><section ><section data-markdown><script type="text/template">## svelte 入门
 
-- [Vue与Webpack入门](./vue-startup.html)
-- [Vue开发规范](./vue-specification.html)
-- [Vue单元测试](./vue-test.html)
-- [Vue-cli3.0](./vue-cli.html)
-- [PWA开发实战](./pwa.html)
-- [小程序开发实战](./weapp.html)
-- [微前端与Web Component](./microfrontend.html)
-- [lerna 多框架打包](./lerna.html)
-- [svelte 入门](./svelte.html)</script></section></div>
+###### 项伟平
+
+2019年8月16日
+</script></section><section data-markdown><script type="text/template">
+#### svelte的背景
+
+作者[Rich-Harris](https://github.com/Rich-Harris)，前端届“轮子哥”。
+
+著名框架有[Rollup](https://github.com/rollup/rollup)，[Ractive.js](https://ractive.js.org/)。
+</script></section><section data-markdown><script type="text/template">
+#### [svelte的官方介绍](https://github.com/sveltejs/svelte)
+
+> It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+</script></section><section data-markdown><script type="text/template">
+#### svelte的特点
+
+- No virtual DOM
+- Template
+- 接近Vallina js
+- 极小Runtime
+</script></section><section data-markdown><script type="text/template">
+## 为什么我们需要前端框架？
+</script></section><section data-markdown><script type="text/template">
+- 组件化
+- 数据流
+- webcomponent还未成熟
+</script></section><section data-markdown><script type="text/template">
+#### 组件化
+
+```html
+<script>
+    // parent
+	import Nested from './Nested.svelte';
+__SCRIPT_END__
+
+<Nested answer={42}/>
+```
+
+```html
+<script>
+    // child
+	export let answer;
+__SCRIPT_END__
+
+<p>The answer is {answer}</p>
+```
+<font size="6">
+[栗子一组件化](https://svelte.dev/examples#declaring-props)
+</font>
+</script></section><section data-markdown><script type="text/template">
+#### 数据绑定
+
+```html
+<script>
+	let a = 1;
+	let b = 2;
+__SCRIPT_END__
+
+<input type="number" bind:value={a}>
+<input type="number" bind:value={b}>
+
+<p>{a} + {b} = {a + b}</p>
+```
+
+<font size="6">
+[栗子二双向绑定](https://svelte.dev/repl/embed?example=blog-write-less-code)
+</font>
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/vueReact.png" data-background-size="contain" -->
+</script></section><section data-markdown><script type="text/template">
+## 我们真的需要virtual dom吗？
+</script></section><section data-markdown><script type="text/template">
+### H5动画
+
+- canvas
+- css3
+- svg
+</script></section><section data-markdown><script type="text/template">
+<font size="6">
+[栗子三SVG动画](https://svelte.dev/examples#clock)
+</font>
+</script></section><section data-markdown><script type="text/template">
+#### svelte源码
+
+- compiler
+- runtime
+</script></section><section data-markdown><script type="text/template">
+#### svelte 编译时
+
+```javascript
+const {
+	js,
+	css,
+	ast,
+	warnings,
+	vars,
+	stats
+} = svelte.compile(source, {
+    generate: 'dom', // dom或者ssr模式
+    dev: false, // 是否需要调试信息
+    css: false, // JS是否包含css
+    hydratable: false, //是否更新现有dom。适用ssr
+    customElement: false, // 自定义element
+    immutable: false, // 数据是否可变
+    legacy: false //兼容ie9和ie10
+});
+```
+</script></section><section data-markdown><script type="text/template">
+#### svelte 运行时
+
+<font size="6">
+[栗子四运行时](https://svelte.dev/repl/hello-world?version=3.7.1)
+</font>
+</script></section><section data-markdown><script type="text/template">
+#### 技术选型
+
+![](https://user-gold-cdn.xitu.io/2019/8/4/16c5b1ea7164acdc?imageslim)
+
+PC端复杂页面选用React，移动端页面选用Svelte
+<font size="6">(图片来自尤雨溪JSConf)</font>
+</script></section><section data-markdown><script type="text/template">
+#### benchmark
+
+![](https://brandonxiang.github.io/keynote/img/benchmark.png)
+</script></section><section data-markdown><script type="text/template">
+## Q&A
+
+
+
+
+</script></section></section></div>
     </div>
 
     <script src="./js/reveal.js"></script>

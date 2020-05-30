@@ -1,1 +1,248 @@
-vue-test.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section ><section data-markdown><script type="text/template">## Vue单元测试
+
+
+项伟平
+
+2017年11月8日
+</script></section><section data-markdown><script type="text/template">
+![qrcode](https://brandonxiang.github.io/keynote/img/qrcode.jpeg)
+
+
+https://github.com/brandonxiang
+https://github.com/PaicFE
+</script></section><section data-markdown><script type="text/template">
+**为什么需要自动化测试？**
+</script></section><section data-markdown><script type="text/template">
+**什么是持续集成？它和持续部署有什么区别？**
+</script></section><section data-markdown><script type="text/template">
+> <small>持续集成的目的，就是让产品可以快速迭代，同时还能保持高质量。它的核心措施是，代码集成到主干之前，必须通过自动化测试。只要有一个测试用例失败，就不能集成。
+
+> --[持续集成是什么](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)</small>
+
+![持续交付和持续部署](https://brandonxiang.github.io/keynote/img/bg2015092302.jpg)
+</script></section><section data-markdown><script type="text/template">
+Confidence to Change / Removal of Fear +
+High Code Quality +
+Well-Documented Code =
+**Developer Happiness**
+
+> [great presentation by Matt O'Connell](http://slides.com/mattoconnell/deck#/)
+</script></section><section data-markdown><script type="text/template">
+#### Vue官方单元测试
+
+- e2e测试（NightWatch）
+- 单元测试（Karma）
+</script></section><section data-markdown><script type="text/template">
+#### e2e测试（NightWatch）
+
+- [NightWatch](https://github.com/nightwatchjs/nightwatch) + ChromeDriver（Phantomjs）
+- [puppeteer](GoogleChrome/puppeteer) + [chromeless](https://github.com/graphcool/chromeless)
+</script></section><section data-markdown><script type="text/template">
+```
+module.exports = {
+  'default e2e tests': function test(browser) {
+    const devServer = browser.globals.devServerURL;
+
+    browser
+    .url(devServer)
+    .waitForElementVisible('#app', 5000)
+    .assert.elementPresent('.hello')
+    .assert.containsText('h1', 'Welcome to Your Vue.js App')
+    .assert.elementCount('img', 1)
+    .end();
+  },
+};
+```
+
+<small>常用使用场景：自动填报表单</small>
+</script></section><section data-markdown><script type="text/template">
+#### 单元测试（Karma）
+
+![vue单元测试](https://brandonxiang.github.io/keynote/img/karma.png)
+</script></section><section data-markdown><script type="text/template">
+<small>karma是一个专门的测试运行器（runner），它不是一个测试框架框架，也不是以一个断言库，是一个平台</small>
+
+- [karma-webpack](https://github.com/webpack-contrib/karma-webpack) 用webpack预处理文件
+- [karma-coverage](https://github.com/karma-runner/karma-coverage) 测试覆盖率
+- [karma-mocha](https://github.com/karma-runner/karma-mocha) 接入mocha测试框架
+- [karma-spec-reporter](https://github.com/mlex/karma-spec-reporter) 输出报告
+- [karma-phantomjs-launcher](https://github.com/karma-runner/karma-phantomjs-launcher) 控制PhantomJS
+- [karma-phantomjs-shim](https://github.com/tschaub/karma-phantomjs-shim) 给PhantomJS兼容的控制
+</script></section><section data-markdown><script type="text/template">
+#### Mocha
+
+<small>mocha本身只是一个单元测试框架，可以兼容第三方断言库</small>
+
+   - [should.js](https://github.com/shouldjs/should.js)
+   - [expect.js](https://github.com/LearnBoost/expect.js)
+   - [chai](http://chaijs.com/)
+   - [better-assert](https://github.com/visionmedia/better-assert)
+   - [unexpected](http://unexpected.js.org/)
+</script></section><section data-markdown><script type="text/template">
+#### Mocha语法
+
+```javascript
+
+import Vue from 'vue';
+import Hello from '@/components/Hello';
+
+describe('Hello.vue', () => {
+  it('should render correct contents', () => {
+    const Constructor = Vue.extend(Hello);
+    const vm = new Constructor().$mount();
+    expect(vm.$el.querySelector('.hello h1').textContent)
+      .to.equal('Welcome to Your Vue.js App');
+  });
+});
+```
+
+<small>测试用例写在specs（specifications）文件底下</small>
+</script></section><section data-markdown><script type="text/template">
+#### Chai语法
+
+```javascript
+var expect = require('chai').expect
+  , foo = 'bar'
+  , beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
+
+expect(foo).to.be.a('string');
+expect(foo).to.equal('bar');
+expect(foo).to.have.lengthOf(3);
+expect(beverages).to.have.property('tea').with.lengthOf(3);
+```
+</script></section><section data-markdown><script type="text/template">
+#### vue-test-utils
+
+> 官方测试库
+> https://vue-test-utils.vuejs.org
+
+- Shallow 只挂载一个组件而不渲染其子组件
+- mount 返回第一个 DOM 节点或匹配选择器的 Vue 组件
+</script></section><section data-markdown><script type="text/template">
+### 使用方法
+
+```javascript
+import { shallow } from 'vue-test-utils'
+import { expect } from 'chai'
+import Foo from './Foo.vue'
+
+describe('Foo', () => {
+  it('渲染一个 div', () => {
+    const wrapper = shallow(Foo, {
+      propsData: {
+        color: 'red'
+      }
+    })
+    expect(wrapper.hasProp('color', 'red')).toBe(true)
+  })
+})
+```
+</script></section><section data-markdown><script type="text/template">
+#### 和Getters一起使用
+
+```javascript
+import { shallow, createLocalVue } from 'vue-test-utils'
+import Vuex from 'vuex'
+import Actions from '../../../src/components/Getters'
+
+const localVue = createLocalVue()
+
+localVue.use(Vuex)
+
+describe('Getters.vue', () => {
+  let getters
+  let store
+
+  beforeEach(() => {
+    getters = {
+      clicks: () => 2,
+      inputValue: () => 'input'
+    }
+
+    store = new Vuex.Store({
+      getters
+    })
+  })
+
+  it('在第一个 p 标签中渲染“state.inputValue”', () => {
+    const wrapper = shallow(Actions, { store, localVue })
+    const p = wrapper.find('p')
+    expect(p.text()).toBe(getters.inputValue())
+  })
+
+  it('在第二个 p 标签中渲染“state.clicks”', () => {
+    const wrapper = shallow(Actions, { store, localVue })
+    const p = wrapper.findAll('p').at(1)
+    expect(p.text()).toBe(getters.clicks().toString())
+  })
+})
+```
+</script></section><section data-markdown><script type="text/template">
+Q&A
+
+</script></section></section></div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
