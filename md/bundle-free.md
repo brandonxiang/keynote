@@ -1,4 +1,4 @@
-## ES Module Import & Bundle Free
+## ESM Import & Bundle Free
 
 ----
 
@@ -75,6 +75,18 @@ export default function plus (a, b) {
 
 ----
 
+### profill
+
+```html
+<!-- Load the "module" version on browsers that can support it. -->
+<script type="module" src="https://unpkg.com/dimport?module" data-main="/bundle.js"></script>
+ 
+<!-- Load the "nomodule" version on older browsers – acts as fallback! -->
+<script type="nomodule" src="https://unpkg.com/dimport/nomodule" data-main="/bundle.js"></script>
+```
+
+----
+
 
 ### Bundle Free（No Bundle）是什么？
 
@@ -101,14 +113,15 @@ export default function plus (a, b) {
 
 ----
 
+![](https://brandonxiang.github.io/keynote/img/snowpack-unbundled-example-3.png)
+
+----
+
 > snowpack和vite主要将bundle-free用在开发模式，生产模式还是以bundle为主（或提供选择）
 
 
 ----
 
-![](https://brandonxiang.github.io/keynote/img/snowpack-unbundled-example-3.png)
-
-----
 
 ## 优点
 
@@ -122,7 +135,8 @@ export default function plus (a, b) {
 
 ## 缺点
 
-- 兼容性不好，生产还是采用打包模式
+- 兼容性不好，生产还是考虑打包模式
+- 如果生产使用bundle-free的[加载效率问题](https://github.com/jakedeichert/svelvet/issues/83)
 - 依赖需要都满足esm（antd不满足）
 - 开发与生产的不一致性
 
