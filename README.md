@@ -13,7 +13,7 @@ Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.j
 - [PWA开发实战](https://brandonxiang.github.io/keynote/web/pwa.html#/)
 - [小程序开发实战](https://brandonxiang.github.io/keynote/web/weapp.html#/)
 - [微前端与Web Components](https://brandonxiang.github.io/keynote/web/microfrontend.html#/)
-- [react-navigation和expo的应用](https://brandonxiang.github.io/keynote/web/expo/)
+- [react-navigation和expo的应用](https://brandonxiang.github.io/keynote/web/expo.html#/)
 - [svelte 入门](https://brandonxiang.github.io/keynote/web/svelte.html#/)
 
 ## 开发
