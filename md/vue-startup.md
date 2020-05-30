@@ -233,12 +233,6 @@ https://www.zhihu.com/question/32189846/answer/178741713
 
 ----
 
-### 团队GITHUB
-
-[PaicFE](https://github.com/PaicFE)
-
-----
-
 ### Q&A
 
 
