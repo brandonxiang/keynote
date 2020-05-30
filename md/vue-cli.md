@@ -171,7 +171,7 @@ module.exports = {
 
 #### 2.7 vue-ui
 
-![vue-ui](./img/vue-ui.png)
+![vue-ui](https://brandonxiang.github.io/keynote/img/vue-ui.png)
 
 ----
 

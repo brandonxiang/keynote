@@ -1,8 +1,3 @@
-
-import  { future } from '@mdx-deck/themes'
-
-export const themes = [future]
-
 ### react-navigation和expo的应用
 
 ----

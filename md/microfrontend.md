@@ -13,8 +13,8 @@
 
 ----
 
-<img src="./copy-img/monolith.png" alt="单一前端" width="60%">
-<img src="./copy-img/microfrontend.png" alt="微前端" width="60%">
+<img src="https://brandonxiang.github.io/keynote/img/monolith.png" alt="单一前端" width="60%">
+<img src="https://brandonxiang.github.io/keynote/img/microfrontend.png" alt="微前端" width="60%">
 
 ----
 
@@ -34,7 +34,7 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="./copy-img/wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
 
 ----
 
@@ -102,11 +102,11 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="./copy-img/wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="./copy-img/vue-wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/vue-wc.png" data-background-size="contain" -->
 
 ----
 
@@ -114,14 +114,14 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="./copy-img/microFrontendSample.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
 
 
 ----
 
 ##### 子系统分发（图片来自phodal）
 
-<img src="./copy-img/mooa.jpg" width="60%">
+<img src="https://brandonxiang.github.io/keynote/img/mooa.jpg" width="60%">
 
 ----
 

@@ -7,7 +7,7 @@
 
 ----
 
-![qrcode](./img/qrcode.jpeg)
+![qrcode](https://brandonxiang.github.io/keynote/img/qrcode.jpeg)
 
 
 https://github.com/brandonxiang
@@ -27,7 +27,7 @@ https://github.com/PaicFE
 
 > --[持续集成是什么](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)</small>
 
-![持续交付和持续部署](./img/bg2015092302.jpg)
+![持续交付和持续部署](https://brandonxiang.github.io/keynote/img/bg2015092302.jpg)
 
 ----
 
@@ -76,7 +76,7 @@ module.exports = {
 
 #### 单元测试（Karma）
 
-![vue单元测试](./img/karma.png)
+![vue单元测试](https://brandonxiang.github.io/keynote/img/karma.png)
 
 ----
 

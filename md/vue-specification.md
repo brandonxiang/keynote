@@ -30,11 +30,11 @@
 
 > <small>vue-router的路由管理存在双层路由的情况，在懒加载打包的时候可能会出现多余打包</small>
 
-![旧新路由module内项目结构](./img/router.jpg)
+![旧新路由module内项目结构](https://brandonxiang.github.io/keynote/img/router.jpg)
 
 ----
 
-<img alt="双层路由" src="./img/double-router.png" width="60%">
+<img alt="双层路由" src="https://brandonxiang.github.io/keynote/img/double-router.png" width="60%">
 
 ----
 
@@ -42,7 +42,7 @@
 
 > <small>vuex的结构更多是一对一的情况，并且是以名字关联，写法相对死板</small>
 
-![vue与vuex之间的关系](./img/vue-architecture.png)
+![vue与vuex之间的关系](https://brandonxiang.github.io/keynote/img/vue-architecture.png)
 
 ----
 
@@ -155,7 +155,7 @@ npm run build project1 project2
 
 #### [建议] vuex的目录结构按照分开的目录
 
-<img alt="Vuex单向数据流" src="./img/vuex.png" width="40%">
+<img alt="Vuex单向数据流" src="https://brandonxiang.github.io/keynote/img/vuex.png" width="40%">
 
 #### <font color="red">[强制] xhr请求放在vuex的actions中</font>
 
@@ -448,7 +448,7 @@ BEM是**Block，Element，Modifier**的缩写
 
 ----
 
-![BEM](./img/Definitions-BEM-5.jpg)
+![BEM](https://brandonxiang.github.io/keynote/img/Definitions-BEM-5.jpg)
 
 ----
 

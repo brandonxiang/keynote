@@ -22,7 +22,7 @@
 
 #### vue 与 react
 
-<img src="./img/switch_react_vue.jpg" width ="80%" alt="react vs vue" align=center />
+<img src="https://brandonxiang.github.io/keynote/img/switch_react_vue.jpg" width ="80%" alt="react vs vue" align=center />
 
 ----
 
@@ -45,7 +45,7 @@
 
 #### virtual dom
 
-<img src="./img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center />
+<img src="https://brandonxiang.github.io/keynote/img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center />
 
 来自[对 virtual-dom 的一些理解](https://zhuanlan.zhihu.com/p/25630842)
 
@@ -75,7 +75,7 @@ var app6 = new Vue({
 
 #### vuex的单向数据流
 
-<img src="./img/vuex.png" width ="70%" alt="vuex单向数据流" align=center />
+<img src="https://brandonxiang.github.io/keynote/img/vuex.png" width ="70%" alt="vuex单向数据流" align=center />
 
 ----
 
@@ -83,7 +83,7 @@ var app6 = new Vue({
 
 轻量，易学，适用于移动端，大生态
 
-<img src="./img/architech.png" width ="70%" alt="vuex单向数据流" align=center />
+<img src="https://brandonxiang.github.io/keynote/img/architech.png" width ="70%" alt="vuex单向数据流" align=center />
 
 ----
 
