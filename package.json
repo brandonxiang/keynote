@@ -4,10 +4,8 @@
   "description": "Tech Sharing keynote",
   "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
-    "dev:reveal": "reveal-md ./md/ --highlight-theme github",
-    "build:reveal": "node build/reveal-all.js",
-    "dev": "mdx-deck ./mdx/expo.mdx",
-    "build": "node build/mdx-all.js"
+    "dev": "reveal-md ./md/ --highlight-theme github",
+    "build": "node build/reveal-all.js"
   },
   "author": {
     "name": "brandonxiang",
@@ -19,11 +17,10 @@
     "url": "https://github.com/jxnblk/mdx-deck.git"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "devDependencies": {
     "globby": "^9.2.0",
-    "mdx-deck": "^2.2.1",
     "reveal-md": "^3.4.7",
     "shelljs": "^0.8.3"
   },
