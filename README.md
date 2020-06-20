@@ -15,6 +15,7 @@ Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.j
 - [微前端与Web Components](https://brandonxiang.github.io/keynote/web/microfrontend.html#/)
 - [react-navigation和expo的应用](https://brandonxiang.github.io/keynote/web/expo.html#/)
 - [svelte 入门](https://brandonxiang.github.io/keynote/web/svelte.html#/)
+- [ESM Import & Bundle Free](https://brandonxiang.github.io/keynote/web/bundle-free.html#/)
 
 ## 开发
 
