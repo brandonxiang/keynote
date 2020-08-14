@@ -75,7 +75,7 @@ export default function plus (a, b) {
 
 ----
 
-### profill
+### polyfill--dimport
 
 ```html
 <!-- Load the "module" version on browsers that can support it. -->

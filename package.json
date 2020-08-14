@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "globby": "^9.2.0",
-    "reveal-md": "^3.4.7",
+    "reveal-md": "^3.4.7"
   },
   "license": "MIT"
 }
