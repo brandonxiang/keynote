@@ -63,11 +63,6 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
-
-
-----
-
 
 ## 微前端
 
@@ -117,6 +112,10 @@
 - 使用 Web Components 构建应用
 
 [参考：（phodal）微前端的那些事儿](https://github.com/phodal/microfrontends)
+
+----
+
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
 
 ----
 
