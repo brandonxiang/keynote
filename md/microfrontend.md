@@ -91,10 +91,6 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
-
-----
-
 ## 微前端的目标
 
 - 独立部署
