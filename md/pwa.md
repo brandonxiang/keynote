@@ -6,7 +6,7 @@
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/qrcode.jpg" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/qrcode.jpg" data-background-size="contain" -->
 
 ---
 
@@ -51,11 +51,11 @@ Service Worker 与 Web Worker 的区别
 
 #### Service Worker
 
-![Service Worker](https://brandonxiang.github.io/keynote/img/stale-while-revalidate.png)
+![Service Worker](https://keynote.vercel.app/img/stale-while-revalidate.png)
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/pwa-chrome.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/pwa-chrome.png" data-background-size="contain" -->
 
 ---
 
