@@ -12,7 +12,7 @@ const buildReveal = async () => {
 
     if (name[1]) {
       var page = name[1];
-      process.execSync(`npx reveal-md ./md/${page}.md --static web`);
+      process.execSync(`npx reveal-md ./md/${page}.md --static web --title Brandon's Keynote`);
       console.log(`${page}.html is successfully converted!!!`);
     }
   });
