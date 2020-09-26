@@ -7,57 +7,6 @@
 ----
 
 
-## 微前端
-
-2016年[thoughtworks](https://www.thoughtworks.com/radar/techniques/micro-frontends)提出微前端的概念。
-
-----
-
-<img src="https://brandonxiang.github.io/keynote/img/monolith.png" alt="单一前端" width="60%">
-<img src="https://brandonxiang.github.io/keynote/img/microfrontend.png" alt="微前端" width="60%">
-
-----
-
-## 什么是微服务？
-
-微服务最早由[Martin Fowler](https://martinfowler.com/)与James Lewis于2014年共同提出，微服务架构风格是一种使用一套小服务来开发单个应用的方式途径，每个服务运行在自己的进程中，并使用轻量级机制通信，通常是HTTP API，这些服务基于业务能力构建，并能够通过自动化部署机制来独立部署，这些服务使用不同的编程语言实现，以及不同数据存储技术，并保持最低限度的集中式管理。
-
-----
-
-## 单体架构的缺点
-
-1. 复杂性逐渐变高
-2. 技术债务逐渐上升
-3. 部署速度逐渐变慢
-4. 阻碍技术创新
-5. 无法按需伸缩
-
-----
-
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
-
-----
-
-## 微前端的目标
-
-- 独立部署
-- 独立开发
-- 技术无关
-- 不影响用户体验
-
-----
-
-## 实现微前端的几种方式
-
-- 通过组合多个独立应用组件来构建一个单体应用
-- 使用 HTTP 服务器的路由来重定向多个应用
-- 在不同的框架之上设计通讯、加载机制，诸如 Mooa 和 Single-SPA，iFrame
-- 使用 Web Components 构建应用
-
-[参考：（phodal）微前端的那些事儿](https://github.com/phodal/microfrontends)
-
-----
-
 ## 什么是Web Components？
 
 ----
@@ -114,8 +63,55 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
 
+## 微前端
+
+2016年[thoughtworks](https://www.thoughtworks.com/radar/techniques/micro-frontends)提出微前端的概念。
+
+----
+
+<img src="https://brandonxiang.github.io/keynote/img/monolith.png" alt="单一前端" width="60%">
+<img src="https://brandonxiang.github.io/keynote/img/microfrontend.png" alt="微前端" width="60%">
+
+----
+
+## 什么是微服务？
+
+微服务最早由[Martin Fowler](https://martinfowler.com/)与James Lewis于2014年共同提出，微服务架构风格是一种使用一套小服务来开发单个应用的方式途径，每个服务运行在自己的进程中，并使用轻量级机制通信，通常是HTTP API，这些服务基于业务能力构建，并能够通过自动化部署机制来独立部署，这些服务使用不同的编程语言实现，以及不同数据存储技术，并保持最低限度的集中式管理。
+
+----
+
+## 单体架构的缺点
+
+1. 复杂性逐渐变高
+2. 技术债务逐渐上升
+3. 部署速度逐渐变慢
+4. 阻碍技术创新
+5. 无法按需伸缩
+
+----
+
+## 微前端的目标
+
+- 独立部署
+- 独立开发
+- 技术无关
+- 不影响用户体验
+
+----
+
+## 实现微前端的几种方式
+
+- 通过组合多个独立应用组件来构建一个单体应用
+- 使用 HTTP 服务器的路由来重定向多个应用
+- 在不同的框架之上设计通讯、加载机制，诸如 Mooa 和 Single-SPA，iFrame
+- 使用 Web Components 构建应用
+
+[参考：（phodal）微前端的那些事儿](https://github.com/phodal/microfrontends)
+
+----
+
+<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
 
 ----
 
