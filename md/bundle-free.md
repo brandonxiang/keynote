@@ -163,3 +163,4 @@ export default function plus (a, b) {
 - [Snowpack 2.0](https://www.snowpack.dev/posts/2020-05-26-snowpack-2-0-release/)
 - [The Third Age of JavaScript](https://www.swyx.io/writing/js-third-age)
 - [Using ES Modules in the Browser Today](https://www.sitepoint.com/using-es-modules/)
+- [vite和webpack性能对比视频](https://mobile.twitter.com/its_hebilicious/status/1290487966347874313)
