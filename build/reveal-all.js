@@ -13,12 +13,13 @@ const buildReveal = async () => {
 
     if (name[1]) {
       var page = name[1];
-      process.execSync(`npx reveal-md ./md/${page}.md --static web --title BrandonXIANG`);
+      const comm = `npx reveal-md ./md/${page}.md --static web --title BrandonXIANG --scripts build/use-sw.js`;
+      process.execSync(comm);
       console.log(`${page}.html is successfully converted!!!`);
     }
   });
 
-  copyFileSync('img', 'web/img');
+  // copyFileSync('img', 'web/img');
   const imgPaths = await globby("img/*");
   imgPaths.forEach((imgPath) => {
     copyFileSync(imgPath, 'web/' + imgPath);

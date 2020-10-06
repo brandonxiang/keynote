@@ -13,9 +13,7 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template">### 目录
-
-- [Vue与Webpack入门](./vue-startup.html)
+      <div class="slides"><section  data-markdown><script type="text/template">- [Vue与Webpack入门](./vue-startup.html)
 - [Vue开发规范](./vue-specification.html)
 - [Vue单元测试](./vue-test.html)
 - [Vue-cli3.0](./vue-cli.html)
@@ -23,7 +21,9 @@
 - [小程序开发实战](./weapp.html)
 - [微前端与Web Component](./microfrontend.html)
 - [lerna 多框架打包](./lerna.html)
-- [svelte 入门](./svelte.html)</script></section></div>
+- [react-navigation和expo的应用](./expo.html)
+- [svelte 入门](./svelte.html)
+- [ESM Import & Bundle Free](./bundle-free.html)</script></section></div>
     </div>
 
     <script src="./js/reveal.js"></script>
@@ -68,6 +68,7 @@
       var options = extend(defaultOptions, {}, queryOptions);
     </script>
 
+    <script src="./_assets/build/use-sw.js"></script>
 
     <script>
       Reveal.initialize(options);
