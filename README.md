@@ -16,6 +16,7 @@ Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.j
 - [react-navigation和expo的应用](https://keynote.vercel.app/expo.html#/)
 - [svelte 入门](https://keynote.vercel.app/svelte.html#/)
 - [ESM Import & Bundle Free](https://keynote.vercel.app/bundle-free.html#/)
+- [Monorepo](https://keynote.vercel.app/monorepo.html#/)
 
 ## 开发
 
