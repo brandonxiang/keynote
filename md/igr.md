@@ -19,6 +19,13 @@
 - ssr
 - igr
 
+
+----
+
+- 动态直出(ssr)
+- 静态指出(ssg)
+- Prerender(puppeteer)
+
 ----
 
 ### SSG
