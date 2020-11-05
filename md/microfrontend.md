@@ -1,6 +1,6 @@
 ## 微前端与Web Components
 
-项伟平 [Blog](https://brandonxiang.vercel.app/)
+项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2019年4月2日
 

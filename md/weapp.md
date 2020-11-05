@@ -1,6 +1,6 @@
 ## 小程序开发实战
 
-项伟平
+项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2018年11月26日
 

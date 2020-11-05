@@ -1,6 +1,6 @@
 ## ESM Import & Bundle Free
 
-项伟平 [Blog](https://brandonxiang.vercel.app/)
+项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2020年8月14日
 

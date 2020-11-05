@@ -1,6 +1,6 @@
 ## Vue-Cli3.0
 
-项伟平 [Blog](https://brandonxiang.vercel.app/)
+项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2018年10月18日
 

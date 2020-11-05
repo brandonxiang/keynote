@@ -1,6 +1,6 @@
 ## Vue技术选型与Webpack入门
 
-项伟平 [Blog](https://brandonxiang.vercel.app/)
+项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2017年6月9日
 

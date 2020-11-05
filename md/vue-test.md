@@ -1,7 +1,7 @@
 ## Vue单元测试
 
 
-项伟平 [Blog](https://brandonxiang.vercel.app/)
+项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2017年11月8日
 
