@@ -1,6 +1,6 @@
 ## Incremental Site Regeneration
 
-项伟平
+项伟平 [Blog](https://brandonxiang.vercel.app/)
 
 2020 年 11 月 26 日
 

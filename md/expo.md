@@ -1,5 +1,7 @@
 ### react-navigation和expo的应用
 
+项伟平 [Blog](https://brandonxiang.vercel.app/)
+
 ----
 
 #### 样式问题

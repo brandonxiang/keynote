@@ -1,6 +1,6 @@
 ## PWA 开发实战
 
-项伟平
+项伟平 [Blog](https://brandonxiang.vercel.app/)
 
 2018 年 11 月 26 日
 

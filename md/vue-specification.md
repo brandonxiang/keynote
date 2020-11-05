@@ -1,6 +1,6 @@
 ## Vue开发规范
 
-项伟平
+项伟平 [Blog](https://brandonxiang.vercel.app/)
 
 2017年10月12日
 

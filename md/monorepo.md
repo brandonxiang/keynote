@@ -1,6 +1,7 @@
 
 ## monorepo研发流程
 
+项伟平 [Blog](https://brandonxiang.vercel.app/)
 
 ----
 
