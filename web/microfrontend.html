@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal-md</title>
+    <title>BrandonXIANG</title>
     <link rel="stylesheet" href="./css/reveal.css" />
     <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
@@ -20,43 +20,6 @@
 2019年4月2日
 </script></section><section data-markdown><script type="text/template">
 
-## 微前端
-
-2016年[thoughtworks](https://www.thoughtworks.com/radar/techniques/micro-frontends)提出微前端的概念。
-</script></section><section data-markdown><script type="text/template">
-<img src="https://brandonxiang.github.io/keynote/img/monolith.png" alt="单一前端" width="60%">
-<img src="https://brandonxiang.github.io/keynote/img/microfrontend.png" alt="微前端" width="60%">
-</script></section><section data-markdown><script type="text/template">
-## 什么是微服务？
-
-微服务最早由[Martin Fowler](https://martinfowler.com/)与James Lewis于2014年共同提出，微服务架构风格是一种使用一套小服务来开发单个应用的方式途径，每个服务运行在自己的进程中，并使用轻量级机制通信，通常是HTTP API，这些服务基于业务能力构建，并能够通过自动化部署机制来独立部署，这些服务使用不同的编程语言实现，以及不同数据存储技术，并保持最低限度的集中式管理。
-</script></section><section data-markdown><script type="text/template">
-## 单体架构的缺点
-
-1. 复杂性逐渐变高
-2. 技术债务逐渐上升
-3. 部署速度逐渐变慢
-4. 阻碍技术创新
-5. 无法按需伸缩
-</script></section><section data-markdown><script type="text/template">
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
-</script></section><section data-markdown><script type="text/template">
-## 微前端的目标
-
-- 独立部署
-- 独立开发
-- 技术无关
-- 不影响用户体验
-</script></section><section data-markdown><script type="text/template">
-## 实现微前端的几种方式
-
-- 通过组合多个独立应用组件来构建一个单体应用
-- 使用 HTTP 服务器的路由来重定向多个应用
-- 在不同的框架之上设计通讯、加载机制，诸如 Mooa 和 Single-SPA，iFrame
-- 使用 Web Components 构建应用
-
-[参考：（phodal）微前端的那些事儿](https://github.com/phodal/microfrontends)
-</script></section><section data-markdown><script type="text/template">
 ## 什么是Web Components？
 </script></section><section data-markdown><script type="text/template">
 ## 前端框架
@@ -89,26 +52,64 @@
 - attributeChangedCallback
    - 当元素上的属性被添加、移除、更新或取代时被触发。
 </script></section><section data-markdown><script type="text/template">
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/wc.png" data-background-size="contain" -->
 </script></section><section data-markdown><script type="text/template">
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/vue-wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/vue-wc.png" data-background-size="contain" -->
 </script></section><section data-markdown><script type="text/template">
 ### 如果考虑兼容性呢？
 </script></section><section data-markdown><script type="text/template">
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
 
+## 微前端
+
+2016年[thoughtworks](https://www.thoughtworks.com/radar/techniques/micro-frontends)提出微前端的概念。
+</script></section><section data-markdown><script type="text/template">
+<img src="https://keynote.vercel.app/img/monolith.png" alt="单一前端" width="60%">
+<img src="https://keynote.vercel.app/img/microfrontend.png" alt="微前端" width="60%">
+</script></section><section data-markdown><script type="text/template">
+## 痛点
+- 旧系统重构（iframe）
+- 多团队合作（single-spa，web component，iframe）
+</script></section><section data-markdown><script type="text/template">
+## 什么是微服务？
+
+微服务最早由[Martin Fowler](https://martinfowler.com/)与James Lewis于2014年共同提出，微服务架构风格是一种使用一套小服务来开发单个应用的方式途径，每个服务运行在自己的进程中，并使用轻量级机制通信，通常是HTTP API，这些服务基于业务能力构建，并能够通过自动化部署机制来独立部署，这些服务使用不同的编程语言实现，以及不同数据存储技术，并保持最低限度的集中式管理。
+</script></section><section data-markdown><script type="text/template">
+## 单体架构的缺点
+
+1. 复杂性逐渐变高
+2. 技术债务逐渐上升
+3. 部署速度逐渐变慢
+4. 阻碍技术创新
+5. 无法按需伸缩
+</script></section><section data-markdown><script type="text/template">
+## 微前端的目标
+
+- 独立部署
+- 独立开发
+- 技术无关
+- 不影响用户体验
+</script></section><section data-markdown><script type="text/template">
+## 实现微前端的几种方式
+
+- 通过组合多个独立应用组件来构建一个单体应用
+- 使用 HTTP 服务器的路由来重定向多个应用
+- 在不同的框架之上设计通讯、加载机制，诸如 Mooa 和 Single-SPA，iFrame
+- 使用 Web Components 构建应用
+
+[参考：（phodal）微前端的那些事儿](https://github.com/phodal/microfrontends)
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/microFrontendSample.png" data-background-size="contain" -->
 </script></section><section data-markdown><script type="text/template">
 ##### 子系统分发（图片来自phodal）
 
-<img src="https://brandonxiang.github.io/keynote/img/mooa.jpg" width="60%">
+<img src="https://keynote.vercel.app/img/mooa.jpg" width="60%">
 </script></section><section data-markdown><script type="text/template">
 #### portal项目
 
 - 用户登录机制
-- 菜单权限获取
+- 菜单权限获取和目录配置
 - 全局异常处理
 - 路由管理（懒加载）
-- 目录配置
 </script></section><section data-markdown><script type="text/template">
 #### 子项目
 
@@ -168,6 +169,7 @@
       var options = extend(defaultOptions, {}, queryOptions);
     </script>
 
+    <script src="./_assets/build/use-sw.js"></script>
 
     <script>
       Reveal.initialize(options);

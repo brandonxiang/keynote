@@ -36,14 +36,14 @@ export default function plus (a, b) {
 <!-- .slide: data-background="white" -->
 ### Network Waterfall
 
-<img src="https://brandonxiang.github.io/keynote/img/bundle-free-waterfall-1.png" width="100%">
+<img src="https://keynote.vercel.app/img/bundle-free-waterfall-1.png" width="100%">
 
 ----
 
 <!-- .slide: data-background="white" -->
 ### What we expect
 
-<img src="https://brandonxiang.github.io/keynote/img/bundle-free-waterfall-2.png" width="60%">
+<img src="https://keynote.vercel.app/img/bundle-free-waterfall-2.png" width="60%">
 
 
 ----
@@ -63,7 +63,7 @@ export default function plus (a, b) {
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/es-module.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/es-module.png" data-background-size="contain" -->
 
 
 ----
@@ -95,7 +95,7 @@ export default function plus (a, b) {
 
 ----
 
-<!-- .slide: data-background="black" data-background-image="https://brandonxiang.github.io/keynote/img/vite-twitter.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background="black" data-background-image="https://keynote.vercel.app/img/vite-twitter.jpeg" data-background-size="contain" -->
 
 ----
 
@@ -115,7 +115,7 @@ export default function plus (a, b) {
 
 ----
 
-![](https://brandonxiang.github.io/keynote/img/snowpack-unbundled-example-3.png)
+![](https://keynote.vercel.app/img/snowpack-unbundled-example-3.png)
 
 ----
 
@@ -149,7 +149,7 @@ export default function plus (a, b) {
 
 ----
 
-![Third Age of JavaScript](https://brandonxiang.github.io/keynote/img/javascript_third.png)
+![Third Age of JavaScript](https://keynote.vercel.app/img/javascript_third.png)
 
 
 ----
@@ -165,3 +165,4 @@ export default function plus (a, b) {
 - [Snowpack 2.0](https://www.snowpack.dev/posts/2020-05-26-snowpack-2-0-release/)
 - [The Third Age of JavaScript](https://www.swyx.io/writing/js-third-age)
 - [Using ES Modules in the Browser Today](https://www.sitepoint.com/using-es-modules/)
+- [vite和webpack性能对比视频](https://mobile.twitter.com/its_hebilicious/status/1290487966347874313)

@@ -15,9 +15,9 @@
 <div
 style="width: 75vw;height: 80vh;display: flex;align-items: center;justify-content: space-around;font-size: 20px;">
 <span>IOS(375 dpr2)</span>
-<img src='https://brandonxiang.github.io/keynote/img/ios-rn.jpeg' style="width: 300px"/>
+<img src='https://keynote.vercel.app/img/ios-rn.jpeg' style="width: 300px"/>
 <span>安卓(360 dpr3)</span>
-<img src='https://brandonxiang.github.io/keynote/img/android-rn.png' style="width: 300px"/>
+<img src='https://keynote.vercel.app/img/android-rn.png' style="width: 300px"/>
 </div>
 
 ----
@@ -82,11 +82,11 @@ const styles = StyleSheet.create({
 ----
 
 
-<img src="https://brandonxiang.github.io/keynote/img/switchNavigator.png" style="width: 90vw">
+<img src="https://keynote.vercel.app/img/switchNavigator.png" style="width: 90vw">
 
 ----
 
-<img src="https://brandonxiang.github.io/keynote/img/authLoading.png" style="width: 70vw">
+<img src="https://keynote.vercel.app/img/authLoading.png" style="width: 70vw">
 
 ----
 
@@ -106,7 +106,7 @@ style="
     align-items: center;
     justify-content: center;
 ">
-<img src='https://brandonxiang.github.io/keynote/img/android-qrcode.png' style="width: 200px; height: 200px;">
+<img src='https://keynote.vercel.app/img/android-qrcode.png' style="width: 200px; height: 200px;">
 <img src='https://d30j33t1r58ioz.cloudfront.net/static/images/expo-client-iphone.png'>
 </div>
 

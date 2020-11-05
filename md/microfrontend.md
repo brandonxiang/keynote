@@ -51,11 +51,11 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/wc.png" data-background-size="contain" -->
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/vue-wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/vue-wc.png" data-background-size="contain" -->
 
 ----
 
@@ -70,8 +70,14 @@
 
 ----
 
-<img src="https://brandonxiang.github.io/keynote/img/monolith.png" alt="单一前端" width="60%">
-<img src="https://brandonxiang.github.io/keynote/img/microfrontend.png" alt="微前端" width="60%">
+<img src="https://keynote.vercel.app/img/monolith.png" alt="单一前端" width="60%">
+<img src="https://keynote.vercel.app/img/microfrontend.png" alt="微前端" width="60%">
+
+----
+
+## 痛点
+- 旧系统重构（iframe）
+- 多团队合作（single-spa，web component，iframe）
 
 ----
 
@@ -111,23 +117,22 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://brandonxiang.github.io/keynote/img/microFrontendSample.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/microFrontendSample.png" data-background-size="contain" -->
 
 ----
 
 ##### 子系统分发（图片来自phodal）
 
-<img src="https://brandonxiang.github.io/keynote/img/mooa.jpg" width="60%">
+<img src="https://keynote.vercel.app/img/mooa.jpg" width="60%">
 
 ----
 
 #### portal项目
 
 - 用户登录机制
-- 菜单权限获取
+- 菜单权限获取和目录配置
 - 全局异常处理
 - 路由管理（懒加载）
-- 目录配置
 
 ----
 

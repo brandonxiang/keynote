@@ -5,7 +5,7 @@
   "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
     "dev": "reveal-md ./md/ --highlight-theme github",
-    "build": "node build/reveal-all.js"
+    "build": "node build/reveal-all.js && workbox generateSW"
   },
   "author": {
     "name": "brandonxiang",
@@ -23,5 +23,8 @@
     "globby": "^9.2.0",
     "reveal-md": "^3.4.7"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "workbox-cli": "^5.1.4"
+  }
 }
