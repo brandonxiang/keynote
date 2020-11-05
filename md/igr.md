@@ -1,6 +1,7 @@
 ## Incremental Site Regeneration
 
 项伟平
+
 2020 年 11 月 26 日
 
 ----
@@ -34,14 +35,18 @@
 
 ### SSR
 
-![ssr](https://keynote.vercel.app/img/ssr.png)
+![ssr](https://keynote.vercel.app/img/igr-ssr.png)
 
 ----
 
 ### IGR
 
-![ssr](https://keynote.vercel.app/img/igr.png)
+![ssr](https://keynote.vercel.app/img/igr-igr.png)
 
 ----
 
 ![igr-comparison](https://keynote.vercel.app/img/igr-comparison.png)
+
+----
+
+省CDN空间 + 数据变化快 + 无服务器压力 = IGR
