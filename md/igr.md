@@ -1,4 +1,4 @@
-## Incremental Site Regeneration
+## Incremental Static Regeneration
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
@@ -7,6 +7,8 @@
 ----
 
 ## 增量式页面重渲染
+
+[BLOG](https://nextjs.org/blog/next-9-5#stable-incremental-static-regeneration)
 
 ----
 
