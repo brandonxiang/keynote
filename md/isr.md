@@ -77,7 +77,7 @@ export async function getServerSideProps(context) {
 
 ----
 
-### IGR
+### ISR
 
 ![isr](https://keynote.vercel.app/img/isr-isr.png)
 
