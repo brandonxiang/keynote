@@ -12,7 +12,7 @@
 
 ----
 
-[next.js](https://nextjs.org/)是[vercel](http://vercel.com/)的开源项目，其他项目有：[vercel](https://github.com/vercel/vercel)、 [swr](https://github.com/vercel/)、[hyper](https://github.com/vercel/hyper)
+[next.js](https://nextjs.org/)是[vercel](http://vercel.com/)(前身zeit)的开源项目，其他项目有：[vercel](https://github.com/vercel/vercel)、 [swr](https://github.com/vercel/swr)、[hyper](https://github.com/vercel/hyper)
 
 ----
 
