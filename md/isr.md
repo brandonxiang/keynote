@@ -43,6 +43,16 @@
 
 ----
 
+```javascript
+export async function getStaticProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+```
+
+----
+
 ### JAMSTACK
 
 - JAMStack = 现代 SSG 框架 + DevOps + Serverless
@@ -57,9 +67,38 @@
 
 ----
 
+```javascript
+export async function getServerSideProps(context) {
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+```
+
+----
+
 ### IGR
 
 ![isr](https://keynote.vercel.app/img/isr-isr.png)
+
+----
+
+```javascript
+export async function getStaticProps() {
+  const res = await fetch('https://.../posts')
+  const posts = await res.json()
+
+  return {
+    props: {
+      posts,
+    },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every second
+    revalidate: 1, // In seconds
+  }
+}
+```
 
 ----
 
@@ -67,7 +106,7 @@
 
 ----
 
-省CDN空间 + 数据变化快 + 无服务器压力 = IGR
+省CDN空间 + 数据变化快 + 无服务器压力 = ISR
 
 ----
 
