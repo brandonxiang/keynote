@@ -57,9 +57,14 @@ Service Worker 与 Web Worker 的区别
 
 <!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/pwa-chrome.png" data-background-size="contain" -->
 
+
 ---
 
-## PWA 其他三个概念
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/pwa-lifecycle.jpg" data-background-size="contain" -->
+
+---
+
+## PWA 其他概念
 
 - App Shell  优先显示 APP 的主结构，再填充主数据，更快显示更好体验
 - Push Notification 消息推送
@@ -73,6 +78,8 @@ Service Worker 与 Web Worker 的区别
 ---
 
 ## [Workbox 插件](https://developers.google.com/web/tools/workbox/)
+
+它具备 workbox-webpack-plugin
 
 - generateSW 新建 service worker 文件
 - injectManifest 已有 service worker 文件
@@ -149,3 +156,11 @@ module.exports = {
   }
 };
 ```
+
+----
+
+## 如何解决sw缓存问题
+
+https://github.com/lavas-project/sw-register-webpack-plugin
+
+----

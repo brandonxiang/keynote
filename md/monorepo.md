@@ -44,8 +44,9 @@
 
 ### monorepo的几种实现
 
-- lerna（用于写依赖性极强的库）
-- yarn workspace（用于monorepo依赖安装）
+- npm + [lerna](https://github.com/lerna/lerna) （用于写依赖性极强的库）
+- [yarn workspace](https://classic.yarnpkg.com/en/docs/cli/workspace/) + lerna（workspace依赖安装）
+- [pnpm](https://pnpm.js.org/en/) + [changesets](https://www.npmjs.com/package/@changesets/cli)
 
 
 ----
@@ -78,8 +79,7 @@ zeb-utils／
 
 #### lerna 命令
 
-
-```
+```shell
 lerna clean # 清除依赖
 lerna bootstrap # 安装依赖
 lerna publish # 统一发布
@@ -92,7 +92,7 @@ lerna run test --scope project2 # 执行project2的test命令
 
 #### yarn workspace命令
 
-```
+```shell
 yarn # 安装依赖
 yarn workspaces info # 查看包信息
 yarn workspace project2 run test # 执行project2的test命令
@@ -102,17 +102,24 @@ arn workspace project1 add lodash.debounce
 
 ----
 
+#### pnpm
+
+- [文档说明](https://pnpm.js.org/en/workspaces)
+- [用changesets发包](https://pnpm.js.org/en/using-changesets)
+
+----
+
 ### 前端依赖的构建打包
 
-- [bili]()
-- [microbundle]()
-- [rollup]()
+- [bili](https://github.com/egoist/bili)
+- [microbundle](https://github.com/developit/microbundle)
+- [rollup](https://rollupjs.org/)
 
 ----
 
 #### bili
 
-```
+```shell
 # bili是零配置的Rollup打包框架。
 bili index.js --format cjs,esm
 ```
@@ -121,7 +128,7 @@ bili index.js --format cjs,esm
 
 ### 以有仓库迁移到monorepo
 
-```
+```shell
 git subtree add --prefix=server http://...
 git subtree pull --prefix=server http://...
 ```
