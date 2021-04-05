@@ -1,4 +1,4 @@
-### 如何参与一个开源项目
+### 如何参与开源项目
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 
@@ -94,7 +94,10 @@ https://github.com/brandonxiang
 
 #### 2.3 License
 
-![](https://keynote.vercel.app/img/license.png)
+
+----
+
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/license.png" data-background-size="contain" -->
 
 ----
 
