@@ -1,6 +1,6 @@
 
 var process = require("child_process");
-const { copyFileSync } = require("fs");
+const { copyFileSync, mkdirSync } = require("fs");
 var globby = require("globby");
 
 
@@ -18,6 +18,8 @@ const buildReveal = async () => {
       console.log(`${page}.html is successfully converted!!!`);
     }
   });
+
+  mkdirSync('web/img', { recursive: true })
 
   // copyFileSync('img', 'web/img');
   const imgPaths = await globby("img/*");
