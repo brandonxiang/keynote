@@ -1,6 +1,11 @@
-### 如何参与一个开源项目
+### 如何开展一个开源项目
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
+2021年4月17日
+
+----
+
+To A Dreamer
 
 ----
 
@@ -185,8 +190,26 @@ jobs:
 
 ----
 
-#### 3.3 sponsor和backer的区别
+#### 3.3 提交一个Pull Request
+
+1. fork一份代码
+2. 修改代码（和单测用例）
+3. 发起Pull Request
+4. 被开源维护者Review（CI）
+5. 修改代码
+6. 合并PR
+
+----
+
+#### 3.4 sponsor和backer的区别
 
 - backer 定期赞助（一般是个人，量级较少）
 - sponsor 长期赞助的个人或组织
 
+----
+
+#### 开源项目的意义
+
+----
+
+是一种自我价值的体现。当代码能够被别人复用时候的自我满足感。

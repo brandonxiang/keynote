@@ -162,5 +162,9 @@ PC端复杂页面选用React，移动端页面选用Svelte
 ## Q&A
 
 
+----
+
+[svelte源码解读](https://mp.weixin.qq.com/s/nE7IRvaosnBqvFrkcNGDLA)
+
 
 
