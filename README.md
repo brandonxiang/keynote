@@ -1,12 +1,5 @@
 # keynote
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <a href="https://github.com/brandonxiang/keynote/blob/master/LICENSE">
   <img src="https://img.shields.io/github/license/brandonxiang/keynote" alt="license">
 </a>

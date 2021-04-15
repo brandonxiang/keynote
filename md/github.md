@@ -33,6 +33,8 @@ https://github.com/brandonxiang
 ### 2.1 写好项目 Readme
 
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [开源证书](https://choosealicense.com/licenses/mit/#suggest-this-license)
+- [Github 徽章](https://shields.io/)
 
 ----
 
