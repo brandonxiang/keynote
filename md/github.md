@@ -1,3 +1,8 @@
+---
+title: 如何开展一个开源项目
+revealOptions: 
+   transition: slide
+---
 ### 如何开展一个开源项目
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 

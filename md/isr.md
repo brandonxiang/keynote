@@ -1,3 +1,9 @@
+---
+title: Incremental Static Regeneration
+revealOptions: 
+   transition: slide
+---
+
 ## Incremental Static Regeneration
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

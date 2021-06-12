@@ -1,3 +1,9 @@
+---
+title: 小程序开发实战
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ## 小程序开发实战
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

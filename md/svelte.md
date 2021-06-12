@@ -1,3 +1,10 @@
+---
+title: svelte 入门
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
+
 ## svelte 入门
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

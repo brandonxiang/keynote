@@ -1,3 +1,9 @@
+---
+title: 微前端与Web Components
+revealOptions: 
+   transition: slide
+---
+
 ## 微前端与Web Components
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

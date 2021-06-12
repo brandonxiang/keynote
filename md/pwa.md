@@ -1,3 +1,10 @@
+---
+title: PWA 开发实战
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
+
 ## PWA 开发实战
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

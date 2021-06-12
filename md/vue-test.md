@@ -1,3 +1,9 @@
+---
+title: Vue单元测试
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ## Vue单元测试
 
 

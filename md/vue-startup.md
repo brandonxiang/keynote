@@ -1,3 +1,9 @@
+---
+title: Vue技术选型与Webpack入门
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ## Vue技术选型与Webpack入门
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

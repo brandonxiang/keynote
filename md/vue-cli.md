@@ -1,3 +1,9 @@
+---
+title: Vue-Cli3.0
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ## Vue-Cli3.0
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

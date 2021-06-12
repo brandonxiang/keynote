@@ -1,3 +1,10 @@
+---
+title: Vue开发规范
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
+
 ## Vue开发规范
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
