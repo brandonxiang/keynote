@@ -10,11 +10,11 @@ revealOptions:
 
 2017年6月9日
 
-----
+---
 
 ### 为什么选择vue？
 
-----
+---
 
 #### vue 与 angular
 
@@ -24,13 +24,13 @@ revealOptions:
 - ng框架重，整个设计模式具有依赖注入的思想
 - ng2断层式升级
 
-----
+---
 
 #### vue 与 react
 
 <img src="https://keynote.vercel.app/assets/switch_react_vue.jpg" width ="80%" alt="react vs vue" align=center >
 
-----
+---
 
 #### vue 与 react
 
@@ -39,7 +39,7 @@ revealOptions:
 - this 相关的奇怪行为
 - React的生态链，学习成本
 
-----
+---
 
 #### vue2.0与1.0区别
 
@@ -47,7 +47,7 @@ revealOptions:
 - 强调单向数据流，推荐vuex
 - api区别，生命周期调整
 
-----
+---
 
 #### virtual dom
 
@@ -55,7 +55,7 @@ revealOptions:
 
 来自[对 virtual-dom 的一些理解](https://zhuanlan.zhihu.com/p/25630842)
 
-----
+---
 
 #### 双向绑定
 
@@ -77,13 +77,13 @@ var app6 = new Vue({
 
 [官方demo](http://cn.vuejs.org/v2/guide/#处理用户输入)
 
-----
+---
 
 #### vuex的单向数据流
 
 <img src="https://keynote.vercel.app/assets/vuex.png" width ="70%" alt="vuex单向数据流" align=center >
 
-----
+---
 
 #### vue的选型
 
@@ -91,11 +91,11 @@ var app6 = new Vue({
 
 <img src="https://keynote.vercel.app/assets/architech.png" width ="70%" alt="vuex单向数据流" align=center >
 
-----
+---
 
 ### webpack的入门
 
-----
+---
 
 #### 横向对比
 
@@ -104,7 +104,7 @@ var app6 = new Vue({
 - rollup
 - <font color="red">prepack</font>
 
-----
+---
 
 #### 基本概念
 
@@ -113,7 +113,7 @@ var app6 = new Vue({
 - loader
 - plugin
 
-----
+---
 
 #### loader
 
@@ -123,7 +123,7 @@ var app6 = new Vue({
 - babel-loader
 - vue-loader, vux-loader
 
-----
+---
 
 #### 举个栗子
 
@@ -147,7 +147,7 @@ export default{
 
 [另一种写法](https://github.com/vuejs/vue/blob/dev/test/unit/features/component/component-scoped-slot.spec.js)
 
-----
+---
 
 #### plugin
 
@@ -158,7 +158,7 @@ export default{
 
 ...
 
-----
+---
 
 #### 多页面打包
 
@@ -183,7 +183,7 @@ exports.getEntries = function (globPath) {
 utils.getEntries('./src/module/**/*.js')
 ```
 
-----
+---
 
 #### 多页面打包
 
@@ -191,7 +191,7 @@ utils.getEntries('./src/module/**/*.js')
 - 多个html入口（基于HtmlWebpackPlugin）
 - 单元测试调整
 
-----
+---
 
 #### 多页面打包脚手架
 
@@ -201,7 +201,7 @@ utils.getEntries('./src/module/**/*.js')
 vue init PaicFE/vue-multi my-project
 ```
 
-----
+---
 
 ### 项目构建优化
 
@@ -226,7 +226,7 @@ vue init PaicFE/vue-multi my-project
 https://www.zhihu.com/question/32189846/answer/178741713
 ```
 
-----
+---
 
 ##### 性能优化
 
@@ -237,7 +237,7 @@ https://www.zhihu.com/question/32189846/answer/178741713
 - Cache(pwa)
 - 预加载／延后加载
 
-----
+---
 
 ### Q&A
 

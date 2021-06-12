@@ -11,7 +11,7 @@ revealOptions:
 
 2019年8月16日
 
-----
+---
 
 #### svelte的背景
 
@@ -19,13 +19,13 @@ revealOptions:
 
 著名框架有[Rollup](https://github.com/rollup/rollup)，[Ractive.js](https://ractive.js.org/)。
 
-----
+---
 
 #### [svelte的官方介绍](https://github.com/sveltejs/svelte)
 
 > It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
 
-----
+---
 
 #### svelte的特点
 
@@ -34,17 +34,17 @@ revealOptions:
 - 接近Vallina js
 - 极小Runtime
 
-----
+---
 
 ## 为什么我们需要前端框架？
 
-----
+---
 
 - 组件化
 - 数据流
 - webcomponent还未成熟
 
-----
+---
 
 #### 组件化
 
@@ -69,7 +69,7 @@ revealOptions:
 [栗子一组件化](https://svelte.dev/examples#declaring-props)
 </font>
 
-----
+---
 
 #### 数据绑定
 
@@ -89,15 +89,15 @@ revealOptions:
 [栗子二双向绑定](https://svelte.dev/repl/embed?example=blog-write-less-code)
 </font>
 
-----
+---
 
 <!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/vueReact.png" data-background-size="contain" -->
 
-----
+---
 
 ## 我们真的需要virtual dom吗？
 
-----
+---
 
 ### H5动画
 
@@ -105,20 +105,20 @@ revealOptions:
 - css3
 - svg
 
-----
+---
 
 <font size="6">
 [栗子三SVG动画](https://svelte.dev/examples#clock)
 </font>
 
-----
+---
 
 #### svelte源码
 
 - compiler
 - runtime
 
-----
+---
 
 #### svelte 编译时
 
@@ -141,7 +141,7 @@ const {
 });
 ```
 
-----
+---
 
 #### svelte 运行时
 
@@ -149,7 +149,7 @@ const {
 [栗子四运行时](https://svelte.dev/repl/hello-world?version=3.7.1)
 </font>
 
-----
+---
 
 #### 技术选型
 
@@ -158,18 +158,18 @@ const {
 PC端复杂页面选用React，移动端页面选用Svelte
 <font size="6">(图片来自尤雨溪JSConf)</font>
 
-----
+---
 
 #### benchmark
 
 ![](https://keynote.vercel.app/assets/benchmark.png)
 
-----
+---
 
 ## Q&A
 
 
-----
+---
 
 [svelte源码解读](https://mp.weixin.qq.com/s/nE7IRvaosnBqvFrkcNGDLA)
 

@@ -164,10 +164,10 @@ module.exports = {
 };
 ```
 
-----
+---
 
 ## 如何解决sw缓存问题
 
 https://github.com/lavas-project/sw-register-webpack-plugin
 
-----
+---

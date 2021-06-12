@@ -11,7 +11,7 @@ revealOptions:
 
 2017年10月12日
 
-----
+---
 
 #### 目录
 
@@ -23,7 +23,7 @@ revealOptions:
 - Css规范
 - 自动化测试
 
-----
+---
 
 ### 历史问题
 
@@ -31,7 +31,7 @@ revealOptions:
 2. vuex结构的问题
 3. 单页面的内存问题
 
-----
+---
 
 #### 双层路由的问题
 
@@ -39,11 +39,11 @@ revealOptions:
 
 ![旧新路由module内项目结构](https://keynote.vercel.app/assets/router.jpg)
 
-----
+---
 
 <img alt="双层路由" src="https://keynote.vercel.app/assets/double-router.png" width="60%">
 
-----
+---
 
 #### vuex结构的问题
 
@@ -51,7 +51,7 @@ revealOptions:
 
 ![vue与vuex之间的关系](https://keynote.vercel.app/assets/vue-architecture.png)
 
-----
+---
 
 ### 整体介绍
 
@@ -62,7 +62,7 @@ revealOptions:
 - 模拟数据
 - 服务端渲染SSR
 
-----
+---
 
 ### 多页面
 
@@ -81,7 +81,7 @@ $ npm run build
 ```
 
 
-----
+---
 
 ### DLL打包
 
@@ -98,7 +98,7 @@ entry: {
 },
 ```
 
-----
+---
 
 #### 按需打包
 
@@ -117,7 +117,7 @@ blackList: ['project1', 'project2', 'project3']
 npm run build project1 project2
 ```
 
-----
+---
 
 #### Vue组件规范
 
@@ -137,7 +137,7 @@ npm run build project1 project2
 
 </small>
 
-----
+---
 
 <font color="red">[强制] 组件props属性需要进行类型强校验（适当default，required）</font>
 
@@ -158,7 +158,7 @@ npm run build project1 project2
 
 #### <font color="red">[强制] GET请求尽量写在页面级别的组件内</font>
 
-----
+---
 
 #### [建议] vuex的目录结构按照分开的目录
 
@@ -168,7 +168,7 @@ npm run build project1 project2
 
 #### [建议] 复杂的请求可以梳理在api文件中，通过promise串联在一起
 
-----
+---
 
 #### <font color="red">[强制] 指令中的事件在销毁的时候把事件回收</font>
 
@@ -185,7 +185,7 @@ export default {
 
 #### [建议] 如果Webapp经常互相切换页面，使用keep-alive组件
 
-----
+---
 
 #### 公共组件库
 
@@ -203,7 +203,7 @@ export default {
 
 </small>
 
-----
+---
 
 #### [推荐] 为了保证开发效率，可以在`webpack.base.config.js`关闭eslint的强制检验，所需的步骤如下
 
@@ -220,7 +220,7 @@ export default {
 ```
 #### [推荐] 打开编辑器的检查提示功能
 
-----
+---
 
 #### HTML(TEMPLATE)编码规范
 
@@ -248,7 +248,7 @@ export default {
 
 <small>[官方camelCase vs. kebab-case](https://cn.vuejs.org/v2/guide/components.html#camelCase-vs-kebab-case)</small>
 
-----
+---
 
 
 
@@ -271,7 +271,7 @@ export default {
 ```
 #### [建议] 移动端尽量使用HTML5语意化标签，如`acticle`，`header`等，PC端尽量不用
 
-----
+---
 
 #### JavaScript（script）编码规范
 
@@ -290,7 +290,7 @@ b = 2；
 
 <small>这里还有一点，var会造成变量提升或者全局污染等“危险行为”</small>
 
-----
+---
 
 #### <font color="red">[强制] 字符串拼接</font>
 
@@ -306,7 +306,7 @@ const word = '你的得分是' + score;
 
 #### <font color="red">[强制] 字符串开头和结束使用单引号 `'`</font>
 
-----
+---
 
 #### <font color="red">[强制] 解构</font>
 
@@ -335,7 +335,7 @@ function demo(productData) {
 }
 ```
 
-----
+---
 
 #### <font color="red">[强制] 方法默认函数</font>
 
@@ -351,7 +351,7 @@ function demo(productName){
 }
 ```
 
-----
+---
 
 #### <font color="red">[强制] 采用数组，对象的扩展写法</font>
 
@@ -365,7 +365,7 @@ a.some()
 a.every()
 ```
 
-----
+---
 
 #### <font color="red">[强制] promise异步编程，采用链式写法</font>
 
@@ -388,7 +388,7 @@ promise.then(function(value) {
 });
 ```
 
-----
+---
 
 #### CSS（STYLE）编码规范
 
@@ -401,13 +401,13 @@ promise.then(function(value) {
 </style>
 ```
 
-----
+---
 
 #### <font color="red">[强制] 引入SCSS时，不要在JS端`import "reset.scss"`，要在组件内`@import "reset.scss"`</font>
 
 #### [建议] 重置样式或者全局样式放在外层App.vue，不建议在main.js直接引入
 
-----
+---
 
 #### [建议] postcss的autoprefixer配置根据项目而定，PC端采用默认的配置
 
@@ -428,7 +428,7 @@ promise.then(function(value) {
 }
 ```
 
-----
+---
 
 #### [强制] 减少使用嵌套选择器和组合选择器，嵌套不能超过三层
 
@@ -442,7 +442,7 @@ promise.then(function(value) {
 }
 ```
 
-----
+---
 
 #### BEM
 
@@ -453,11 +453,11 @@ BEM是**Block，Element，Modifier**的缩写
 * .block--modifier{}
 * .block__element--modifier{}
 
-----
+---
 
 ![BEM](https://keynote.vercel.app/assets/Definitions-BEM-5.jpg)
 
-----
+---
 
 #### 使用scss写BEM
 
@@ -487,7 +487,7 @@ BEM是**Block，Element，Modifier**的缩写
 }
 ```
 
-----
+---
 
 #### 自动化测试
 
@@ -498,15 +498,15 @@ BEM是**Block，Element，Modifier**的缩写
   - Mocha
   - Chai
 
-----
+---
 
 ## Q&A
 
-----
+---
 
 ## One More Thing
 
-----
+---
 
 ## [RubyLouvre/anu](https://github.com/RubyLouvre/anu)
 

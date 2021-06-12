@@ -8,7 +8,7 @@ revealOptions:
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
-----
+---
 
 #### 样式问题
 
@@ -17,7 +17,7 @@ revealOptions:
 - iphonex适配
 
 
-----
+---
 
 <h5>宽度设置width: 360</h5>
 <div
@@ -28,7 +28,7 @@ style="width: 75vw;height: 80vh;display: flex;align-items: center;justify-conten
 <img src='https://keynote.vercel.app/assets/android-rn.png' style="width: 300px"/>
 </div>
 
-----
+---
 
 #### 适配不同机型
 
@@ -45,7 +45,7 @@ export function scaleSize(size: number): number {
 
 ```
 
-----
+---
 
 #### 1px的问题
 
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 
 ```
 
-----
+---
 
 #### iphonex适配问题
 
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-----
+---
 
 ## react-navigation
 
@@ -87,16 +87,16 @@ const styles = StyleSheet.create({
 - drawerNavigator
 - tabNavigator
 
-----
+---
 
 
 <img src="https://keynote.vercel.app/assets/switchNavigator.png" style="width: 90vw">
 
-----
+---
 
 <img src="https://keynote.vercel.app/assets/authLoading.png" style="width: 70vw">
 
-----
+---
 
 ## expo
 
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
 - expo SDK
 - 部署workflow
 
-----
+---
 
 <div
 style="
@@ -118,25 +118,25 @@ style="
 <img src='https://d30j33t1r58ioz.cloudfront.net/static/images/expo-client-iphone.png'>
 </div>
 
-----
+---
 
 #### 集成开发环境
 
 | expo          | react-native-cli  |
-| ------------- | -------------     | 
+| --------- | ----------     | 
 | 没有ios和android文件夹 | 有ios和android文件夹 |
 | 可以expo client调试 | 调试较为麻烦 |
 | 自带native环境（可eject） |  需要自行配置  |
 | 有发布工作流 | 需要自行打包和热更新的机制 |
 
-----
+---
 
 #### 扫二维码进入调试
 
 - ios利用原生相机扫码进入
 - android的expo提供扫码功能
 
-----
+---
 
 #### debug
 
@@ -147,7 +147,7 @@ style="
 - 呼出 development mode的方法
 - 打开`http://localhost:19001/debugger-ui`断点调试
 
-----
+---
 
 #### 部署workflow
 
@@ -158,7 +158,7 @@ style="
 ###### [updates参考文档](https://docs.expo.io/versions/latest/sdk/updates/#__next)
 
 
-----
+---
 
 #### expo-SDK
 
@@ -171,7 +171,7 @@ style="
 ..
 - 在非expo项目，如果需要以上库，native要额外引入
 
-----
+---
 
 #### 题外话 RN动画
 
@@ -196,6 +196,6 @@ let colorUsername = this.state.fadeUsername.interpolate({
 <Animated.View style={{backgroundColor: colorUsername}}>
 ```
 
-----
+---
 
 ## Q&A
