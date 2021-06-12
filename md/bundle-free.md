@@ -1,3 +1,8 @@
+---
+title: ESM Import & Bundle Free
+revealOptions: 
+   transition: slide
+---
 ## ESM Import & Bundle Free
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
@@ -121,7 +126,9 @@ export default function plus (a, b) {
 
 ----
 
-> snowpack和vite主要将bundle-free用在开发模式，生产模式还是以bundle为主（或提供选择）
+snowpack和vite主要将bundle-free用在开发模式
+
+生产模式还是以bundle为主（或提供选择）
 
 
 ----

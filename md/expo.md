@@ -1,3 +1,9 @@
+---
+title: react-navigation和expo的应用
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ### react-navigation和expo的应用
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)

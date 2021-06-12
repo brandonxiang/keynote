@@ -1,0 +1,7 @@
+{
+  "title": "Brandon'Keynote",
+  "theme": "solarized",
+  "highlightTheme": "github",
+  "staticDirs": "assets",
+  "css": "styles/index.css"
+}

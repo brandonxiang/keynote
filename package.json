@@ -4,9 +4,9 @@
   "description": "Tech Sharing keynote",
   "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
-    "dev": "reveal-md md -w --static-dirs assets --highlight-theme github",
+    "dev": "reveal-md md -w",
     "build": "npm run build:reveal && npm run sw",
-    "build:reveal":"reveal-md md --static dist --static-dirs assets --title BrandonXIANG --scripts ./build/use-sw.js",
+    "build:reveal":"reveal-md md --static dist --scripts ./build/use-sw.js",
     "sw": "workbox generateSW"
   },
   "author": {
@@ -22,7 +22,6 @@
     "node": ">=12.0.0"
   },
   "devDependencies": {
-    "globby": "^9.2.0",
     "reveal-md": "^5.1.1",
     "workbox-cli": "^5.1.4"
   },

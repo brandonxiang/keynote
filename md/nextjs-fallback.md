@@ -1,3 +1,10 @@
+---
+title: 使用Next.js实现优雅降级
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
+
 ### 使用Next.js实现优雅降级
 
 项伟平
@@ -21,22 +28,30 @@ Note: test note
 
 ---
 
+<section style="text-align: left">
+
 #### 从服务端获取数据
 
 getInitialProps 服务端获取数据
 
-被拆分为：
+
+
+**被拆分为：**
+
+
 
 - getServerSideProps（服务端渲染）
 - getStaticProps（静态直出）
 
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
+</section>
 
 ---
 
 #### 如何实现一套逻辑同时满足两种渲染机制？
 
 ---
+
+<section style="text-align: left">
 
 #### 自定义一个getPrerenderProps
 
@@ -55,6 +70,8 @@ export const getPrerenderProps =  async (ctx) => {
 - index.js SSR模式
 - index_ssg.js SSG模式
 - index_csr.js CSR模式
+
+</section>
 
 ---
 
@@ -136,6 +153,7 @@ const _limits =  (ctx?.query?._limits) || process.env.limits || 0;
 csr和ssr可以动态注入参数，ssg只能环境变量注入
 
 ---
+<section style="text-align:left">
 
 #### 如何将SSR降级成为CSR
 
@@ -143,7 +161,9 @@ SSR服务端渲染由于是依赖服务器资源，在流量过大的情况下�
 
 利用 nginx 做对应的流量分发，当SSR页面返回异常错误的时候，nginx会将流量导入到CSR页面当中。
 
-<img src='https://keynote.vercel.app/assets/ssr-fallback.png'>
+<img class="r-stretch" src='https://keynote.vercel.app/assets/ssr-fallback.png'>
+
+</section>
 
 ---
 
