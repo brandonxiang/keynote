@@ -23,7 +23,7 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-<!-- .slide: data-background-image="https://keynote.vercel.app/img/weapp.jpg" data-background-size="contain" -->
+<!-- .slide: data-background-image="https://keynote.vercel.app/assets/weapp.jpg" data-background-size="contain" -->
 
 ----
 
@@ -84,7 +84,7 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/mina-lifecycle.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/mina-lifecycle.png" data-background-size="contain" -->
 
 ----
 
@@ -121,7 +121,7 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/weapp-native.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/weapp-native.png" data-background-size="contain" -->
 
 ----
 
@@ -134,7 +134,7 @@ document.getElementById('app').style.height= '100px'
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/unionid.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/unionid.png" data-background-size="contain" -->
 
 
 
@@ -148,15 +148,15 @@ document.getElementById('app').style.height= '100px'
 
 腾讯云开发，serverless架构
 
-![云开发](https://keynote.vercel.app/img/cloud-develop.png)
+![云开发](https://keynote.vercel.app/assets/cloud-develop.png)
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/serverless.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/serverless.png" data-background-size="contain" -->
 
 ----
 
-<!-- .slide:  data-background-image="https://keynote.vercel.app/img/faas.png" data-background-size="contain" -->
+<!-- .slide:  data-background-image="https://keynote.vercel.app/assets/faas.png" data-background-size="contain" -->
 
 ----
 

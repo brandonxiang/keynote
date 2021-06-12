@@ -51,11 +51,11 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/wc.png" data-background-size="contain" -->
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/vue-wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/vue-wc.png" data-background-size="contain" -->
 
 ----
 
@@ -70,8 +70,8 @@
 
 ----
 
-<img src="https://keynote.vercel.app/img/monolith.png" alt="单一前端" width="60%">
-<img src="https://keynote.vercel.app/img/microfrontend.png" alt="微前端" width="60%">
+<img src="https://keynote.vercel.app/assets/monolith.png" alt="单一前端" width="60%">
+<img src="https://keynote.vercel.app/assets/microfrontend.png" alt="微前端" width="60%">
 
 ----
 
@@ -117,13 +117,13 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/microFrontendSample.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/microFrontendSample.png" data-background-size="contain" -->
 
 ----
 
 ##### 子系统分发（图片来自phodal）
 
-<img src="https://keynote.vercel.app/img/mooa.jpg" width="60%">
+<img src="https://keynote.vercel.app/assets/mooa.jpg" width="60%">
 
 ----
 

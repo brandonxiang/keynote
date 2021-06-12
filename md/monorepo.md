@@ -53,7 +53,7 @@
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/lerna-multiwebpack.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/assets/lerna-multiwebpack.png" data-background-size="contain" -->
 
 ----
 

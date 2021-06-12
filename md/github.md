@@ -101,7 +101,7 @@ https://github.com/brandonxiang
 
 #### 2.3 License
 
-![](https://keynote.vercel.app/img/license.png)
+![](https://keynote.vercel.app/assets/license.png)
 
 ----
 
@@ -166,7 +166,7 @@ jobs:
 
 ### 2.7 github project
 
-![](https://keynote.vercel.app/img/github-project.png)
+![](https://keynote.vercel.app/assets/github-project.png)
 
 ----
 
