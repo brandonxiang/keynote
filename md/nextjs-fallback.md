@@ -1,10 +1,10 @@
-#### 使用Next.js实现优雅降级
+### 使用Next.js实现优雅降级
 
 项伟平
 
 ---
 
-## Next.js
+#### Next.js
 
 - 📝 **SSR** - Server Side Rendering
 - 🎨 **SSG** - Static Site Generation
@@ -21,7 +21,7 @@ Note: test note
 
 ---
 
-### 从服务端获取数据
+#### 从服务端获取数据
 
 getInitialProps 服务端获取数据
 
@@ -34,11 +34,11 @@ getInitialProps 服务端获取数据
 
 ---
 
-## 如何实现一套逻辑同时满足两种渲染机制？
+#### 如何实现一套逻辑同时满足两种渲染机制？
 
 ---
 
-### 自定义一个getPrerenderProps
+#### 自定义一个getPrerenderProps
 
 ```javascript
 export const getPrerenderProps =  async (ctx) => {
@@ -58,7 +58,7 @@ export const getPrerenderProps =  async (ctx) => {
 
 ---
 
-## 页面逻辑
+#### 页面逻辑
 
 ```javascript
 function Home({ photos }) {
@@ -81,7 +81,7 @@ export const Page = Home;
 
 ---
 
-## SSR模式
+#### SSR模式
 
 ```javascript
 export { 
@@ -92,7 +92,7 @@ export {
 
 ---
 
-## SSG模式
+#### SSG模式
 
 ```javascript
 export { 
@@ -102,7 +102,7 @@ export {
 ```
 ---
 
-## CSR模式
+#### CSR模式
 
 ```javascript
 import {Page, getPrerenderProps} from '../modules/Home';
@@ -127,7 +127,7 @@ export default CSR;
 
 ---
 
-## 参数注入
+#### 参数注入
 
 ```javascript
 const _limits =  (ctx?.query?._limits) || process.env.limits || 0;
@@ -137,7 +137,7 @@ csr和ssr可以动态注入参数，ssg只能环境变量注入
 
 ---
 
-## 如何将SSR降级成为CSR
+#### 如何将SSR降级成为CSR
 
 SSR服务端渲染由于是依赖服务器资源，在流量过大的情况下，有可能会出现服务不可用的情况，返回特殊的错误码例如500等。
 
@@ -147,7 +147,7 @@ SSR服务端渲染由于是依赖服务器资源，在流量过大的情况下�
 
 ---
 
-## 优点
+#### 优点
 
 - 保证页面高效渲染的同时，不用担心服务可用性问题
 - 有效保证页面逻辑的一致性，一份代码两端复用
@@ -156,7 +156,7 @@ SSR服务端渲染由于是依赖服务器资源，在流量过大的情况下�
 
 ---
 
-## 未来规划
+#### 未来规划
 
 - 怎么实现多路由的多种渲染方式
 - 部署流程的落地
@@ -164,7 +164,7 @@ SSR服务端渲染由于是依赖服务器资源，在流量过大的情况下�
 
 ---
 
-## Q&A
+#### Q&A
 
 Thanks for Listening
 
