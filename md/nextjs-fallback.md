@@ -161,7 +161,7 @@ SSR服务端渲染由于是依赖服务器资源，在流量过大的情况下�
 
 利用 nginx 做对应的流量分发，当SSR页面返回异常错误的时候，nginx会将流量导入到CSR页面当中。
 
-<img class="r-stretch" src='https://keynote.vercel.app/assets/ssr-fallback.png'>
+<img class="r-stretch" src='https://keynote.vercel.app/public/img/ssr-fallback.png'>
 
 </section>
 
