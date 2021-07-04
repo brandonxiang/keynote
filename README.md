@@ -1,12 +1,5 @@
 # keynote
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <a href="https://github.com/brandonxiang/keynote/blob/master/LICENSE">
   <img src="https://img.shields.io/github/license/brandonxiang/keynote" alt="license">
 </a>
@@ -27,12 +20,10 @@ Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.j
 
 ## 开发
 
-全局安装[reveal-md](https://github.com/webpro/reveal-md)，图片请放在copy-img中，指定的打包页面需要配置在build.js中。
-
-建议使用cnpm安装，注意reveal-md只能停在2.4.1版本。
+基于最新版本[reveal-md](https://github.com/webpro/reveal-md)，图片请放在assets中。
 
 ```shell
-sudo cnpm i
+sudo pnpm i
 npm run dev
 ```
 

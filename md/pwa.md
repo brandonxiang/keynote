@@ -1,3 +1,10 @@
+---
+title: PWA 开发实战
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
+
 ## PWA 开发实战
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
@@ -157,10 +164,10 @@ module.exports = {
 };
 ```
 
-----
+---
 
 ## 如何解决sw缓存问题
 
 https://github.com/lavas-project/sw-register-webpack-plugin
 
-----
+---

@@ -1,3 +1,9 @@
+---
+title: Vue单元测试
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ## Vue单元测试
 
 
@@ -5,22 +11,22 @@
 
 2017年11月8日
 
-----
+---
 
 ![qrcode](https://keynote.vercel.app/public/img/qrcode.jpeg)
 
 
 https://github.com/brandonxiang
 
-----
+---
 
 **为什么需要自动化测试？**
 
-----
+---
 
 **什么是持续集成？它和持续部署有什么区别？**
 
-----
+---
 
 > <small>持续集成的目的，就是让产品可以快速迭代，同时还能保持高质量。它的核心措施是，代码集成到主干之前，必须通过自动化测试。只要有一个测试用例失败，就不能集成。
 
@@ -28,7 +34,7 @@ https://github.com/brandonxiang
 
 ![持续交付和持续部署](https://keynote.vercel.app/public/img/bg2015092302.jpg)
 
-----
+---
 
 Confidence to Change / Removal of Fear +
 High Code Quality +
@@ -37,21 +43,21 @@ Well-Documented Code =
 
 > [great presentation by Matt O'Connell](http://slides.com/mattoconnell/deck#/)
 
-----
+---
 
 #### Vue官方单元测试
 
 - e2e测试（NightWatch）
 - 单元测试（Karma）
 
-----
+---
 
 #### e2e测试（NightWatch）
 
 - [NightWatch](https://github.com/nightwatchjs/nightwatch) + ChromeDriver（Phantomjs）
 - [puppeteer](GoogleChrome/puppeteer) + [chromeless](https://github.com/graphcool/chromeless)
 
-----
+---
 
 ```
 module.exports = {
@@ -71,13 +77,13 @@ module.exports = {
 
 <small>常用使用场景：自动填报表单</small>
 
-----
+---
 
 #### 单元测试（Karma）
 
 ![vue单元测试](https://keynote.vercel.app/public/img/karma.png)
 
-----
+---
 
 <small>karma是一个专门的测试运行器（runner），它不是一个测试框架框架，也不是以一个断言库，是一个平台</small>
 
@@ -88,7 +94,7 @@ module.exports = {
 - [karma-phantomjs-launcher](https://github.com/karma-runner/karma-phantomjs-launcher) 控制PhantomJS
 - [karma-phantomjs-shim](https://github.com/tschaub/karma-phantomjs-shim) 给PhantomJS兼容的控制
 
-----
+---
 
 #### Mocha
 
@@ -100,7 +106,7 @@ module.exports = {
    - [better-assert](https://github.com/visionmedia/better-assert)
    - [unexpected](http://unexpected.js.org/)
 
-----
+---
 
 #### Mocha语法
 
@@ -121,7 +127,7 @@ describe('Hello.vue', () => {
 
 <small>测试用例写在specs（specifications）文件底下</small>
 
-----
+---
 
 #### Chai语法
 
@@ -136,7 +142,7 @@ expect(foo).to.have.lengthOf(3);
 expect(beverages).to.have.property('tea').with.lengthOf(3);
 ```
 
-----
+---
 
 #### vue-test-utils
 
@@ -146,7 +152,7 @@ expect(beverages).to.have.property('tea').with.lengthOf(3);
 - Shallow 只挂载一个组件而不渲染其子组件
 - mount 返回第一个 DOM 节点或匹配选择器的 Vue 组件
 
-----
+---
 
 ### 使用方法
 
@@ -167,7 +173,7 @@ describe('Foo', () => {
 })
 ```
 
-----
+---
 
 #### 和Getters一起使用
 
@@ -209,7 +215,7 @@ describe('Getters.vue', () => {
 })
 ```
 
-----
+---
 
 Q&A
 

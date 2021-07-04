@@ -1,10 +1,15 @@
+---
+title: ESM Import & Bundle Free
+revealOptions: 
+   transition: slide
+---
 ## ESM Import & Bundle Free
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2020年8月14日
 
-----
+---
 
 ### 目录
 
@@ -12,11 +17,11 @@
 - Bundle Free 是什么？
 - 对未来web前端的畅想
 
-----
+---
 
 ### ES Module Import 是什么？
 
-----
+---
 
 ```javascript
 // index.js
@@ -34,13 +39,13 @@ export default function plus (a, b) {
 </script>
 ```
 
-----
+---
 <!-- .slide: data-background="white" -->
 ### Network Waterfall
 
 <img src="https://keynote.vercel.app/public/img/bundle-free-waterfall-1.png" width="100%">
 
-----
+---
 
 <!-- .slide: data-background="white" -->
 ### What we expect
@@ -48,7 +53,7 @@ export default function plus (a, b) {
 <img src="https://keynote.vercel.app/public/img/bundle-free-waterfall-2.png" width="60%">
 
 
-----
+---
 
 ### es module preload
 
@@ -57,18 +62,18 @@ export default function plus (a, b) {
 <link rel="modulepreload" href="lib.js">
 <script type="module" src="./app.js"></script>
 ```
-----
+---
 
 ### preact在es module import的使用
 
 [htm example](https://github.com/developit/htm#example)
 
-----
+---
 
 <!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/ess -module.png" data-background-size="contain" -->
 
 
-----
+---
 
 ### 兼容性解决方案
 
@@ -77,7 +82,7 @@ export default function plus (a, b) {
 <script nomodule src="fallback.js"></script>
 ```
 
-----
+---
 
 ### polyfill--dimport
 
@@ -89,17 +94,17 @@ export default function plus (a, b) {
 <script type="nomodule" src="https://unpkg.com/dimport/nomodule" data-main="/bundle.js"></script>
 ```
 
-----
+---
 
 
 ### Bundle Free（No Bundle）是什么？
 
 
-----
+---
 
 <!-- .slide: data-background="black" data-background-image="https://keynote.vercel.app/public/img/vite-twitter.jpeg" data-background-size="contain" -->
 
-----
+---
 
 ## Bundle Free 解决方案
 
@@ -107,7 +112,7 @@ export default function plus (a, b) {
 - [vite](https://github.com/vitejs/vite) 方案
 
 
-----
+---
 
 ## O(1) file builds.
 
@@ -115,16 +120,18 @@ export default function plus (a, b) {
 - Snowpack is an O(1) build system.
 
 
-----
+---
 
 ![](_assets/public/img/snowpack-unbundled-example-3.png)
 
-----
+---
 
-> snowpack和vite主要将bundle-free用在开发模式，生产模式还是以bundle为主（或提供选择）
+snowpack和vite主要将bundle-free用在开发模式
+
+生产模式还是以bundle为主（或提供选择）
 
 
-----
+---
 
 
 ## 优点
@@ -135,7 +142,7 @@ export default function plus (a, b) {
 - 与deno的ESM Import契合
 - 依赖清晰
 
-----
+---
 
 ## 缺点
 
@@ -145,22 +152,22 @@ export default function plus (a, b) {
 - 开发与生产的不一致性
 
 
-----
+---
 
 ## 对未来web前端的畅想
 
-----
+---
 
 ![Third Age of JavaScript](https://keynote.vercel.app/public/img/javascript_third.png)
 
 
-----
+---
 
 - 第一阶段：Jquery时代（直接依赖）
 - 第二阶段：前端工程化（打包依赖）
 - 第三阶段：Bundle Free？（混合依赖）
 
-----
+---
 
 ### 参考资料
 

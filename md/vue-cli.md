@@ -1,10 +1,16 @@
+---
+title: Vue-Cli3.0
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
 ## Vue-Cli3.0
 
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 
 2018年10月18日
 
-----
+---
 
 ## 1 回顾Vue-cli2.9.6
 
@@ -15,7 +21,7 @@ npm install -g vue-cli
 vue init webpack .
 ```
 
-----
+---
 
 ### 问题一
 
@@ -24,13 +30,13 @@ vue init webpack .
 - webpack.prod.config.js
 - <font color=#FF0000>webpack.test.config.js</font>
 
-----
+---
 
 ### 问题二
 
 webpack的*loader*和*plugin*的区别
 
-----
+---
 
 ## 2 Vue-cli3.0的入门 
 
@@ -43,7 +49,7 @@ webpack的*loader*和*plugin*的区别
 npm install -g @vue/cli
 vue create .
 ```
-----
+---
 
 #### 2.2 兼容2.0模版
 
@@ -52,20 +58,20 @@ npm install -g @vue/cli-init
 vue init webpack .
 ```
 
-----
+---
 
 #### 2.3 配置文件
 
 > <font size=5>Vue 3.0支持是否拆分配置文件</font>
 
 2.0框架 | 3.0框架
----- | ----
+--- | ---
 webpack.config.js | vue.config.js
 babelrc.js | babel.config.js
 postcssrc.js |
 eslintrc.js | 
 
-----
+---
 
 #### 2.4 多页面的支持
 
@@ -97,7 +103,7 @@ module.exports = {
 }
 ```
 
-----
+---
 
 
 #### 2.4 多页面的支持
@@ -113,7 +119,7 @@ module.exports = {
 }
 ```
 
-----
+---
 
 
 #### 2.5 插件
@@ -126,7 +132,7 @@ module.exports = {
 - 易安装
 - 便于更新
 
-----
+---
 
 #### 举例
 
@@ -136,7 +142,7 @@ module.exports = {
 vue add @vue/pwa
 ```
 
-----
+---
 
 #### 2.6 webpack相关(举例一)
 
@@ -151,7 +157,7 @@ module.exports = {
 }
 ```
 
-----
+---
 
 #### 2.6 webpack相关(举例二)
 
@@ -167,13 +173,13 @@ module.exports = {
 
 }
 ```
-----
+---
 
 #### 2.7 vue-ui
 
 ![vue-ui](https://keynote.vercel.app/public/img/vue-ui.png)
 
-----
+---
 
 #### 2.7 vue-ui
 
@@ -183,11 +189,11 @@ module.exports = {
 - 配置（vue Cli，ESLINT，PWA）
 - 任务（npm script）
 
-----
+---
 
 ## 3 case study
 
-----
+---
 
 ## 4 总结
 
@@ -200,7 +206,7 @@ module.exports = {
   - vue-ui
 - case study
 
-----
+---
 
 
 #### 问题
