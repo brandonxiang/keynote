@@ -33,13 +33,13 @@
 
 ### SSG
 
-![isr-ssg](https://keynote.vercel.app/img/isr-ssg.png)
+![isr-ssg](https://keynote.vercel.app/public/img/isr-ssg.png)
 
 ----
 
 ### SSG(improved)
 
-![isr-ssg-improved](https://keynote.vercel.app/img/isr-ssg-improved.png)
+![isr-ssg-improved](https://keynote.vercel.app/public/img/isr-ssg-improved.png)
 
 ----
 
@@ -63,7 +63,7 @@ export async function getStaticProps(context) {
 
 ### SSR
 
-![ssr](https://keynote.vercel.app/img/isr-ssr.png)
+![ssr](https://keynote.vercel.app/public/img/isr-ssr.png)
 
 ----
 
@@ -79,7 +79,7 @@ export async function getServerSideProps(context) {
 
 ### ISR
 
-![isr](https://keynote.vercel.app/img/isr-isr.png)
+![isr](https://keynote.vercel.app/public/img/isr-isr.png)
 
 ----
 
@@ -102,7 +102,7 @@ export async function getStaticProps() {
 
 ----
 
-![isr-comparison](https://keynote.vercel.app/img/isr-comparison.png)
+![isr-comparison](https://keynote.vercel.app/public/img/isr-comparison.png)
 
 ----
 

@@ -38,14 +38,14 @@ export default function plus (a, b) {
 <!-- .slide: data-background="white" -->
 ### Network Waterfall
 
-<img src="https://keynote.vercel.app/img/bundle-free-waterfall-1.png" width="100%">
+<img src="https://keynote.vercel.app/public/img/bundle-free-waterfall-1.png" width="100%">
 
 ----
 
 <!-- .slide: data-background="white" -->
 ### What we expect
 
-<img src="https://keynote.vercel.app/img/bundle-free-waterfall-2.png" width="60%">
+<img src="https://keynote.vercel.app/public/img/bundle-free-waterfall-2.png" width="60%">
 
 
 ----
@@ -65,7 +65,7 @@ export default function plus (a, b) {
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/img/es-module.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/ess -module.png" data-background-size="contain" -->
 
 
 ----
@@ -97,7 +97,7 @@ export default function plus (a, b) {
 
 ----
 
-<!-- .slide: data-background="black" data-background-image="https://keynote.vercel.app/img/vite-twitter.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background="black" data-background-image="https://keynote.vercel.app/public/img/vite-twitter.jpeg" data-background-size="contain" -->
 
 ----
 
@@ -117,7 +117,7 @@ export default function plus (a, b) {
 
 ----
 
-![](https://keynote.vercel.app/img/snowpack-unbundled-example-3.png)
+![](_assets/public/img/snowpack-unbundled-example-3.png)
 
 ----
 
@@ -151,7 +151,7 @@ export default function plus (a, b) {
 
 ----
 
-![Third Age of JavaScript](https://keynote.vercel.app/img/javascript_third.png)
+![Third Age of JavaScript](https://keynote.vercel.app/public/img/javascript_third.png)
 
 
 ----
