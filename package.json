@@ -5,10 +5,10 @@
   "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
     "dev": "npm-run-all --parallel dev:svelte dev:reveal",
-    "dev:svelte": "svelteup -w",
+    "dev:svelte": "svelteup -o scripts/dist -w",
     "dev:reveal": "reveal-md md -w",
     "build": "npm run build:svelte && npm run build:reveal && npm run sw",
-    "build:svelte": "svelteup",
+    "build:svelte": "svelteup -o scripts/dist",
     "build:reveal": "reveal-md md --static dist",
     "sw": "workbox generateSW"
   },

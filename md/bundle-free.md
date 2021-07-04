@@ -122,7 +122,7 @@ export default function plus (a, b) {
 
 ---
 
-![](_assets/public/img/snowpack-unbundled-example-3.png)
+![](https://keynote.vercel.app/public/img/snowpack-unbundled-example-3.png)
 
 ---
 
