@@ -30,17 +30,15 @@ revealOptions:
 
 - 翻译好文章
 - 定期查看blog
-
 - https://svelte.dev/blog
 - https://overreacted.io/
 - https://www.swyx.io/
 
 ---
 
-#### 怎么通过业余时间提高技术？
+#### 怎么通过业余时间进阶提高技术？
 
-
-----
+---
 
 <!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/how-to-learn-fe.png" data-background-size="contain" -->
 
