@@ -47,6 +47,7 @@ revealOptions:
 - 每天学10个npm仓库
 - 入门（看文档 看单测）
 - 进阶（读源码 看issue 解issue）
+- [抽象代码成为一个开源项目](https://keynote.vercel.app/github.html#/)
 
 ---
 
