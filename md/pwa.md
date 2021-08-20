@@ -76,8 +76,10 @@ Service Worker 与 Web Worker 的区别
 https://github.com/yyx990803/register-service-worker
 
 ---
+<!-- .slide: data-auto-animate -->
 
-```javascript
+<h2 data-id="code-title">Even Prettier Animations</h2>
+<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|3-6|13-16|22-32">
       register(`${SW_BASE_URL}service-worker.js`, {
         registrationOptions: {},
         ready () {
@@ -110,7 +112,7 @@ https://github.com/yyx990803/register-service-worker
             })
           }
         }
-```
+</code></pre>
 
 ---
 
@@ -210,6 +212,9 @@ module.exports = {
 ---
 
 ## 如何解决sw缓存问题
+
+- SW注册名必须更新
+- SW文件必须是协商缓存
 
 https://github.com/lavas-project/sw-register-webpack-plugin
 
