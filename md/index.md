@@ -11,9 +11,8 @@
 ---
 
 - [svelte 入门](./svelte.html)
-
----- 
-
 - [ESM Import & Bundle Free](./bundle-free.html)
 - [Monorepo](./monorepo.html)
 - [如何参与开源项目](./github.html)
+- [使用Next.js实现优雅降级](./nextjs-fallback.html)
+- [学习前端的方法](./how-to-learn-fe.html)
