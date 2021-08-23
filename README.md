@@ -18,7 +18,7 @@ Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.j
 - [ESM Import & Bundle Free](https://keynote.vercel.app/bundle-free.html)
 - [Monorepo](https://keynote.vercel.app/monorepo.html)
 - [如何参与开源项目](https://keynote.vercel.app/github.html)
-- [使用Next.js实现优雅降级](https://keynote.vercel.app//nextjs-fallback.html)
+- [使用Next.js实现优雅降级](https://keynote.vercel.app/nextjs-fallback.html)
 - [学习前端的方法](https://keynote.vercel.app/how-to-learn-fe.html)
 
 ## 开发
