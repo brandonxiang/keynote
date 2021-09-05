@@ -12,6 +12,7 @@
 
 - [svelte 入门](./svelte.html)
 - [ESM Import & Bundle Free](./bundle-free.html)
+- [Incremental Static Regeneration](./isr.html)
 - [Monorepo](./monorepo.html)
 - [如何参与开源项目](./github.html)
 - [使用Next.js实现优雅降级](./nextjs-fallback.html)
