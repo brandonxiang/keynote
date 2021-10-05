@@ -70,7 +70,7 @@ export default function plus (a, b) {
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/ess -module.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/es-module.png" data-background-size="contain" -->
 
 
 ---
