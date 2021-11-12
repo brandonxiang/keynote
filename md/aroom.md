@@ -83,7 +83,7 @@ aroom means "one room".
 
 ---
 
-We want to build a tool instead of lerna. 
+We want to create a tool instead of lerna. 
 
 We like monorepo, but also we hate monorepo.
 
