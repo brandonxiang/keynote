@@ -16,3 +16,4 @@
 - [如何参与开源项目](./github.html)
 - [使用Next.js实现优雅降级](./nextjs-fallback.html)
 - [学习前端的方法](./how-to-learn-fe.html)
+- [如何做好一个技术分享、技术方案、答辩](./speech.html)
