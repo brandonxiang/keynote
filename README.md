@@ -20,6 +20,8 @@ Tech Sharing keynote, powered by [reveal.js](https://github.com/hakimel/reveal.j
 - [如何参与开源项目](https://keynote.vercel.app/github.html)
 - [使用Next.js实现优雅降级](https://keynote.vercel.app/nextjs-fallback.html)
 - [学习前端的方法](https://keynote.vercel.app/how-to-learn-fe.html)
+- [如何做好一个技术分享、技术方案、答辩](https://keynote.vercel.app/speech.html)
+- [前端测试左移](https://keynote.vercel.app/shift-left-testing.html)
 
 ## 开发
 
