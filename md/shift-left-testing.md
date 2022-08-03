@@ -78,3 +78,14 @@ ATDD：在业务层次，在需求分析时就确定需求（如用户故事）�
 第三阶段追求覆盖率（插桩）
 
 ---
+
+如何学习编写单元测试？（input/expect/fixture）
+
+https://github.com/rollup/rollup/tree/master/test
+https://github.com/sveltejs/svelte/tree/master/test
+
+---
+
+## Q&A
+
+---
