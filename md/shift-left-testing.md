@@ -87,5 +87,3 @@ https://github.com/sveltejs/svelte/tree/master/test
 ---
 
 ## Q&A
-
----
