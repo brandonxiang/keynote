@@ -58,7 +58,7 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/lerna-multiwebpack.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/lerna-multiwebpack.png" data-background-size="contain" -->
 
 ---
 

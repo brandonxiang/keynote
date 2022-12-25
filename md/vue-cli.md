@@ -177,7 +177,7 @@ module.exports = {
 
 #### 2.7 vue-ui
 
-![vue-ui](https://keynote.vercel.app/public/img/vue-ui.png)
+![vue-ui](https://keynote.brandon.top/public/img/vue-ui.png)
 
 ---
 

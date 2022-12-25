@@ -28,7 +28,7 @@ revealOptions:
 
 #### vue 与 react
 
-<img src="https://keynote.vercel.app/public/img/switch_react_vue.jpg" width ="80%" alt="react vs vue" align=center >
+<img src="https://keynote.brandon.top/public/img/switch_react_vue.jpg" width ="80%" alt="react vs vue" align=center >
 
 ---
 
@@ -51,7 +51,7 @@ revealOptions:
 
 #### virtual dom
 
-<img src="https://keynote.vercel.app/public/img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center >
+<img src="https://keynote.brandon.top/public/img/virtual-dom.jpg" width ="90%" alt="virtual-dom" align=center >
 
 来自[对 virtual-dom 的一些理解](https://zhuanlan.zhihu.com/p/25630842)
 
@@ -81,7 +81,7 @@ var app6 = new Vue({
 
 #### vuex的单向数据流
 
-<img src="https://keynote.vercel.app/public/img/vuex.png" width ="70%" alt="vuex单向数据流" align=center >
+<img src="https://keynote.brandon.top/public/img/vuex.png" width ="70%" alt="vuex单向数据流" align=center >
 
 ---
 
@@ -89,7 +89,7 @@ var app6 = new Vue({
 
 轻量，易学，适用于移动端，大生态
 
-<img src="https://keynote.vercel.app/public/img/architech.png" width ="70%" alt="vuex单向数据流" align=center >
+<img src="https://keynote.brandon.top/public/img/architech.png" width ="70%" alt="vuex单向数据流" align=center >
 
 ---
 

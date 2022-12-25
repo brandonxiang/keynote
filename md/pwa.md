@@ -13,7 +13,7 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/qrcode.jpg" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/qrcode.jpg" data-background-size="contain" -->
 
 ---
 
@@ -58,16 +58,16 @@ Service Worker 与 Web Worker 的区别
 
 #### Service Worker
 
-![Service Worker](https://keynote.vercel.app/public/img/stale-while-revalidate.png)
+![Service Worker](https://keynote.brandon.top/public/img/stale-while-revalidate.png)
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/pwa-chrome.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/pwa-chrome.png" data-background-size="contain" -->
 
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/pwa-lifecycle.jpg" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/pwa-lifecycle.jpg" data-background-size="contain" -->
 
 ---
 

@@ -24,7 +24,7 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/shift-left-testing.webp" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/shift-left-testing.webp" data-background-size="contain" -->
 
 ---
 
@@ -44,11 +44,11 @@ ATDD：在业务层次，在需求分析时就确定需求（如用户故事）�
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/atdd-utdd.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/atdd-utdd.png" data-background-size="contain" -->
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/utdd.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/utdd.png" data-background-size="contain" -->
 
 ---
 

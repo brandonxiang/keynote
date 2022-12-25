@@ -91,7 +91,7 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/vueReact.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/vueReact.png" data-background-size="contain" -->
 
 ---
 
@@ -162,7 +162,7 @@ PC端复杂页面选用React，移动端页面选用Svelte
 
 #### benchmark
 
-![](https://keynote.vercel.app/public/img/benchmark.png)
+![](https://keynote.brandon.top/public/img/benchmark.png)
 
 ---
 

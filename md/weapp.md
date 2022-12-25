@@ -29,7 +29,7 @@ document.getElementById('app').style.height= '100px'
 
 ---
 
-<!-- .slide: data-background-image="https://keynote.vercel.app/public/img/weapp.jpg" data-background-size="contain" -->
+<!-- .slide: data-background-image="https://keynote.brandon.top/public/img/weapp.jpg" data-background-size="contain" -->
 
 ---
 
@@ -90,7 +90,7 @@ document.getElementById('app').style.height= '100px'
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/mina-lifecycle.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/mina-lifecycle.png" data-background-size="contain" -->
 
 ---
 
@@ -127,7 +127,7 @@ document.getElementById('app').style.height= '100px'
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/weapp-native.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/weapp-native.png" data-background-size="contain" -->
 
 ---
 
@@ -140,7 +140,7 @@ document.getElementById('app').style.height= '100px'
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/unionid.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/unionid.png" data-background-size="contain" -->
 
 
 
@@ -154,15 +154,15 @@ document.getElementById('app').style.height= '100px'
 
 腾讯云开发，serverless架构
 
-![云开发](https://keynote.vercel.app/public/img/cloud-develop.png)
+![云开发](https://keynote.brandon.top/public/img/cloud-develop.png)
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/serverless.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/serverless.png" data-background-size="contain" -->
 
 ---
 
-<!-- .slide:  data-background-image="https://keynote.vercel.app/public/img/faas.png" data-background-size="contain" -->
+<!-- .slide:  data-background-image="https://keynote.brandon.top/public/img/faas.png" data-background-size="contain" -->
 
 ---
 

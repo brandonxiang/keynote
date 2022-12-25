@@ -43,14 +43,14 @@ export default function plus (a, b) {
 <!-- .slide: data-background="white" -->
 ### Network Waterfall
 
-<img src="https://keynote.vercel.app/public/img/bundle-free-waterfall-1.png" width="100%">
+<img src="https://keynote.brandon.top/public/img/bundle-free-waterfall-1.png" width="100%">
 
 ---
 
 <!-- .slide: data-background="white" -->
 ### What we expect
 
-<img src="https://keynote.vercel.app/public/img/bundle-free-waterfall-2.png" width="60%">
+<img src="https://keynote.brandon.top/public/img/bundle-free-waterfall-2.png" width="60%">
 
 
 ---
@@ -70,7 +70,7 @@ export default function plus (a, b) {
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/es-module.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/es-module.png" data-background-size="contain" -->
 
 
 ---
@@ -102,7 +102,7 @@ export default function plus (a, b) {
 
 ---
 
-<!-- .slide: data-background="black" data-background-image="https://keynote.vercel.app/public/img/vite-twitter.jpeg" data-background-size="contain" -->
+<!-- .slide: data-background="black" data-background-image="https://keynote.brandon.top/public/img/vite-twitter.jpeg" data-background-size="contain" -->
 
 ---
 
@@ -122,7 +122,7 @@ export default function plus (a, b) {
 
 ---
 
-![](https://keynote.vercel.app/public/img/snowpack-unbundled-example-3.png)
+![](https://keynote.brandon.top/public/img/snowpack-unbundled-example-3.png)
 
 ---
 
@@ -158,7 +158,7 @@ snowpack和vite主要将bundle-free用在开发模式
 
 ---
 
-![Third Age of JavaScript](https://keynote.vercel.app/public/img/javascript_third.png)
+![Third Age of JavaScript](https://keynote.brandon.top/public/img/javascript_third.png)
 
 
 ---

@@ -57,11 +57,11 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/wc.png" data-background-size="contain" -->
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/vue-wc.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/vue-wc.png" data-background-size="contain" -->
 
 ---
 
@@ -76,8 +76,8 @@ revealOptions:
 
 ---
 
-<img src="https://keynote.vercel.app/public/img/monolith.png" alt="单一前端" width="60%">
-<img src="https://keynote.vercel.app/public/img/microfrontend.png" alt="微前端" width="60%">
+<img src="https://keynote.brandon.top/public/img/monolith.png" alt="单一前端" width="60%">
+<img src="https://keynote.brandon.top/public/img/microfrontend.png" alt="微前端" width="60%">
 
 ---
 
@@ -123,13 +123,13 @@ revealOptions:
 
 ---
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.vercel.app/public/img/microFrontendSample.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/microFrontendSample.png" data-background-size="contain" -->
 
 ---
 
 ##### 子系统分发（图片来自phodal）
 
-<img src="https://keynote.vercel.app/public/img/mooa.jpg" width="60%">
+<img src="https://keynote.brandon.top/public/img/mooa.jpg" width="60%">
 
 ---
 
