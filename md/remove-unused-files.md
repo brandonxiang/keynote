@@ -28,6 +28,20 @@ revealOptions:
 
 ---
 
+byteforce codes handed over from supplier:
+
+- over 40w+ lines of code
+- many files are unused
+- many export functions and definitions are unused
+
+these lead to:
+
+- hard for new comer to familiar with projects
+- hard to locate bugs
+- time killer to ignore useless code every time
+
+---
+
 MSS admin项目
 
 - partner目录（旧）
@@ -35,9 +49,11 @@ MSS admin项目
 - store-refactor（新）
 - merchant-host-refactor（新）
 
+![mss](https://keynote.brandon.top/public/img/mss-refactor.png)
+
 ---
 
-没人敢删除代码，不清楚历史背景
+没人敢删除代码因为不清楚历史背景
 
 - 注释代码
 - 新增变量、方法
@@ -45,9 +61,22 @@ MSS admin项目
 
 ---
 
-#### 手段一 eslint unused 提示
+没用的 类型定义、exports 和 文件
 
-no-unused-vars 红线报错
+---
+
+方案选型；
+
+1. webpack（影响打包效率）
+2. ts语法树（轻量，完整语法树，类型清除）
+3. eslint（协助，提示作用）
+
+--- 
+
+### 手段一 eslint unused 提示
+
+- no-unused-vars 红线报错
+- [eslint-plugin-unused-imports](https://github.com/sweepline/eslint-plugin-unused-imports)
 
 ---
 
@@ -59,16 +88,25 @@ ts-unused-exports 通过ts语法分析知道代码中没有用的export
 
 ts-unused-exports的不足是它的粒度细到exports。
 
-我的诉求是希望能把所有export都没使用的文件直接删除
+我的诉求是希望能把所有export都没使用的文件直接删除。
+
+https://github.com/pzavolinsky/ts-unused-exports/pull/256
 
 ----
 
 <!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/pr-ts-unused.png" data-background-size="contain" -->
 
----
+----
 
+[source code](https://github.com/pzavolinsky/ts-unused-exports/pull/256/files#diff-cb8f615ef552da084bbd9c8e4006ba57e4aa39f49d91d51ace2c65b92c922667L208)
+
+---
 ### 步骤三 分析部分export没用的文件
 
-调整文件的文件，将依赖尽量合理化
+调整文件的文件，将依赖尽量合理化（需要人工）
+
+----
+
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/rearrange.png" data-background-size="contain" -->
 
 ---
