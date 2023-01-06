@@ -28,17 +28,14 @@ revealOptions:
 
 ---
 
-byteforce codes handed over from supplier:
-
-- over 40w+ lines of code
-- many files are unused
-- many export functions and definitions are unused
-
-these lead to:
-
-- hard for new comer to familiar with projects
-- hard to locate bugs
-- time killer to ignore useless code every time
+- byteforce codes handed over from supplier:
+  - over 40w+ lines of code
+  - many files are unused
+  - many export functions and definitions are unused
+- these lead to:
+  - hard for new comer to familiar with projects
+  - hard to locate bugs
+  - time killer to ignore useless code every time
 
 ---
 
@@ -49,7 +46,7 @@ MSS admin项目
 - store-refactor（新）
 - merchant-host-refactor（新）
 
-![mss](https://keynote.brandon.top/public/img/mss-refactor.png)
+![mss](https://keynote.brandonxiang.top/public/img/mss-refactor.png)
 
 ---
 
@@ -61,17 +58,17 @@ MSS admin项目
 
 ---
 
-没用的 类型定义、exports 和 文件
+没用的**类型定义**、**exports**和**文件**
 
 ---
 
-方案选型；
+方案选型
 
 1. webpack（影响打包效率）
 2. ts语法树（轻量，完整语法树，类型清除）
 3. eslint（协助，提示作用）
 
---- 
+---
 
 ### 手段一 eslint unused 提示
 
@@ -94,7 +91,7 @@ https://github.com/pzavolinsky/ts-unused-exports/pull/256
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/pr-ts-unused.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/pr-ts-unused.png" data-background-size="contain" -->
 
 ----
 
@@ -107,6 +104,4 @@ https://github.com/pzavolinsky/ts-unused-exports/pull/256
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/rearrange.png" data-background-size="contain" -->
-
----
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/rearrange.png" data-background-size="contain" -->

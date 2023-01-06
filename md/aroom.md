@@ -35,7 +35,7 @@ revealOptions:
 
 monorepo是大公司不可逃避的问题
 
-https://keynote.brandon.top/monorepo.html
+https://keynote.brandonxiang.top/monorepo.html
 
 ---
 
