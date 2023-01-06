@@ -39,13 +39,13 @@ revealOptions:
 
 ### SSG
 
-![isr-ssg](https://keynote.brandon.top/public/img/isr-ssg.png)
+![isr-ssg](https://keynote.brandonxiang.top/public/img/isr-ssg.png)
 
 ---
 
 ### SSG(improved)
 
-![isr-ssg-improved](https://keynote.brandon.top/public/img/isr-ssg-improved.png)
+![isr-ssg-improved](https://keynote.brandonxiang.top/public/img/isr-ssg-improved.png)
 
 ---
 
@@ -69,7 +69,7 @@ export async function getStaticProps(context) {
 
 ### SSR
 
-![ssr](https://keynote.brandon.top/public/img/isr-ssr.png)
+![ssr](https://keynote.brandonxiang.top/public/img/isr-ssr.png)
 
 ---
 
@@ -85,7 +85,7 @@ export async function getServerSideProps(context) {
 
 ### ISR
 
-![isr](https://keynote.brandon.top/public/img/isr-isr.png)
+![isr](https://keynote.brandonxiang.top/public/img/isr-isr.png)
 
 ---
 
@@ -108,7 +108,7 @@ export async function getStaticProps() {
 
 ---
 
-![isr-comparison](https://keynote.brandon.top/public/img/isr-comparison.png)
+![isr-comparison](https://keynote.brandonxiang.top/public/img/isr-comparison.png)
 
 ---
 

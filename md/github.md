@@ -104,7 +104,7 @@ https://github.com/brandonxiang
 
 ----
 
-<!-- .slide: data-background="white" data-background-image="https://keynote.brandon.top/public/img/license.png" data-background-size="contain" -->
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/license.png" data-background-size="contain" -->
 
 ---
 
@@ -169,7 +169,7 @@ jobs:
 
 ### 2.7 github project
 
-![](https://keynote.brandon.top/public/img/github-project.png)
+![](https://keynote.brandonxiang.top/public/img/github-project.png)
 
 ---
 

@@ -20,3 +20,4 @@
 - [学习前端的方法](./how-to-learn-fe.html)
 - [如何做好一个技术分享、技术方案、答辩](./speech.html)
 - [前端测试左移](./shift-left-testing.html)
+- [如何清除项目中没用代码](./remove-unused-files.html)
