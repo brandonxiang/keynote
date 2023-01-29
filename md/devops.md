@@ -140,7 +140,7 @@ export default fp((fastify: IServer, options, next) => {
 });
 ```
 
---- 
+---
 
 把`console.log`换成`req.log`
 
