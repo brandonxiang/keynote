@@ -1,5 +1,5 @@
 ---
-title: nodejs服务的技术运维
+title: nodejs服务的技术运维实践
 revealOptions: 
    transition: slide
 ---
