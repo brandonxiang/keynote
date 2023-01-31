@@ -4,6 +4,12 @@ revealOptions:
    transition: slide
 ---
 
+### nodejs包管理器的前世今生
+
+项伟平（2023.1.31）
+
+---
+
 - npm
 - yarn
 - yarn berry 2/3
@@ -50,7 +56,7 @@ pnpm的缺点：
 
 ---
 
-## yarn berry 3
+## [yarn berry 3](https://yarnpkg.com/)
 
 - Offline Cache(Zero-Installs)
 - Workspaces
@@ -71,3 +77,8 @@ yarn（npm） vs pnpm
 ---
 
 yarn berry 3 更适合前端工程化诉求
+
+---
+
+- [nypm](https://github.com/unjs/nypm)
+- [antfu/ni](https://github.com/antfu/ni)
