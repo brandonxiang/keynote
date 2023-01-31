@@ -43,6 +43,10 @@ revealOptions:
 
 ---
 
+pnpm 和 yarn berry官方支持patch
+
+---
+
 pnpm的缺点：
 
 - 每个人的pnpm_store是独立的，第一次还是慢
