@@ -4,7 +4,6 @@ revealOptions:
    transition: slide
 ---
 
-
 ### nodejs服务的技术运维实践
 
 项伟平（2023.02.10）
@@ -17,9 +16,14 @@ revealOptions:
 
 监控手段 | 相关链接
 ---------|----------
-logs查日志 | [kubernate自研](https://kubernetes.devops.i.sz.shopee.io/)和[logging平台](https://seamoney.log.shopee.io/)
-metrics | [grafana开源](https://monitoring.infra.sz.shopee.io/grafana) 
-traces | [jaeger开源](https://jaeger.i.mitra.shopee.co.id/search)
+logs查日志 | kubernate自研和logging平台
+metrics | grafana开源
+traces | jaeger开源
+
+---
+
+- opentracing
+- opentelemetry
 
 ---
 
@@ -39,6 +43,19 @@ tail rlog.log|grep "c1e9542743e4b57d"| head
 
 ---
 
+当前存在的问题
+
+- jaeger测试环境没有数据
+- http转发的traceid缺失
+- rlog没带上traceid
+- 部分技术项目的logs目录不在/data/logs
+- kubernate平台标签混乱
+- opentracing已经被社区archived
+- prom-client在mss的模版服务不知名报错
+
+---
+
+
 ### 记一次pod重启的问题排查
 
 ---
@@ -47,7 +64,12 @@ tail rlog.log|grep "c1e9542743e4b57d"| head
 
 ---
 
-### 记FE技术网购的traceid最佳实践
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/decode-error.png" data-background-size="contain" -->
+
+---
+
+
+### 记FE技术网关的traceid最佳实践
 
 ---
 
@@ -176,6 +198,10 @@ export default fp((fastify, options, next) => {
   next();
 });
 ```
+
+---
+
+### 问题三 grpc请求里面的console.log（带上traceid）
 
 ---
 
