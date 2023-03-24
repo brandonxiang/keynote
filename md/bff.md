@@ -19,6 +19,17 @@ revealOptions:
 
 ---
 
+bff的诉求在于合并请求、字段裁剪
+
+---
+
+旧版bff的问题在于：
+
+- 运维成本
+- 服务逻辑成本
+
+---
+
 <!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/BFF-architecture.png" data-background-size="contain" -->
 
 ---
@@ -39,3 +50,79 @@ revealOptions:
 - graphql client: apollo-client
 
 ---
+
+# 加餐
+
+---
+```jsx
+function Example() {
+  const [data, setData] = useState([]);
+  const [error, setError] = useState(null);
+  const [isLoading, setLoading] = useState(false);
+
+  const init = useCallback(async () => {
+    const res = await fetch('https://api.github.com/repos/tannerlinsley/react-query');
+    setLoading(true);
+    const jsonRes = await res.json().catch((e) => {
+      setError(e);
+    }).finally(() => {
+      setLoading(false);
+    });
+    if(jsonRes) {
+      setData(jsonRes);
+    }
+  }, [])
+
+  useEffect(() => {
+    init()
+  }, [init]);
+
+  if (isLoading) return 'Loading...'
+
+  if (error) return 'An error has occurred: ' + error.message
+
+  return (
+    <div>
+      <h1>{data.name}</h1>
+      <p>{data.description}</p>
+      <strong>👀 {data.subscribers_count}</strong>{' '}
+      <strong>✨ {data.stargazers_count}</strong>{' '}
+      <strong>🍴 {data.forks_count}</strong>
+    </div>
+  )
+}
+
+```
+
+
+---
+
+```jsx
+function Example() {
+  const { isLoading, error, data } = useQuery({
+    queryKey: ['repoData'],
+    queryFn: () =>
+      fetch('https://api.github.com/repos/tannerlinsley/react-query').then(
+        (res) => res.json(),
+      ),
+  })
+
+  if (isLoading) return 'Loading...'
+
+  if (error) return 'An error has occurred: ' + error.message
+
+  return (
+    <div>
+      <h1>{data.name}</h1>
+      <p>{data.description}</p>
+      <strong>👀 {data.subscribers_count}</strong>{' '}
+      <strong>✨ {data.stargazers_count}</strong>{' '}
+      <strong>🍴 {data.forks_count}</strong>
+    </div>
+  )
+}
+```
+
+---
+
+https://tanstack.com/query/latest/docs/react/overview
