@@ -19,6 +19,10 @@ revealOptions:
 
 ---
 
+<!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/origin-architecture2.png" data-background-size="contain" -->
+
+---
+
 bff的诉求在于合并请求、字段裁剪
 
 ---
