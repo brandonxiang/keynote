@@ -1,10 +1,10 @@
 ---
-title: 微服务实战之BFF云端一体开发实战
+title: 微服务实战之BFF云端一体开发
 revealOptions: 
    transition: slide
 ---
 
-### 微服务实战之BFF云端一体开发实战
+### 微服务实战之BFF云端一体开发
 
 项伟平（2023.02.10）
 
@@ -52,6 +52,14 @@ bff的诉求在于合并请求、字段裁剪
 - graphql client: urql
 - graphql client: react-query + graphql-request 
 - graphql client: apollo-client
+
+---
+
+总结
+
+- 中间层通过pb形成graphql（自动化）
+- 中间层通过apollo-server来提供字段信息的查看（自动化）
+- 前端层选取自己需要的字段，编写graphql，形成自己的类型定义
 
 ---
 
