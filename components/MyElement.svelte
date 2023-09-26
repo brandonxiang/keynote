@@ -1,4 +1,4 @@
-<svelte:options tag="my-element" />
+<svelte:options customElement="my-element" />
 
 <script>
 	export let name = 'world';
