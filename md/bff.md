@@ -42,28 +42,50 @@ bff的诉求在于合并请求、字段裁剪
 
 ---
 
+以前的 BFF，重心在 BFF 层
+
+把脏活累活都放在 BFF 侧，吃力不讨好，复杂难维护
+
+---
+
+
 <!-- .slide: data-background="white" data-background-image="https://keynote.brandonxiang.top/public/img/BFF-throught.png" data-background-size="contain" -->
+
+---
+
+新型的 BFF，由于 graphql 逻辑转移到前端侧，重心在两侧
+
+所有的裁剪权利都交给前端，BFF 逻辑释放
+
+---
+
+[Demo](https://github.com/brandonxiang/taolj)
 
 ---
 
 技术选型
 
-- graphql server: apollo-server
-- graphql client: urql
-- graphql client: react-query + graphql-request 
-- graphql client: apollo-client
+- graphql server: apollo-server（成熟的选择）
+
+- graphql client:
+  - apollo-client(端侧包体积大，不考虑)
+  - urql (端侧包体积小，可以考虑)
+  - react-query + graphql-request (端侧包体积适中，兼容http/graphql，建议)
+
 
 ---
 
 总结
 
-- 中间层通过pb形成graphql（自动化）
+- 中间层通过pb自动生成graphql（自动化）
 - 中间层通过apollo-server来提供字段信息的查看（自动化）
 - 前端层选取自己需要的字段，编写graphql，形成自己的类型定义
 
 ---
 
-# 加餐
+### 加餐: react query
+
+支持 graphql 和 http
 
 ---
 ```jsx
