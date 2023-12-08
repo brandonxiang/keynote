@@ -21,9 +21,10 @@
 - [如何做好一个技术分享、技术方案、答辩](./speech.html)
 - [前端测试左移](./shift-left-testing.html)
 - [如何清除项目中没用代码](./remove-unused-files.html)
+- [nodejs包管理器的前世今生](./package-manager.html)
+- [nodejs服务的技术运维实践](./devops.html)
 
 ---
 
-- [nodejs包管理器的前世今生](./package-manager.html)
-- [nodejs服务的技术运维实践](./devops.html)
+- [前端项目架构设计](./aroom.html)
 - [微服务实战之BFF云端一体开发实战](./bff.html)
