@@ -5,6 +5,7 @@
   "staticDirs": "public",
   "css": "styles/index.css",
   "scripts": "scripts/dist/index.js,scripts/use-sw.js",
+  "template": "templates/template.html",
   "controls": true,
   "progress": true
 }
