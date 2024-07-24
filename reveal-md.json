@@ -6,6 +6,7 @@
   "css": "styles/index.css",
   "scripts": "scripts/dist/index.js,scripts/use-sw.js",
   "template": "templates/template.html",
+  "listingTemplate": "templates/listing.html",
   "controls": true,
   "progress": true
 }

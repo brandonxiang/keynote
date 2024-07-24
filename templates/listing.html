@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{pageTitle}}</title>
+    <link rel="stylesheet" href="{{{themeUrl}}}" id="theme" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJN1EG3C62"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XJN1EG3C62');
+    </script>
+  </head>
+
+  <body>
+    <ul>
+      {{#files}}
+      <li>
+        <a href="{{filePath}}" title="{{title}}">
+          {{#title}}
+            {{.}} ({{filePath}})
+          {{/title}}
+          {{^title}}
+            {{filePath}}
+          {{/title}}
+        </a>
+      </li>
+      {{/files}}
+    </ul>
+
+    <p>
+      Last update: {{date}}
+    </p>
+  </body>
+</html>
