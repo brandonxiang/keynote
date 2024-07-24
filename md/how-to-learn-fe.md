@@ -1,5 +1,6 @@
 ---
 title: 学习前端的方法
+absoluteUrl: https://keynote.brandonxiang.top/how-to-learn-fe
 revealOptions: 
    transition: slide
 ---

@@ -1,3 +1,11 @@
+---
+title: 如何参与开源项目
+absoluteUrl: https://keynote.brandonxiang.top/github
+revealOptions: 
+   transition: slide
+   transitionSpeed: slow
+---
+
 ### 如何参与开源项目
 项伟平 [BLOG](https://brandonxiang.vercel.app/)
 

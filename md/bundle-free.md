@@ -1,5 +1,6 @@
 ---
 title: ESM Import & Bundle Free
+absoluteUrl: https://keynote.brandonxiang.top/bundle-free
 revealOptions: 
    transition: slide
 ---

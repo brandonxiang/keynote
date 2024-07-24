@@ -1,5 +1,6 @@
 ---
 title: 使用Next.js实现优雅降级
+absoluteUrl: https://keynote.brandonxiang.top/nextjs-fallback
 revealOptions: 
    transition: slide
    transitionSpeed: slow

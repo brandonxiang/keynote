@@ -1,5 +1,6 @@
 ---
 title: Incremental Static Regeneration
+absoluteUrl: https://keynote.brandonxiang.top/isr
 revealOptions: 
    transition: slide
 ---

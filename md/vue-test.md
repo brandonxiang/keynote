@@ -1,5 +1,6 @@
 ---
 title: Vue单元测试
+absoluteUrl: https://keynote.brandonxiang.top/vue-test
 revealOptions: 
    transition: slide
    transitionSpeed: slow

@@ -4,6 +4,7 @@
   "highlightTheme": "github",
   "staticDirs": "public",
   "css": "styles/index.css",
-  "scripts": "scripts/dist/MyElement.js,scripts/use-sw.js",
+  "scripts": "scripts/dist/index.js,scripts/use-sw.js",
+  "controls": true,
   "progress": true
 }

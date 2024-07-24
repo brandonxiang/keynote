@@ -1,5 +1,6 @@
 ---
 title: 小程序开发实战
+absoluteUrl: https://keynote.brandonxiang.top/weapp
 revealOptions: 
    transition: slide
    transitionSpeed: slow

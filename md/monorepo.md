@@ -1,5 +1,6 @@
 ---
 title: monorepo研发流程
+absoluteUrl: https://keynote.brandonxiang.top/monorepo
 revealOptions: 
    transition: slide
 ---

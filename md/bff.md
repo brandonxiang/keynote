@@ -1,5 +1,6 @@
 ---
 title: 微服务实战之BFF云端一体开发
+absoluteUrl: https://keynote.brandonxiang.top/bff
 revealOptions: 
    transition: slide
 ---

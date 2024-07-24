@@ -1,5 +1,6 @@
 ---
 title: nodejs服务的技术运维实践
+absoluteUrl: https://keynote.brandonxiang.top/devops
 revealOptions: 
    transition: slide
 ---

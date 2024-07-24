@@ -1,5 +1,6 @@
 ---
 title: svelte 入门
+absoluteUrl: https://keynote.brandonxiang.top/svelte
 revealOptions: 
    transition: slide
    transitionSpeed: slow

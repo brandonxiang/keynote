@@ -1,5 +1,6 @@
 ---
 title: 如何做好一个技术分享、技术方案、答辩
+absoluteUrl: https://keynote.brandonxiang.top/speech
 revealOptions: 
    transition: slide
 ---

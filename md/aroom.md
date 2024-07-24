@@ -1,5 +1,6 @@
 ---
 title: 前端项目架构设计
+absoluteUrl: https://keynote.brandonxiang.top/aroom
 revealOptions: 
    transition: slide
 ---

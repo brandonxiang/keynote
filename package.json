@@ -5,10 +5,10 @@
   "homepage": "https://brandonxiang.github.io/keynote/web/#/",
   "scripts": {
     "dev": "npm-run-all --parallel dev:svelte dev:reveal",
-    "dev:svelte": "svelteup -o scripts/dist -w",
+    "dev:svelte": "svelteup -w",
     "dev:reveal": "reveal-md md -w",
     "build": "npm run build:svelte && npm run build:reveal && npm run sw",
-    "build:svelte": "svelteup -o scripts/dist",
+    "build:svelte": "svelteup",
     "build:reveal": "reveal-md md --static dist",
     "sw": "workbox generateSW"
   },
@@ -25,13 +25,14 @@
     "node": ">=16.0.0"
   },
   "devDependencies": {
-    "workbox-cli": "^7.0.0",
-    "reveal-md": "^5.5.1",
     "npm-run-all": "^4.1.5",
-    "svelteup": "^3.0.0"
+    "reveal-md": "^6.1.2",
+    "svelteup": "^3.0.0",
+    "workbox-cli": "^7.0.0"
   },
   "license": "MIT",
   "dependencies": {
+    "lucide-svelte": "^0.414.0",
     "svelte": "^4.2.1"
   }
 }

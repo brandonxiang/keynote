@@ -1,5 +1,6 @@
 ---
 title: react-navigation和expo的应用
+absoluteUrl: https://keynote.brandonxiang.top/expo
 revealOptions: 
    transition: slide
    transitionSpeed: slow

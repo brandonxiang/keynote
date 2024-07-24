@@ -1,5 +1,6 @@
 ---
 title: 微前端与Web Components
+absoluteUrl: https://keynote.brandonxiang.top/microfrontend
 revealOptions: 
    transition: slide
 ---

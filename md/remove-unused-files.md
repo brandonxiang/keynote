@@ -1,5 +1,6 @@
 ---
 title: 如何清除项目中没用代码
+absoluteUrl: https://keynote.brandonxiang.top/remove-unused-files
 revealOptions: 
    transition: slide
 ---

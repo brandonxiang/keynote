@@ -1,5 +1,6 @@
 ---
 title: PWA 开发实战
+absoluteUrl: https://keynote.brandonxiang.top/pwa
 revealOptions: 
    transition: slide
    transitionSpeed: slow

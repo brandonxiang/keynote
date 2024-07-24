@@ -1,5 +1,6 @@
 ---
 title: 前端测试左移
+absoluteUrl: https://keynote.brandonxiang.top/shift-left-testing
 revealOptions: 
    transition: slide
 ---

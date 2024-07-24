@@ -1,5 +1,6 @@
 ---
 title: Vue-Cli3.0
+absoluteUrl: https://keynote.brandonxiang.top/vue-cli
 revealOptions: 
    transition: slide
    transitionSpeed: slow

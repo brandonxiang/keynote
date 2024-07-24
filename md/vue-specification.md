@@ -1,5 +1,6 @@
 ---
 title: Vue开发规范
+absoluteUrl: https://keynote.brandonxiang.top/vue-specification
 revealOptions: 
    transition: slide
    transitionSpeed: slow

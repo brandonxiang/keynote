@@ -1,5 +1,6 @@
 ---
 title: Vue技术选型与Webpack入门
+absoluteUrl: https://keynote.brandonxiang.top/vue-startup
 revealOptions: 
    transition: slide
    transitionSpeed: slow
