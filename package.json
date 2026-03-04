@@ -26,13 +26,13 @@
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",
-    "reveal-md": "^6.1.2",
-    "svelteup": "^3.0.0",
-    "workbox-cli": "^7.0.0"
+    "reveal-md": "^6.1.4",
+    "svelteup": "^4.0.2",
+    "workbox-cli": "^7.4.0"
   },
   "license": "MIT",
   "dependencies": {
-    "lucide-svelte": "^0.414.0",
-    "svelte": "^4.2.1"
+    "lucide-svelte": "^0.576.0",
+    "svelte": "^5.53.7"
   }
 }
