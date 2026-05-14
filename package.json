@@ -33,6 +33,6 @@
   "license": "MIT",
   "dependencies": {
     "lucide-svelte": "^0.576.0",
-    "svelte": "^5.53.7"
+    "svelte": "^5.55.7"
   }
 }
