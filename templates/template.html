@@ -137,18 +137,37 @@
       (function () {
         if (location.hostname !== 'keynote.brandonxiang.top') return;
 
+        var loaded = false;
         window.dataLayer = window.dataLayer || [];
         window.gtag = function () {
           window.dataLayer.push(arguments);
         };
 
-        var gtagScript = document.createElement('script');
-        gtagScript.async = true;
-        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XJN1EG3C62';
-        document.head.appendChild(gtagScript);
+        function loadAnalytics() {
+          if (loaded) return;
+          loaded = true;
 
-        window.gtag('js', new Date());
-        window.gtag('config', 'G-XJN1EG3C62');
+          var gtagScript = document.createElement('script');
+          gtagScript.async = true;
+          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XJN1EG3C62';
+          document.head.appendChild(gtagScript);
+
+          window.gtag('js', new Date());
+          window.gtag('config', 'G-XJN1EG3C62');
+        }
+
+        function scheduleAnalytics() {
+          if ('requestIdleCallback' in window) {
+            window.requestIdleCallback(loadAnalytics, { timeout: 5000 });
+            return;
+          }
+
+          window.setTimeout(loadAnalytics, 5000);
+        }
+
+        window.addEventListener('pointerdown', loadAnalytics, { once: true, passive: true });
+        window.addEventListener('keydown', loadAnalytics, { once: true });
+        window.addEventListener('load', scheduleAnalytics, { once: true });
       })();
     </script>
   </head>
