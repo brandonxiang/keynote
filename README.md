@@ -29,6 +29,7 @@
 | React Navigation 和 Expo 的应用 | [查看演示](https://keynote.brandonxiang.top/expo.html) |
 | Svelte 入门 | [查看演示](https://keynote.brandonxiang.top/svelte.html) |
 | ESM Import & Bundle Free | [查看演示](https://keynote.brandonxiang.top/bundle-free.html) |
+| Vite+：前端工具链的一次收口 | [查看演示](https://keynote.brandonxiang.top/vite-plus.html) |
 | Monorepo | [查看演示](https://keynote.brandonxiang.top/monorepo.html) |
 | Node.js 包管理器的前世今生 | [查看演示](https://keynote.brandonxiang.top/package-manager.html) |
 | 如何参与开源项目 | [查看演示](https://keynote.brandonxiang.top/github.html) |

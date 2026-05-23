@@ -42,12 +42,18 @@
     <style>
       :root {
         color-scheme: light;
-        --ink: #123332;
-        --muted: #5d716d;
-        --paper: #fdf8ea;
-        --canvas: #f5f0e5;
-        --accent: #1f9d8a;
-        --gold: #e6a13a;
+        --brand: #1b365d;
+        --brand-light: #2d5a8a;
+        --near-black: #141413;
+        --dark-warm: #3d3d3a;
+        --olive: #504e49;
+        --stone: #6b6a64;
+        --parchment: #f5f4ed;
+        --ivory: #faf9f5;
+        --warm-sand: #e8e6dc;
+        --border: #e8e6dc;
+        --border-soft: #e5e3d8;
+        --serif: "Source Han Serif SC", "Noto Serif CJK SC", "Noto Serif SC", "Songti SC", "STSong", Georgia, serif;
       }
 
       * {
@@ -57,119 +63,261 @@
       body {
         margin: 0;
         min-height: 100vh;
-        color: var(--ink);
-        background: var(--canvas);
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--near-black);
+        background:
+          linear-gradient(90deg, transparent 0, transparent 23px, #ece9dc 24px, transparent 25px),
+          linear-gradient(180deg, #fbfaf5 0, var(--parchment) 36%);
+        font-family: var(--serif);
+        letter-spacing: 0.1pt;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
 
       .listing-shell {
-        width: min(1040px, calc(100% - 40px));
+        width: min(1120px, calc(100% - 40px));
         margin: 0 auto;
-        padding: 42px 0 56px;
+        padding: 64px 0 72px;
       }
 
       .listing-header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        gap: 24px;
-        margin-bottom: 28px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: start;
+        gap: 36px;
+        margin-bottom: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid var(--border);
       }
 
       .listing-brand {
-        display: inline-flex;
-        align-items: center;
-        gap: 14px;
+        display: grid;
+        grid-template-columns: 64px minmax(0, 1fr);
+        align-items: start;
+        gap: 18px;
         color: inherit;
         text-decoration: none;
       }
 
       .listing-brand svg {
-        width: 52px;
-        height: 52px;
+        width: 64px;
+        height: 64px;
         flex: 0 0 auto;
-        filter: drop-shadow(0 12px 22px rgba(18, 51, 50, 0.14));
+        filter: drop-shadow(0 10px 24px #ded9c8);
       }
 
       .listing-brand span {
         display: block;
       }
 
+      .listing-kicker {
+        margin: 1px 0 12px;
+        color: var(--brand);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.8pt;
+        text-transform: uppercase;
+      }
+
       .listing-brand__title {
-        font-size: clamp(30px, 4vw, 48px);
-        font-weight: 800;
-        line-height: 0.96;
-        letter-spacing: -0.022em;
+        max-width: 680px;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: 0;
         text-wrap: balance;
       }
 
       .listing-brand__subtitle {
-        margin-top: 7px;
-        color: var(--muted);
-        font-size: 14px;
-        font-weight: 650;
+        max-width: 660px;
+        margin-top: 12px;
+        color: var(--olive);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.55;
       }
 
       .listing-updated {
         margin: 0;
-        color: var(--muted);
+        padding: 9px 12px;
+        color: var(--stone);
+        background: #eef2f7;
+        border: 1px solid #d0dce9;
+        border-radius: 6px;
         font-size: 13px;
         font-style: normal;
         font-variant-numeric: tabular-nums;
         text-align: right;
+        white-space: nowrap;
+      }
+
+      .listing-intro {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+        gap: 24px;
+        align-items: stretch;
+        margin-bottom: 26px;
+      }
+
+      .listing-note,
+      .listing-panel {
+        background: var(--ivory);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        box-shadow: 0 14px 34px #e4dfd0;
+      }
+
+      .listing-note {
+        padding: 22px 24px;
+      }
+
+      .listing-note h1 {
+        margin: 0 0 10px;
+        color: var(--near-black);
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      .listing-note p {
+        margin: 0;
+        color: var(--dark-warm);
+        font-size: 15px;
+        line-height: 1.55;
+      }
+
+      .listing-panel {
+        display: grid;
+        align-content: center;
+        gap: 8px;
+        padding: 20px;
+      }
+
+      .listing-panel__label {
+        color: var(--brand);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.8pt;
+        text-transform: uppercase;
+      }
+
+      .listing-panel__text {
+        color: var(--olive);
+        font-size: 14px;
+        line-height: 1.45;
       }
 
       ul {
+        counter-reset: keynote-item;
         list-style: none;
         padding: 0;
         margin: 0;
         display: grid;
-        gap: 10px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
       }
+
       li {
-        border-radius: 8px;
-        background-color: var(--paper);
-        box-shadow: 0 1px 3px rgba(22, 31, 36, 0.11), inset 0 0 0 1px rgba(18, 51, 50, 0.06);
-        transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 160ms cubic-bezier(0.16, 1, 0.3, 1);
+        counter-increment: keynote-item;
+        min-width: 0;
       }
-      a {
+
+      .talk-link {
+        display: grid;
+        grid-template-columns: 42px minmax(0, 1fr);
+        gap: 14px;
+        min-height: 92px;
+        padding: 17px 18px;
         text-decoration: none;
-        color: var(--ink);
+        color: var(--near-black);
+        background: var(--ivory);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        box-shadow: 0 8px 24px #e8e2d3;
+        transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+      }
+
+      .talk-link::before {
+        content: counter(keynote-item, decimal-leading-zero);
+        color: var(--brand);
+        font-size: 13px;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.4pt;
+      }
+
+      .talk-title {
         display: block;
-        padding: 15px 16px;
-        font-size: 15px;
-        font-weight: 650;
-        line-height: 1.4;
+        color: var(--near-black);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.3;
+        overflow-wrap: anywhere;
         text-wrap: pretty;
       }
 
+      .talk-path {
+        display: block;
+        margin-top: 8px;
+        color: var(--stone);
+        font-size: 13px;
+        line-height: 1.35;
+        overflow-wrap: anywhere;
+      }
+
       a:focus-visible {
-        outline: 3px solid rgba(31, 157, 138, 0.35);
+        outline: 3px solid #d0dce9;
         outline-offset: 3px;
       }
 
       @media (hover: hover) {
-        li:hover {
+        .talk-link:hover {
           transform: translateY(-1px);
-          box-shadow: 0 12px 26px rgba(22, 31, 36, 0.12), inset 0 0 0 1px rgba(31, 157, 138, 0.16);
+          border-color: #d0dce9;
+          box-shadow: 0 16px 34px #ded8c8;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .listing-header,
+        .listing-intro,
+        ul {
+          grid-template-columns: 1fr;
         }
       }
 
       @media (max-width: 640px) {
         .listing-shell {
-          width: min(100% - 24px, 1040px);
-          padding-top: 24px;
+          width: min(100% - 24px, 1120px);
+          padding-top: 28px;
         }
 
-        .listing-header {
-          display: grid;
-          gap: 12px;
+        .listing-brand {
+          grid-template-columns: 52px minmax(0, 1fr);
+          gap: 14px;
+        }
+
+        .listing-brand svg {
+          width: 52px;
+          height: 52px;
+        }
+
+        .listing-brand__title {
+          font-size: 34px;
         }
 
         .listing-updated {
           text-align: left;
+          white-space: normal;
+        }
+
+        .listing-note,
+        .listing-panel {
+          padding: 18px;
+        }
+
+        .talk-link {
+          grid-template-columns: 34px minmax(0, 1fr);
+          min-height: 86px;
+          padding: 15px;
         }
       }
     </style>
@@ -187,22 +335,39 @@
             <path d="M20 49h24" stroke="#E6A13A" stroke-width="4" stroke-linecap="round" />
           </svg>
           <span>
+            <span class="listing-kicker">Kami archive</span>
             <span class="listing-brand__title">Keynote</span>
-            <span class="listing-brand__subtitle">Curated front-end engineering talks</span>
+            <span class="listing-brand__subtitle">前端工程实践、架构演进与研发效率主题分享合集。</span>
           </span>
         </a>
         <p class="listing-updated">Last update: {{date}}</p>
       </header>
 
+      <section class="listing-intro" aria-label="Keynote archive summary">
+        <div class="listing-note">
+          <h1>一张纸上的技术分享目录</h1>
+          <p>按主题沉淀 Markdown 演示稿，覆盖 Vue、PWA、微前端、Monorepo、测试左移、BFF、运维与开源协作。每一项都可以直接打开为 reveal.js 演示页面。</p>
+        </div>
+        <aside class="listing-panel">
+          <span class="listing-panel__label">Reading path</span>
+          <span class="listing-panel__text">先看架构与工程化，再看测试、运维与开源实践；适合复盘分享，也适合作为新人学习索引。</span>
+        </aside>
+      </section>
+
       <ul>
         {{#files}}
         <li>
-          <a href="{{filePath}}" title="{{title}}">
+          <a class="talk-link" href="{{filePath}}" title="{{title}}">
             {{#title}}
-              {{.}} ({{filePath}})
+              <span>
+                <span class="talk-title">{{.}}</span>
+                <span class="talk-path">{{filePath}}</span>
+              </span>
             {{/title}}
             {{^title}}
-              {{filePath}}
+              <span>
+                <span class="talk-title">{{filePath}}</span>
+              </span>
             {{/title}}
           </a>
         </li>

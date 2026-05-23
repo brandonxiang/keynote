@@ -1,12 +1,349 @@
-.reveal section p {
-  font-size: 0.7em !important;
+:root {
+  --kami-parchment: #f5f4ed;
+  --kami-ivory: #faf9f5;
+  --kami-sand: #e8e6dc;
+  --kami-border: #e8e6dc;
+  --kami-border-soft: #e5e3d8;
+  --kami-brand: #1b365d;
+  --kami-brand-light: #2d5a8a;
+  --kami-brand-tint: #eef2f7;
+  --kami-near-black: #141413;
+  --kami-dark-warm: #3d3d3a;
+  --kami-olive: #504e49;
+  --kami-stone: #6b6a64;
+  --kami-serif: "Source Han Serif SC", "Noto Serif CJK SC", "Noto Serif SC",
+    "Songti SC", STSong, Charter, Georgia, Palatino, "Times New Roman", serif;
+  --kami-mono: "JetBrains Mono", "SF Mono", "Fira Code", Consolas, Monaco,
+    "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", monospace;
+  --r-main-font: var(--kami-serif);
+  --r-heading-font: var(--kami-serif);
+  --r-code-font: var(--kami-mono);
+  --r-background-color: var(--kami-parchment);
+  --r-main-color: var(--kami-near-black);
+  --r-heading-color: var(--kami-near-black);
+  --r-link-color: var(--kami-brand);
+  --r-link-color-hover: var(--kami-brand-light);
+  --r-selection-background-color: var(--kami-brand-tint);
+  --r-selection-color: var(--kami-near-black);
 }
 
-.reveal section li {
-  font-size: 0.7em !important;
+html,
+body,
+button,
+input,
+select,
+textarea,
+.reveal-viewport,
+.reveal,
+.reveal .slides,
+.reveal .backgrounds {
+  background: var(--kami-parchment);
+  font-family: var(--kami-serif);
 }
 
-.reveal section pre code {
-  font-size: 0.7em !important;
+.reveal {
+  color: var(--kami-near-black);
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
+.reveal .slide-background {
+  background-color: var(--kami-parchment);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  box-sizing: border-box;
+  padding: 72px 84px;
+}
+
+.reveal .slides section > *:first-child {
+  margin-top: 0;
+}
+
+.reveal .slides section > *:last-child {
+  margin-bottom: 0;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: var(--kami-near-black);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.14;
+  margin: 0 0 34px;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: normal;
+}
+
+.reveal h1,
+.reveal h2 {
+  max-width: 980px;
+  padding-left: 22px;
+  border-left: 7px solid var(--kami-brand);
+}
+
+.reveal h1 {
+  font-size: 2.05em;
+}
+
+.reveal h2 {
+  font-size: 1.7em;
+}
+
+.reveal h3 {
+  font-size: 1.28em;
+}
+
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: var(--kami-dark-warm);
+  font-size: 1.02em;
+}
+
+.reveal section:first-child {
+  text-align: left;
+}
+
+.reveal section:first-child h1,
+.reveal section:first-child h2 {
+  max-width: 1080px;
+  padding-left: 0;
+  border-left: 0;
+  font-size: 2.25em;
+  line-height: 1.08;
+}
+
+.reveal section:first-child h1::after,
+.reveal section:first-child h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 5px;
+  margin-top: 34px;
+  border-radius: 999px;
+  background: var(--kami-brand);
+}
+
+.reveal p,
+.reveal li {
+  color: var(--kami-dark-warm);
+  font-size: 0.76em;
+  line-height: 1.58;
+}
+
+.reveal p {
+  margin: 18px 0;
+}
+
+.reveal strong,
+.reveal b {
+  color: var(--kami-near-black);
+  font-weight: 500;
+}
+
+.reveal em,
+.reveal i {
+  font-style: normal;
+}
+
+.reveal a {
+  color: var(--kami-brand);
+  text-decoration: underline;
+  text-decoration-color: var(--kami-brand-tint);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.reveal a:hover,
+.reveal a:focus {
+  color: var(--kami-brand-light);
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 18px 0 0 1.15em;
+}
+
+.reveal li {
+  margin: 10px 0;
+  padding-left: 0.1em;
+}
+
+.reveal li::marker {
+  color: var(--kami-brand);
+  font-weight: 500;
+}
+
+.reveal blockquote {
+  width: auto;
+  margin: 28px 0;
+  padding: 18px 26px;
+  border-left: 5px solid var(--kami-brand);
+  background: var(--kami-ivory);
+  box-shadow: 0 0 0 1px var(--kami-border);
+  color: var(--kami-olive);
+  font-style: normal;
+}
+
+.reveal blockquote p {
+  color: var(--kami-olive);
+}
+
+.reveal pre {
+  width: 100%;
+  margin: 26px 0;
+  border: 1px solid var(--kami-border);
+  border-radius: 10px;
+  background: var(--kami-ivory);
+  box-shadow: 0 12px 34px rgba(20, 20, 19, 0.05);
+}
+
+.reveal pre code {
+  max-height: 560px;
+  padding: 22px 26px;
+  color: var(--kami-near-black);
+  background: transparent;
+  font-family: var(--kami-mono);
+  font-size: 0.48em;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.reveal code {
+  color: var(--kami-brand);
+  font-family: var(--kami-mono);
+  letter-spacing: 0;
+}
+
+.reveal p code,
+.reveal li code,
+.reveal td code {
+  padding: 0.05em 0.28em;
+  border-radius: 5px;
+  background: var(--kami-brand-tint);
+  color: var(--kami-brand);
+  font-size: 0.84em;
+}
+
+.reveal table {
+  width: 100%;
+  margin: 28px 0;
+  border-collapse: collapse;
+  color: var(--kami-dark-warm);
+  font-size: 0.54em;
+  line-height: 1.45;
+}
+
+.reveal th {
+  color: var(--kami-dark-warm);
+  font-weight: 500;
+  text-align: left;
+  border-bottom: 2px solid var(--kami-border);
+}
+
+.reveal th,
+.reveal td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--kami-border-soft);
+}
+
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px var(--kami-border), 0 18px 42px rgba(20, 20, 19, 0.06);
+}
+
+.reveal .r-stretch {
+  object-fit: contain;
+}
+
+.reveal .progress {
+  height: 5px;
+  color: var(--kami-brand);
+  background: var(--kami-border-soft);
+}
+
+.reveal .controls {
+  color: var(--kami-brand);
+}
+
+.reveal .slide-number {
+  right: 22px;
+  bottom: 18px;
+  padding: 4px 8px;
+  border: 1px solid var(--kami-border);
+  border-radius: 999px;
+  background: var(--kami-ivory);
+  color: var(--kami-stone);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.reveal .hljs {
+  background: transparent;
+  color: var(--kami-near-black);
+}
+
+.reveal .hljs-keyword,
+.reveal .hljs-selector-tag,
+.reveal .hljs-title,
+.reveal .hljs-section {
+  color: var(--kami-brand);
+  font-weight: 500;
+}
+
+.reveal .hljs-string,
+.reveal .hljs-attr,
+.reveal .hljs-name,
+.reveal .hljs-type {
+  color: var(--kami-olive);
+}
+
+.reveal .hljs-comment,
+.reveal .hljs-quote {
+  color: var(--kami-stone);
+}
+
+.reveal .hljs-number,
+.reveal .hljs-literal,
+.reveal .hljs-symbol {
+  color: var(--kami-dark-warm);
+}
+
+@media (max-width: 720px) {
+  .reveal {
+    font-size: 30px;
+  }
+
+  .reveal .slides section {
+    padding: 58px 34px;
+  }
+
+  .reveal h1,
+  .reveal h2 {
+    padding-left: 15px;
+    border-left-width: 5px;
+  }
+
+  .reveal section:first-child h1,
+  .reveal section:first-child h2 {
+    font-size: 1.85em;
+  }
+
+  .reveal .controls {
+    display: none;
+  }
+}
