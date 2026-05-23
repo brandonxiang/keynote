@@ -1,6 +1,7 @@
 ---
 title: Vue开发规范
 talkDate: "2017-10-10"
+description: Vue 开发规范分享，覆盖组件组织、代码风格、项目结构和团队协作约定。
 absoluteUrl: https://keynote.brandonxiang.top/vue-specification
 revealOptions: 
    transition: slide

@@ -1,6 +1,7 @@
 ---
 title: 前端项目架构设计
 talkDate: "2021-11-12"
+description: 前端项目架构设计分享，围绕项目分层、工程规范、模块边界和团队协作展开。
 absoluteUrl: https://keynote.brandonxiang.top/aroom
 revealOptions: 
    transition: slide

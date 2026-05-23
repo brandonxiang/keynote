@@ -1,6 +1,7 @@
 ---
 title: 微服务实战之BFF云端一体开发
 talkDate: "2023-02-10"
+description: BFF 云端一体开发实践，讨论微服务场景下前端与服务端协作、接口编排和研发效率。
 absoluteUrl: https://keynote.brandonxiang.top/bff
 revealOptions: 
    transition: slide

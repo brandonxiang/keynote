@@ -1,6 +1,7 @@
 ---
 title: PWA 开发实战
 talkDate: "2018-10-06"
+description: PWA 开发实战分享，介绍 Service Worker、缓存策略、离线能力和 Web App 体验优化。
 absoluteUrl: https://keynote.brandonxiang.top/pwa
 revealOptions: 
    transition: slide

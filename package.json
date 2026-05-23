@@ -7,9 +7,10 @@
     "dev": "npm-run-all --parallel dev:svelte dev:reveal",
     "dev:svelte": "svelteup -w",
     "dev:reveal": "reveal-md md -w",
-    "build": "pnpm run build:svelte && pnpm run build:reveal && pnpm run sw",
+    "build": "pnpm run build:svelte && pnpm run build:reveal && pnpm run seo && pnpm run sw",
     "build:svelte": "svelteup",
     "build:reveal": "reveal-md md --static dist",
+    "seo": "node scripts/generate-seo-assets.js",
     "sw": "workbox generateSW"
   },
   "author": {

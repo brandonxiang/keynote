@@ -1,6 +1,7 @@
 ---
 title: 如何清除项目中没用代码
 talkDate: "2023-01-06"
+description: 清理项目无用代码的实践，介绍依赖分析、文件识别、自动化检查和安全删除流程。
 absoluteUrl: https://keynote.brandonxiang.top/remove-unused-files
 revealOptions: 
    transition: slide

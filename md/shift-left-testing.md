@@ -1,6 +1,7 @@
 ---
 title: 前端测试左移
 talkDate: "2022-08-03"
+description: 前端测试左移分享，讨论测试策略前置、质量门禁、自动化验证和研发流程改进。
 absoluteUrl: https://keynote.brandonxiang.top/shift-left-testing
 revealOptions: 
    transition: slide

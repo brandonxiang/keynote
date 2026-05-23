@@ -1,6 +1,7 @@
 ---
 title: 如何做好一个技术分享、技术方案、答辩
 talkDate: "2022-01-07"
+description: 技术分享、技术方案和答辩方法论，覆盖结构设计、表达节奏、论证方式和现场呈现。
 absoluteUrl: https://keynote.brandonxiang.top/speech
 revealOptions: 
    transition: slide

@@ -1,6 +1,7 @@
 ---
 title: 使用Next.js实现优雅降级
 talkDate: "2021-06-12"
+description: 使用 Next.js 实现优雅降级的实践，覆盖渲染模式、异常兜底和用户体验保障。
 absoluteUrl: https://keynote.brandonxiang.top/nextjs-fallback
 revealOptions: 
    transition: slide

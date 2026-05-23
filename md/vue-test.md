@@ -1,6 +1,7 @@
 ---
 title: Vue单元测试
 talkDate: "2017-11-07"
+description: Vue 单元测试分享，介绍组件测试、测试工具选择、断言方式和前端质量保障。
 absoluteUrl: https://keynote.brandonxiang.top/vue-test
 revealOptions: 
    transition: slide

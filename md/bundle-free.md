@@ -1,6 +1,7 @@
 ---
 title: ESM Import & Bundle Free
 talkDate: "2020-08-14"
+description: ESM 与 Bundle Free 方案分享，介绍浏览器原生模块能力和前端构建链路的简化思路。
 absoluteUrl: https://keynote.brandonxiang.top/bundle-free
 revealOptions: 
    transition: slide

@@ -1,6 +1,7 @@
 ---
 title: Vue-Cli3.0
 talkDate: "2018-09-15"
+description: Vue CLI 3.0 分享，介绍 Vue 项目脚手架、插件体系、构建配置和工程化实践。
 absoluteUrl: https://keynote.brandonxiang.top/vue-cli
 revealOptions: 
    transition: slide
@@ -218,4 +219,3 @@ module.exports = {
 - peerDependencies
 - optionalDependencies
 - bundledDependencies
-

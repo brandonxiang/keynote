@@ -1,6 +1,7 @@
 ---
 title: 微前端与Web Components
 talkDate: "2018-11-01"
+description: 微前端与 Web Components 分享，讨论前端应用拆分、独立部署和组件隔离能力。
 absoluteUrl: https://keynote.brandonxiang.top/microfrontend
 revealOptions: 
    transition: slide
@@ -156,5 +157,4 @@ brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 - [实施微前端的六种方式](https://juejin.im/post/5b45d0ea6fb9a04fa42f9f1a)
 - [用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
-
 

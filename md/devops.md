@@ -1,6 +1,7 @@
 ---
 title: nodejs服务的技术运维实践
 talkDate: "2023-02-10"
+description: Node.js 服务技术运维实践，覆盖部署、监控、稳定性和线上问题排查方法。
 absoluteUrl: https://keynote.brandonxiang.top/devops
 revealOptions: 
    transition: slide

@@ -1,6 +1,7 @@
 ---
 title: Vue技术选型与Webpack入门
 talkDate: "2017-05-02"
+description: Vue 技术选型与 Webpack 入门分享，介绍框架选择、构建配置和前端项目启动方式。
 absoluteUrl: https://keynote.brandonxiang.top/vue-startup
 revealOptions: 
    transition: slide
@@ -242,5 +243,4 @@ https://www.zhihu.com/question/32189846/answer/178741713
 ---
 
 ### Q&A
-
 

@@ -1,6 +1,7 @@
 ---
 title: monorepo研发流程
 talkDate: "2020-10-17"
+description: Monorepo 研发流程分享，介绍多包管理、依赖协作、构建发布和团队工程实践。
 absoluteUrl: https://keynote.brandonxiang.top/monorepo
 revealOptions: 
    transition: slide

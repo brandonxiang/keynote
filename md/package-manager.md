@@ -1,6 +1,7 @@
 ---
 title: nodejs包管理器的前世今生
 talkDate: "2023-01-31"
+description: Node.js 包管理器演进分享，梳理 npm、yarn、pnpm、bun 和 ni 的能力差异。
 absoluteUrl: https://keynote.brandonxiang.top/package-manager
 revealOptions: 
    transition: slide

@@ -1,6 +1,7 @@
 ---
 title: Vite+：前端工具链的一次收口
 talkDate: "2026-05-23"
+description: Vite+ 工具链构想，讨论 vp dev、vp pack、vp test、vp lint、vp fmt、vp env、vp install 以及 Oxc 对 React Fast Refresh 的支持。
 absoluteUrl: https://keynote.brandonxiang.top/vite-plus
 revealOptions:
    transition: slide

@@ -1,6 +1,7 @@
 ---
 title: 如何参与开源项目
 talkDate: "2021-02-19"
+description: 参与开源项目的方法分享，覆盖项目选择、Issue 沟通、Pull Request 和社区协作流程。
 absoluteUrl: https://keynote.brandonxiang.top/github
 revealOptions: 
    transition: slide

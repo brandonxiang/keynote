@@ -1,6 +1,7 @@
 ---
 title: svelte 入门
 talkDate: "2019-08-12"
+description: Svelte 入门分享，介绍编译型框架理念、组件语法、状态更新和前端开发体验。
 absoluteUrl: https://keynote.brandonxiang.top/svelte
 revealOptions: 
    transition: slide
@@ -174,5 +175,4 @@ PC端复杂页面选用React，移动端页面选用Svelte
 ---
 
 [svelte源码解读](https://mp.weixin.qq.com/s/nE7IRvaosnBqvFrkcNGDLA)
-
 

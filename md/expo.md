@@ -1,6 +1,7 @@
 ---
 title: react-navigation和expo的应用
 talkDate: "2019-05-28"
+description: React Navigation 与 Expo 应用实践，介绍移动端导航、工程配置和跨端开发经验。
 absoluteUrl: https://keynote.brandonxiang.top/expo
 revealOptions: 
    transition: slide

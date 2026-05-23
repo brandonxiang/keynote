@@ -1,6 +1,7 @@
 ---
 title: 小程序开发实战
 talkDate: "2018-09-05"
+description: 小程序开发实战分享，介绍小程序工程结构、开发流程、能力边界和项目经验。
 absoluteUrl: https://keynote.brandonxiang.top/weapp
 revealOptions: 
    transition: slide

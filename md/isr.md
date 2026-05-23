@@ -1,6 +1,7 @@
 ---
 title: Incremental Static Regeneration
 talkDate: "2020-11-13"
+description: Incremental Static Regeneration 分享，介绍静态生成、按需更新和 Next.js 渲染策略。
 absoluteUrl: https://keynote.brandonxiang.top/isr
 revealOptions: 
    transition: slide

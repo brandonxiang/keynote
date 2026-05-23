@@ -1,6 +1,7 @@
 ---
 title: 学习前端的方法
 talkDate: "2021-08-06"
+description: 前端学习方法分享，梳理知识体系、学习路径、实践方式和持续成长策略。
 absoluteUrl: https://keynote.brandonxiang.top/how-to-learn-fe
 revealOptions: 
    transition: slide
