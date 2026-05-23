@@ -56,6 +56,8 @@
   "license": "MIT",
   "dependencies": {
     "@lucide/svelte": "^1.16.0",
+    "html-to-image": "^1.11.13",
+    "jszip": "^3.10.1",
     "svelte": "^5.55.9"
   }
 }
