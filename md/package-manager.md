@@ -1,6 +1,6 @@
 ---
 title: nodejs包管理器的前世今生
-absoluteUrl: https://keynote.brandonxiang.top/packge-manager
+absoluteUrl: https://keynote.brandonxiang.top/package-manager
 revealOptions: 
    transition: slide
 ---
