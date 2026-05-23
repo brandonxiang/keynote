@@ -1,12 +1,13 @@
 ---
 title: ESM Import & Bundle Free
+talkDate: "2020-08-14"
 absoluteUrl: https://keynote.brandonxiang.top/bundle-free
 revealOptions: 
    transition: slide
 ---
 ## ESM Import & Bundle Free
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2020年8月14日
 

@@ -1,5 +1,6 @@
 ---
 title: 前端测试左移
+talkDate: "2022-08-03"
 absoluteUrl: https://keynote.brandonxiang.top/shift-left-testing
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ### 前端测试左移
 
-项伟平（2022.08.03）
+brandonxiang（2022.08.03）
 
 ---
 

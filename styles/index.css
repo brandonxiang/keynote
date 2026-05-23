@@ -202,22 +202,27 @@ textarea,
 
 .reveal pre {
   width: 100%;
-  margin: 26px 0;
+  margin: 28px 0;
   border: 1px solid var(--kami-border);
   border-radius: 10px;
   background: var(--kami-ivory);
   box-shadow: 0 12px 34px rgba(20, 20, 19, 0.05);
 }
 
-.reveal pre code {
+.reveal pre code,
+.reveal pre code.hljs {
   max-height: 560px;
-  padding: 22px 26px;
+  padding: 24px 28px;
   color: var(--kami-near-black);
   background: transparent;
   font-family: var(--kami-mono);
-  font-size: 0.48em;
-  line-height: 1.55;
+  font-size: 22px;
+  line-height: 1.5;
   letter-spacing: 0;
+}
+
+.reveal pre code[data-line-numbers] {
+  font-size: 20px;
 }
 
 .reveal code {
@@ -281,7 +286,8 @@ textarea,
 }
 
 .reveal .slide-number {
-  right: 22px;
+  right: auto;
+  left: 22px;
   bottom: 18px;
   padding: 4px 8px;
   border: 1px solid var(--kami-border);

@@ -1,5 +1,6 @@
 ---
 title: 微前端与Web Components
+talkDate: "2018-11-01"
 absoluteUrl: https://keynote.brandonxiang.top/microfrontend
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ## 微前端与Web Components
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2019年4月2日
 
@@ -155,6 +156,5 @@ revealOptions:
 
 - [实施微前端的六种方式](https://juejin.im/post/5b45d0ea6fb9a04fa42f9f1a)
 - [用微前端的方式搭建类单页应用](https://tech.meituan.com/fe_tiny_spa.html)
-
 
 

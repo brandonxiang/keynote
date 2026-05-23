@@ -1,5 +1,6 @@
 ---
 title: svelte 入门
+talkDate: "2019-08-12"
 absoluteUrl: https://keynote.brandonxiang.top/svelte
 revealOptions: 
    transition: slide
@@ -8,7 +9,7 @@ revealOptions:
 
 ## svelte 入门
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2019年8月16日
 
@@ -173,6 +174,5 @@ PC端复杂页面选用React，移动端页面选用Svelte
 ---
 
 [svelte源码解读](https://mp.weixin.qq.com/s/nE7IRvaosnBqvFrkcNGDLA)
-
 
 

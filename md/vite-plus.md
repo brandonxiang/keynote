@@ -1,5 +1,6 @@
 ---
 title: Vite+：前端工具链的一次收口
+talkDate: "2026-05-23"
 absoluteUrl: https://keynote.brandonxiang.top/vite-plus
 revealOptions:
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ## Vite+：前端工具链的一次收口
 
-项伟平
+brandonxiang
 
 2026/5/23
 
@@ -73,6 +74,72 @@ Vite+ 的主张是：
 
 ```bash
 vp dev
+```
+
+---
+
+### 对 React 项目的支持也很关键
+
+React 项目过去绕不开一个问题：
+
+- JSX transform
+- React Fast Refresh
+- React Compiler
+
+这些能力经常会把 Babel 留在工具链里。
+
+---
+
+### React Fast Refresh 过去依赖 Babel
+
+很多 Vite React 项目里，Fast Refresh 不是纯粹的 Vite 能力。
+
+它背后还有 Babel transform。
+
+```text
+React source -> Babel transform -> Fast Refresh -> browser
+```
+
+这让开发链路多了一层编译成本。
+
+---
+
+### Oxc 可以接管 Fast Refresh
+
+Vite+ 如果沿着 Oxc / Rolldown 路线推进，React Refresh transform 可以交给 Oxc。
+
+```text
+React source -> Oxc transform -> Fast Refresh -> browser
+```
+
+这意味着 React 项目不再必须为了 Fast Refresh 保留 Babel。
+
+---
+
+### 去掉 Babel 的收益
+
+如果项目没有使用 React 19 Compiler：
+
+- Fast Refresh 可以走 Oxc
+- JSX transform 可以走 Oxc
+- Babel 依赖可以从默认链路里移除
+- 冷启动和热更新都少一层 transform
+
+对大型 React 项目来说，速度有机会再快一倍以上。
+
+---
+
+### 但 React Compiler 是边界
+
+如果你要用 React 19 Compiler，当前仍然需要 Babel 相关桥接。
+
+这时不能简单说“完全去掉 Babel”。
+
+更准确的判断是：
+
+```text
+不用 React Compiler -> 可以移除 Babel
+使用 React Compiler -> 仍需要 Babel bridge
 ```
 
 ---
@@ -238,7 +305,6 @@ npm install
 pnpm install
 yarn install
 bun install
-ni
 ```
 
 只需要记：
@@ -280,6 +346,7 @@ vp
 ### 好处很直接
 
 - 新项目启动更快
+- React 项目可以少一层 Babel transform
 - 老项目迁移后命令更统一
 - 团队文档更少
 - CI 脚本更短
@@ -332,23 +399,6 @@ Vite+ 的方向不是“小优化”。
 
 如果它能跑通，前端项目的默认工具链会被重新定义。
 
----
-
-### 一句话总结
-
-Vite+ 想做的不是更快的 Vite。
-
-而是让前端项目从：
-
-```text
-很多工具 + 很多配置 + 很多脚本
-```
-
-变成：
-
-```text
-一个 vp + 一套约定
-```
 
 ---
 
@@ -359,3 +409,5 @@ Vite+ 想做的不是更快的 Vite。
 - [Vite+ Environment](https://viteplus.dev/guide/env)
 - [Vite+ Installing Dependencies](https://viteplus.dev/guide/install)
 - [Vite+ Migration Guide](https://viteplus.dev/guide/migrate)
+- [Vite React Plugin](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [Vite Plugin React Oxc](https://www.npmjs.com/package/@vitejs/plugin-react-oxc)

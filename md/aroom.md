@@ -1,5 +1,6 @@
 ---
 title: 前端项目架构设计
+talkDate: "2021-11-12"
 absoluteUrl: https://keynote.brandonxiang.top/aroom
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ## 前端项目架构设计
 
-项伟平（2021.11.12）
+brandonxiang（2021.11.12）
 
 ---
 

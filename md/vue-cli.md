@@ -1,5 +1,6 @@
 ---
 title: Vue-Cli3.0
+talkDate: "2018-09-15"
 absoluteUrl: https://keynote.brandonxiang.top/vue-cli
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 ---
 ## Vue-Cli3.0
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2018年10月18日
 
@@ -217,5 +218,4 @@ module.exports = {
 - peerDependencies
 - optionalDependencies
 - bundledDependencies
-
 

@@ -1,5 +1,6 @@
 ---
 title: nodejs服务的技术运维实践
+talkDate: "2023-02-10"
 absoluteUrl: https://keynote.brandonxiang.top/devops
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ### nodejs服务的技术运维实践
 
-项伟平（2023.02.10）
+brandonxiang（2023.02.10）
 
 ---
 

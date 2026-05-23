@@ -1,5 +1,6 @@
 ---
 title: monorepo研发流程
+talkDate: "2020-10-17"
 absoluteUrl: https://keynote.brandonxiang.top/monorepo
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ## monorepo研发流程
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2021 年 03 月 05 日
 
@@ -146,4 +147,3 @@ git subtree pull --prefix=server http://...
 ## Q&A
 
 ---
-

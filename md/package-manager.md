@@ -1,5 +1,6 @@
 ---
 title: nodejs包管理器的前世今生
+talkDate: "2023-01-31"
 absoluteUrl: https://keynote.brandonxiang.top/package-manager
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ### nodejs包管理器的前世今生
 
-项伟平（2023.1.31）
+brandonxiang（2023.1.31）
 
 ---
 

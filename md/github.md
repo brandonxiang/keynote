@@ -1,5 +1,6 @@
 ---
 title: 如何参与开源项目
+talkDate: "2021-02-19"
 absoluteUrl: https://keynote.brandonxiang.top/github
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 ---
 
 ### 如何参与开源项目
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2021年4月17日
 

@@ -1,5 +1,6 @@
 ---
 title: PWA 开发实战
+talkDate: "2018-10-06"
 absoluteUrl: https://keynote.brandonxiang.top/pwa
 revealOptions: 
    transition: slide
@@ -8,7 +9,7 @@ revealOptions:
 
 ## PWA 开发实战
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2018 年 11 月 26 日
 
@@ -224,4 +225,3 @@ https://github.com/lavas-project/sw-register-webpack-plugin
 ## 演示环节
 
 https://github.com/brandonxiang/example-pwa
-

@@ -1,5 +1,6 @@
 ---
 title: Vue技术选型与Webpack入门
+talkDate: "2017-05-02"
 absoluteUrl: https://keynote.brandonxiang.top/vue-startup
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 ---
 ## Vue技术选型与Webpack入门
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2017年6月9日
 
@@ -241,6 +242,5 @@ https://www.zhihu.com/question/32189846/answer/178741713
 ---
 
 ### Q&A
-
 
 

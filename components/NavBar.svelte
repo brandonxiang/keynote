@@ -42,22 +42,35 @@
 
 <style>
   .corner {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    padding: 5px;
+    position: fixed;
+    z-index: 30;
+    top: 18px;
+    right: 22px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 52px;
+    padding: 8px;
+    border-radius: 12px;
+    background: #faf9f5;
+    box-shadow: 0 0 0 1px #e8e6dc, 0 10px 28px rgba(20, 20, 19, 0.05);
   }
   a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
-    border-radius: 6px;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
     color: inherit;
     text-decoration: none;
+    transition: background-color 160ms cubic-bezier(0.16, 1, 0.3, 1), transform 160ms cubic-bezier(0.16, 1, 0.3, 1);
   }
   a:hover {
     background-color: #eef2f7;
+  }
+  a:active {
+    transform: scale(0.94);
   }
   a:focus-visible {
     outline: 2px solid #d0dce9;

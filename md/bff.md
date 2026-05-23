@@ -1,5 +1,6 @@
 ---
 title: 微服务实战之BFF云端一体开发
+talkDate: "2023-02-10"
 absoluteUrl: https://keynote.brandonxiang.top/bff
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ### 微服务实战之BFF云端一体开发
 
-项伟平（2023.02.10）
+brandonxiang（2023.02.10）
 
 ---
 

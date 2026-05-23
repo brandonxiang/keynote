@@ -1,5 +1,6 @@
 ---
 title: Vue开发规范
+talkDate: "2017-10-10"
 absoluteUrl: https://keynote.brandonxiang.top/vue-specification
 revealOptions: 
    transition: slide
@@ -8,7 +9,7 @@ revealOptions:
 
 ## Vue开发规范
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2017年10月12日
 

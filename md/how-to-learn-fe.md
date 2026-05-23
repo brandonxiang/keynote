@@ -1,5 +1,6 @@
 ---
 title: 学习前端的方法
+talkDate: "2021-08-06"
 absoluteUrl: https://keynote.brandonxiang.top/how-to-learn-fe
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ## 学习前端的方法
 
-项伟平
+brandonxiang
 
 2021/8/6
 

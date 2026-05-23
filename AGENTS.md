@@ -51,8 +51,10 @@ Performance / Accessibility / Best Practices / SEO = 100 / 100 / 100 / 100
 ## Content Guidelines
 
 - Add a new talk by creating a Markdown file in `md/`.
+- Every talk Markdown file must include a `talkDate: YYYY-MM-DD` frontmatter field. Use the visible talk date when available; otherwise use the publish date.
 - Store presentation images in `public/img/`.
 - Add the new talk to the README share table so readers can find it.
+- Confirm the new talk appears on the generated listing homepage (`dist/index.html`) after `pnpm run build`; the homepage cards must show each talk's date and sort newest first.
 - Keep Markdown slide content focused; avoid unrelated formatting churn in existing talks.
 - Do not edit generated files in `dist/`; regenerate them with the build script.
 
@@ -71,4 +73,3 @@ Performance / Accessibility / Best Practices / SEO = 100 / 100 / 100 / 100
 - Stage only files related to the task.
 - Run `git diff --check` before committing.
 - Commit messages should be concise and conventional, for example `perf: optimize lighthouse baseline` or `docs: add agent guidelines`.
-

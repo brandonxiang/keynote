@@ -1,5 +1,6 @@
 ---
 title: Vue单元测试
+talkDate: "2017-11-07"
 absoluteUrl: https://keynote.brandonxiang.top/vue-test
 revealOptions: 
    transition: slide
@@ -8,7 +9,7 @@ revealOptions:
 ## Vue单元测试
 
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2017年11月8日
 
@@ -219,4 +220,3 @@ describe('Getters.vue', () => {
 ---
 
 Q&A
-

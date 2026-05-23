@@ -1,5 +1,6 @@
 ---
 title: 如何做好一个技术分享、技术方案、答辩
+talkDate: "2022-01-07"
 absoluteUrl: https://keynote.brandonxiang.top/speech
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ### 如何做好一个技术分享、技术方案、答辩
 
-项伟平（2022.01.07）
+brandonxiang（2022.01.07）
 
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 如何清除项目中没用代码
+talkDate: "2023-01-06"
 absoluteUrl: https://keynote.brandonxiang.top/remove-unused-files
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ### 如何清除项目中没用代码
 
-项伟平（2023.01.06）
+brandonxiang（2023.01.06）
 
 ---
 

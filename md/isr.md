@@ -1,5 +1,6 @@
 ---
 title: Incremental Static Regeneration
+talkDate: "2020-11-13"
 absoluteUrl: https://keynote.brandonxiang.top/isr
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 
 ## Incremental Static Regeneration
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 2020 年 11 月 13 日
 

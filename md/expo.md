@@ -1,5 +1,6 @@
 ---
 title: react-navigation和expo的应用
+talkDate: "2019-05-28"
 absoluteUrl: https://keynote.brandonxiang.top/expo
 revealOptions: 
    transition: slide
@@ -7,7 +8,7 @@ revealOptions:
 ---
 ### react-navigation和expo的应用
 
-项伟平 [BLOG](https://brandonxiang.vercel.app/)
+brandonxiang [BLOG](https://brandonxiang.vercel.app/)
 
 ---
 

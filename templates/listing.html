@@ -255,12 +255,22 @@
       }
 
       .talk-path {
-        display: block;
+        overflow-wrap: anywhere;
+      }
+
+      .talk-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 12px;
         margin-top: 8px;
         color: var(--stone);
         font-size: 13px;
         line-height: 1.35;
-        overflow-wrap: anywhere;
+      }
+
+      .talk-date {
+        color: var(--brand);
+        font-variant-numeric: tabular-nums;
       }
 
       a:focus-visible {
@@ -354,19 +364,25 @@
         </aside>
       </section>
 
-      <ul>
+      <ul class="talk-list">
         {{#files}}
         <li>
           <a class="talk-link" href="{{filePath}}" title="{{title}}">
             {{#title}}
               <span>
                 <span class="talk-title">{{.}}</span>
-                <span class="talk-path">{{filePath}}</span>
+                <span class="talk-meta">
+                  <time class="talk-date" datetime="{{talkDate}}">{{talkDate}}</time>
+                  <span class="talk-path">{{filePath}}</span>
+                </span>
               </span>
             {{/title}}
             {{^title}}
               <span>
                 <span class="talk-title">{{filePath}}</span>
+                <span class="talk-meta">
+                  <time class="talk-date" datetime="{{talkDate}}">{{talkDate}}</time>
+                </span>
               </span>
             {{/title}}
           </a>
@@ -374,5 +390,17 @@
         {{/files}}
       </ul>
     </main>
+    <script>
+      const talkList = document.querySelector('.talk-list');
+      const talkItems = Array.from(talkList.querySelectorAll('li'));
+
+      talkItems
+        .sort((left, right) => {
+          const leftDate = left.querySelector('time')?.dateTime || '';
+          const rightDate = right.querySelector('time')?.dateTime || '';
+          return rightDate.localeCompare(leftDate);
+        })
+        .forEach((item) => talkList.appendChild(item));
+    </script>
   </body>
 </html>
