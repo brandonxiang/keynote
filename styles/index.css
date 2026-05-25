@@ -53,6 +53,7 @@ textarea,
 }
 
 .reveal .slides {
+  background: transparent;
   text-align: left;
 }
 
